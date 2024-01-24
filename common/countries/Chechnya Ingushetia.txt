@@ -1,0 +1,6 @@
+#This is South Russia
+
+graphical_culture = RUS
+graphical_culture_2d = RUS
+
+color = { 40 100 55 } #darkish green
