@@ -1,5 +1,5 @@
 ideologies = {
-	reactionary = {
+	reactionism = {
 		types = {
 			despotism = {
 			}
