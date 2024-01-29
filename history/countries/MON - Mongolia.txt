@@ -64,32 +64,32 @@ create_dynamic_country = {
 	#Special relations with Chinese warlords
 	add_opinion_modifier = {
 	    target = MEN
-	    modifier = medium_increase
+	    modifier = huge_increase
 	}
 	add_opinion_modifier = {
 	    target = MAN
-	    modifier = medium_increase
+	    modifier = huge_increase
 	}
 	add_opinion_modifier = {
 	    target = SHX
-	    modifier = medium_increase
+	    modifier = huge_increase
 	}
 	SHX = {
 		add_opinion_modifier = {
 		    target = PREV
-		    modifier = medium_increase
+		    modifier = huge_increase
 		}
 	}
 	MEN = {
 		add_opinion_modifier = {
 		    target = PREV
-		    modifier = medium_increase
+		    modifier = huge_increase
 		}
 	}
 	MAN = {
 		add_opinion_modifier = {
 		    target = PREV
-		    modifier = medium_increase
+		    modifier = huge_increase
 		}
 	}
 }

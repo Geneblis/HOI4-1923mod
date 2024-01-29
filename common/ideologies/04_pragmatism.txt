@@ -16,7 +16,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 80 110 255 }
+		color = { 50 80 255 }
 
 
 		war_impact_on_world_tension = 0.25		#no major danger
