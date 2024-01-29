@@ -5,7 +5,16 @@ UKR_MKH_DEF:0 "The Revolutionary Insurgent Army of Ukraine"
 UKR_MKH_ADJ:0 "Anarchists"
 
 #Ideologies and Parties
+UKR_MKH_party:0 "VRS"
+UKR_MKH_party_long:0 "Voenno-Revolücionnjy Sovet"
 
 #Characters
 UKR_MKH_VRS:0 "Military Revolutionary Council"
+SOV_LENIN:0 "Vladimir Lenin"
+MON_STERNBERG:0 "Roman von Ungern-Sternberg"
 
+#Custom Victory Points VPs
+VICTORY_POINTS_6474_RUS: "Donetsk"
+VICTORY_POINTS_3529_RUS: "Tsaritsyn"
+VICTORY_POINTS_3151_RUS: "Petrograd"
+VICTORY_POINTS_8027_RUS: "Dushanbe"

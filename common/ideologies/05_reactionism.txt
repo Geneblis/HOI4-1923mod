@@ -5,6 +5,8 @@ ideologies = {
 			}
 			oligarchism = {
 			}
+			theocracy = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -21,19 +23,15 @@ ideologies = {
 		war_impact_on_world_tension = 0.25		#no major danger
 		faction_impact_on_world_tension = 0.1
 
-		rules = {
-			can_create_collaboration_government = yes
-			can_declare_war_on_same_ideology = yes
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = yes
-		}
-	
-		can_host_government_in_exile = yes
-		can_collaborate = yes
+        rules = {
+            can_force_government = no
+            can_puppet = no
+            can_join_factions = no
+            can_create_factions = no
+            can_send_volunteers = yes
+        }
+        can_collaborate = yes
+        can_host_government_in_exile = yes
 
 		modifiers = {
 			#increased_influence_factor = 0.3 #30% easier to influence

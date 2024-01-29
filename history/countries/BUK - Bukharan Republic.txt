@@ -1,22 +1,8 @@
-﻿capital = 195 #Pretograd
+﻿capital = 830 #Bukhara
 
-#oob = "FER_1936"
+#oob = "BUK_1936"
 
-set_research_slots = 3
-
-##Russian Civil-War, 1919
-declare_war_on = {
-    target = TMS
-    type = annex_everything
-}
-declare_war_on = {
-    target = KHI
-    type = annex_everything
-}
-declare_war_on = {
-    target = BUK
-    type = annex_everything
-}
+set_research_slots = 2
 
 # Starting tech
 set_technology = {
@@ -34,7 +20,6 @@ set_technology = {
 	mass_assault = 1
 	fleet_in_being = 1
 }
-
 if = {
 	limit = {
 		NOT = { has_dlc = "By Blood Alone" }
@@ -47,10 +32,11 @@ if = {
 		naval_bomber1 = 1
 	}
 }
-
 if = {
 	limit = {
-		NOT = { has_dlc = "No Step Back" }
+		NOT = {
+			has_dlc = "No Step Back"
+		}
 	}
 	set_technology = {
 		gwtank = 1
@@ -59,7 +45,9 @@ if = {
 }
 if = {
 	limit = {
+		
 		has_dlc = "No Step Back"
+		
 	}
 	set_technology = {
 		gwtank_chassis = 1
@@ -104,10 +92,14 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 60
-	fascism = 0
-	communism = 40
+	democratic = 70
+	fascism = 10
+	communism = 10
+	neutrality = 10
 }
+
+recruit_character = BUK_mohammed_alim_khan
+recruit_character = BUK_polat_usmon
 
 
 

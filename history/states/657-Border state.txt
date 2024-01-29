@@ -12,6 +12,12 @@ state={
 
 	history = {
 		owner = FER
+        1923.1.1 = {
+            controller = SOV
+            buildings = {
+                infrastructure = 2
+            }
+        }
 		buildings = {
 			infrastructure = 2
 			air_base = 2

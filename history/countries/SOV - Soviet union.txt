@@ -1,7 +1,25 @@
-﻿
-####
-#### NO STEP BACK
-####
+﻿##Russian Civil-War, 1919
+
+declare_war_on = {
+    target = TMS
+    type = annex_everything
+}
+declare_war_on = {
+    target = KHI
+    type = annex_everything
+}
+declare_war_on = {
+    target = BUK
+    type = annex_everything
+}
+declare_war_on = {
+    target = CIN
+    type = annex_everything
+}
+declare_war_on = {
+    target = FER
+    type = annex_everything
+}
 
 
 #You don't want Russian party names? Just remove these lines
@@ -17,6 +35,17 @@ set_party_name = {
 }
 
 #COUNTRY LEADERS
+
+create_country_leader = {
+	name = SOV_LENIN
+	desc = " "
+	picture = "gfx/leaders/SOV/portrait_sov_lenin.png"
+	expire = "1924.1.21"
+	ideology = leninism
+	traits = {
+	}
+}
+
 recruit_character = SOV_iosif_stalin
 recruit_character = SOV_supreme_soviet #This is a fake character! Proper country leader role is added via focus
 if = {
