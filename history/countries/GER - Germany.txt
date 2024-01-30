@@ -1,4 +1,7 @@
 ﻿capital = 64
+
+set_cosmetic_tag = GER_freikorps
+
 if = {
 	limit = {
 		NOT = {
@@ -372,15 +375,14 @@ set_war_support = 0.3
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = reactionism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 60
-	communism = 20
+	fascism = 35
+	reactionism = 65
 }
 
 create_faction = Axis

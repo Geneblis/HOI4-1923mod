@@ -1,3 +1,27 @@
+# NEW STUFF
+
+BAV_COMMIE = {
+    color = rgb { 240 40 40 }
+    color_ui = rgb { 210 0 0 }
+}
+
+DDR_cosmetic_tag = {
+    color = rgb { 200 20 27 }
+    color_ui = rgb { 194 29 17 }
+}
+
+GER_freikorps = {
+    color = rgb { 55 55 55 }
+    color_ui = rgb { 55 55 55 }
+}
+
+WGR_democrats = {
+    color = rgb { 135 135 135 }
+    color_ui = rgb { 135 135 135 }
+}
+
+# OLD STUFF
+
 MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }

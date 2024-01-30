@@ -1,5 +1,7 @@
 capital = 64
 
+set_cosmetic_tag = DDR_cosmetic_tag
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -175,9 +177,8 @@ set_politics = {
 
 }
 set_popularities = {
-	democratic = 30
-	fascism = 10
-	communism = 60
+	fascism = 25
+	communism = 75
 }
 
 add_ideas = {
