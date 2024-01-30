@@ -27,11 +27,11 @@ create_dynamic_country = {
 		}
 	}
 	set_popularities = {
-		reactionism = 90
-		neutrality = 10
+		neutrality = 90
+		pragmatism = 10
 	}
 	set_politics = {
-		ruling_party = reactionism
+		ruling_party = neutrality
 	    elections_allowed = no
 	}
 	add_equipment_to_stockpile = {

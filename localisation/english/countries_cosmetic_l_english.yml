@@ -1,11 +1,4 @@
 ﻿l_english:
- #new shit
- BAV_COMMIE:0 "Soviet Republic of Bavaria"
- DDR_cosmetic_tag:0 "Peoples Republic of Germany"
- GER_freikorps:0 "Freikorps"
- WGR_democrats:0 "German Republic"
- PRE_monarchists:0 "Imperial Reclamation Authority"
- #not new shit
  INS_HOL_democratic:0 "Dutch East Indies"
  INS_HOL_democratic_DEF:0 "the Dutch East Indies"
  INS_subject:0 "$OVERLORDADJ$ East Indies"

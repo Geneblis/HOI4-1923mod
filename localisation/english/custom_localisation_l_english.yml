@@ -3,10 +3,33 @@
 UKR_MKH:0 "Revolutionary Insurgent Army of Ukraine"
 UKR_MKH_DEF:0 "The Revolutionary Insurgent Army of Ukraine"
 UKR_MKH_ADJ:0 "Anarchists"
+BAV_COMMIE:0 "Soviet Republic of Bavaria"
+DDR_cosmetic_tag:0 "Peoples Republic of Germany"
+GER_freikorps:0 "Freikorps"
+WGR_democrats:0 "German Republic"
+PRE_monarchists:0 "Imperial Reclamation Authority"
+BAV_COMMIE_DEF:0 "The Soviet Republic of Bavaria"
+DDR_cosmetic_tag_DEF:0 "The Peoples Republic of Germany"
+GER_freikorps_DEF:0 "The Freikorps"
+WGR_democrats_DEF:0 "The German Republic"
+PRE_monarchists_DEF:0 "The Imperial Reclamation Authority"
+BAV_COMMIE_ADJ:0 "Bavarian"
+DDR_cosmetic_tag_ADJ:0 "German"
+GER_freikorps_ADJ:0 "Freikorps"
+WGR_democrats_ADJ:0 "German"
+PRE_monarchists_ADJ:0 "German"
 
 #Ideologies and Parties
 UKR_MKH_party:0 "VRS"
 UKR_MKH_party_long:0 "Voenno-Revolücionnjy Sovet"
+
+DDR_communism_party_kapd:0 "KAPD"
+DDR_communism_party_kapd_long:0 "Kommunistische Arbeiterpartei Deutschlands"
+
+DDR_communism_party:0 "KPD"
+DDR_communism_party_long:0 "Kommunistische Partei Deutschlands"
+DDR_socialism_party:0 "SPD"
+DDR_socialism_party_long:0 "Sozialdemokratische Partei Deutschlands"
 
 #Characters
 UKR_MKH_VRS:0 "Military Revolutionary Council"

@@ -1,12 +1,13 @@
 ideologies = {
-	reactionism = {
+	neutrality = {
 		types = {
-			despotism = {
-			}
 			oligarchism = {
 			}
 			theocracy = {
 			}
+			despotism = {
+			}
+			absolute_monarchy = {}
 		}
 
 		dynamic_faction_names = {
@@ -17,7 +18,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 
-		color = { 30 30 30 }
+		color = { 125 125 125 }
 
 
 		war_impact_on_world_tension = 0.25		#no major danger
