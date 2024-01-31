@@ -1,6 +1,6 @@
 ﻿capital = 64
 
-set_cosmetic_tag = PRE_monarchists
+set_cosmetic_tag = PRE_kupp
 
 # Starting tech
 set_technology = {
@@ -111,10 +111,10 @@ set_convoys = 50
 set_stability = 0.75
 
 set_politics = {
-	ruling_party = pragmatic
+	ruling_party = neutrality
 	last_election = "1920.3.18"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	socialism = 5

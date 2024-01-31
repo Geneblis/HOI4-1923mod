@@ -183,6 +183,15 @@ set_popularities = {
 	fascism = 10
 }
 
+create_country_leader = {
+	name = "Anton Denikin"
+	desc = ""
+	picture = "gfx/leaders/SOV/portrait_sov_denikin.png"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
 
 recruit_character = CIN_hasan_israilov
 recruit_character = CIN_yusup_tambiev

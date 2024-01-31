@@ -152,21 +152,41 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Klaus Klauser"
+	name = "Hans Luther"
 	desc = ""
-	picture = GFX_portrait_Klaus_Klauser
-	expire = "1965.1.1"
-	ideology = nazism
+	picture = "gfx/leaders/GER/portrait_ger_hans.png"
+	expire = "1926.5.12"
+	ideology = liberalism
 	traits = {
 	}
 }
 
 create_country_leader = {
-	name = "Konrad Adenauer"
-	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = GFX_portrait_Konrad_Adenauer
+	name = "Heinrich Brüning"
+	desc = ""
+	picture = "gfx/leaders/GER/portrait_ger_heinrich.png"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Hans Luther"
+	desc = ""
+	picture = "gfx/leaders/GER/portrait_ger_hans.png"
+	expire = "1926.5.12"
+	ideology = centrism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Heinrich Brüning"
+	desc = ""
+	picture = "gfx/leaders/GER/portrait_ger_heinrich.png"
+	expire = "1965.1.1"
+	ideology = centrism
 	traits = {
 	}
 }

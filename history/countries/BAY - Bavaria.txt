@@ -3,11 +3,6 @@
 set_cosmetic_tag = BAV_COMMIE
 
 set_party_name = {
-	ideology = neutrality
-	name = GER_neutrality_party_kaiserreich
-	long_name = GER_neutrality_party_kaiserreich_long
-}
-set_party_name = {
 	ideology = fascism
 	name = GER_fascism_party
 	long_name = GER_fascism_party_long
@@ -119,9 +114,11 @@ set_politics = {
 
 }
 set_popularities = {
-	fascism = 10
-	socialism = 30
-	communism = 60
+	fascism = 12
+	socialism = 24
+	communism = 53
+	democratic = 4
+	neutrality = 6
 }
 
 add_ideas = {
