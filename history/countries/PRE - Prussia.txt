@@ -128,6 +128,16 @@ add_ideas = {
 }
 
 create_country_leader = {
+	name = "Walther von Lüttwitz"
+	desc = "incredibly homossexual"
+	picture = "gfx/leaders/GER/portrait_ger_heinrich.png"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
 	name = "Otto Wels"
 	desc = "POLITICS_OTTO_WELS_DESC"
 	picture = "Portrait_Germany_Adolf_Hitler.dds"

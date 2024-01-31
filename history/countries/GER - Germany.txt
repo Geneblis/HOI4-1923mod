@@ -1,5 +1,15 @@
 ﻿capital = 64
 
+create_country_leader = {
+	name = "Hermann Ehrhardt"
+	desc = "very gay"
+	picture = "gfx/leaders/GER/portrait_ger_heinrich.png"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
 set_cosmetic_tag = GER_freikorps
 
 if = {
