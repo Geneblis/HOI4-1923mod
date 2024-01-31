@@ -5,17 +5,14 @@ UKR_MKH_DEF:0 "The Revolutionary Insurgent Army of Ukraine"
 UKR_MKH_ADJ:0 "Anarchists"
 BAV_COMMIE:0 "Soviet Republic of Bavaria"
 DDR_cosmetic_tag:0 "Peoples Republic of Germany"
-GER_freikorps:0 "Ehrhardt Brigade"
 WGR_democrats:0 "German Republic"
 PRE_monarchists:0 "Imperial Reclamation Authority"
 BAV_COMMIE_DEF:0 "The Soviet Republic of Bavaria"
 DDR_cosmetic_tag_DEF:0 "The Peoples Republic of Germany"
-GER_freikorps_DEF:0 "The Ehrhardt Brigade"
 WGR_democrats_DEF:0 "The German Republic"
 PRE_monarchists_DEF:0 "The Imperial Reclamation Authority"
 BAV_COMMIE_ADJ:0 "Bavarian"
 DDR_cosmetic_tag_ADJ:0 "German"
-GER_freikorps_ADJ:0 "Freikorps"
 WGR_democrats_ADJ:0 "German"
 PRE_monarchists_ADJ:0 "German"
 
@@ -26,6 +23,10 @@ PRE_junkers_ADJ:0 "Prussian"
 PRE_kupp:0 "German Reich"
 PRE_kupp_DEF:0 "German Reich"
 PRE_kupp_ADJ:0 "German Nationalist"
+
+GER_freikorps:0 "Ehrhardt Brigade"
+GER_freikorps_DEF:0 "The Ehrhardt Brigade"
+GER_freikorps_ADJ:0 "Freikorps"
 
 #Ideologies and Parties
 
