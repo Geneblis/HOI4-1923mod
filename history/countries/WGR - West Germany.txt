@@ -95,7 +95,36 @@ if = {
 }
 
 
-
+set_party_name = {
+	ideology = pragmatic
+	name = GER_neutrality_party_civil_war
+	long_name = GER_neutrality_party_civil_war
+}
+set_party_name = {
+	ideology = neutrality
+	name = GER_neutrality_party_kaiserreich
+	long_name = GER_neutrality_party_kaiserreich_long
+}
+set_party_name = {
+	ideology = fascism
+	name = GER_fascism_party
+	long_name = GER_fascism_party_long
+}
+set_party_name = {
+	ideology = communism
+	name = DDR_communism_party_kapd
+	long_name = DDR_communism_party_kapd_long
+}
+set_party_name = {
+	ideology = socialism
+	name = WGR_ddp_party
+	long_name = WGR_ddp_party_long
+}
+set_party_name = {
+	ideology = democratic
+	name = GER_democratic_party
+	long_name = GER_democratic_party
+}
 
 
 set_research_slots = 4

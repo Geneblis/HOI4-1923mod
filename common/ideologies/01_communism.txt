@@ -14,9 +14,7 @@ ideologies = {
 
 			anti_revisionism = {
 			}
-
-			anarchist_communism = {
-			}
+			
 		}
 
 		dynamic_faction_names = {
@@ -27,7 +25,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 
-		color = { 153 0 0 }
+		color = { 123 0 0 }
 
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5

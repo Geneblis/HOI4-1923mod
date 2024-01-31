@@ -12,16 +12,14 @@
  communism_noun:0 "Communist"
  communism_desc:0 "Marxist Regime"
 
- marxism:0 "Marxism"
+ marxism:0 "Orthodox Marxism"
  marxism_desc:0 "§YOrthodox Marxism§!\n\nEncompassing a broad spectrum of economic and historical views, Marxist politics seek to apply the theories of Karl Marx to political practice. Class struggle and the need for transition to a society based on common ownership of the means of production characterize these ideologies."
- leninism:0 "Leninism"
+ leninism:0 "Marxist-Leninism"
  leninism_desc:0 "§YMarxist-Leninism§!\n\nA political ideology based in Marxist thought, Leninism seeks to establish a socialist state by a vanguard party leading a revolution overthrowing capitalist society. Once in power, the party rules through a system whereby policies are open for internal debate until a decision has been made."
- stalinism:0 "Stalinism"
+ stalinism:0 "Marxism-Leninism"
  stalinism_desc:1 "§YMarxist-Leninism (Stalinism)§!\n\nIdentifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authoritative socialist state to purge any counter-revolutionary elements."
- anti_revisionism:0 "Anti-Revisionism"
+ anti_revisionism:0 "Dogmatic Marxism"
  anti_revisionism_desc:0 "§YDogmatic Marxism§!\n\nA reaction to the many ideologies claiming to be successors to Marxism, Anti-Revisionism advocates retaining key elements of original revolutionary theory. Mainly opposing incorporation of capitalist economic elements into socialist states, the ideology is defined as much by what it isn't as what it is."
- anarchist_communism:0 "Anarchist Communism"
- anarchist_communism_desc:0 "§YAnarco-Communism§!\n\nAn ideology embracing the idea of communism as a stateless society, Anarchist Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid."
  
  democratic:0 "Liberalism"
  democratic_noun:0 "Liberal"
@@ -48,13 +46,18 @@
  rexism_desc:0 "§YRexism§!\n\nStrongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements."
  
  socialism:0 "Socialism"
- socialism_desc:0 "Socialist Regime"
  socialism_noun:0 "Socialist"
+ socialism_desc:0 "Socialist Regime"
 
  social_democracy:0 "Social Democracy"
  social_democracy_desc:0 "§YSocial Democracy§!\n\n"
+ social_liberalism:0 "Social Liberalism"
+ social_liberalism_desc:0 "§YSocial Liberalism§!\n\n"
  anarchism:0 "Anarchism"
  anarchism_desc:0 "§YAnarchism§!\n\nAnarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
+ anarchist_communism:0 "Anarchist Communism"
+ anarchist_communism_desc:0 "§YAnarco-Communism§!\n\nAn ideology embracing the idea of communism as a stateless society, Anarchist Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid."
+
 
  neutrality:0 "Reactionism"
  neutrality_noun:0 "Reactionist"
@@ -68,7 +71,6 @@
  theocracy_desc:0 "§YTheocracy§!\n\n"
  absolute_monarchy:0 "Absolute Monarchy"
  absolute_monarchy_desc:0 "§YAbsolute Monarchy§!\n\n"
-
 
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"

@@ -20,6 +20,13 @@ WGR_democrats_ADJ:0 "German"
 PRE_monarchists_ADJ:0 "German"
 
 #Ideologies and Parties
+
+socialism_drift:0 "Daily Socialism Support"
+pragmatic_drift:0 "Daily Pragmatism Support"
+
+socialism_acceptance:0 "Acceptance of Socialist Diplomacy"
+pragmatic_acceptance:0 "Acceptance of Pragmatic Diplomacy"
+
 UKR_MKH_party:0 "VRS"
 UKR_MKH_party_long:0 "Voenno-Revolücionnjy Sovet"
 
@@ -30,6 +37,17 @@ DDR_communism_party:0 "KPD"
 DDR_communism_party_long:0 "Kommunistische Partei Deutschlands"
 DDR_socialism_party:0 "SPD"
 DDR_socialism_party_long:0 "Sozialdemokratische Partei Deutschlands"
+PRE_neutrality_party:0 "DVP"
+PRE_neutrality_party_long:0 "Deutsche Volkspartei"
+BAY_democratic_party:0 "BVP"
+BAY_democratic_party_long:0 "Bayerische Volkspartei"
+BAY_socialism_party:0 "BB"
+BAY_socialism_party_long:0 "Bayerischer Bauernbund"
+BAY_pragmatic_party:0 "Christlich-Sozialer Volksdienst"
+BAY_pragmatic_party_long:0 "CSVD"
+WGR_ddp_party:0 "DDP"
+WGR_ddp_party_long:0 "Deutsche Demokratische Partei"
+
 
 AUS_pragmatic_party:0 "GDVP"
 AUS_pragmatic_party_long:0 "Großdeutsche Volkspartei"

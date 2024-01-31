@@ -2,6 +2,27 @@
 
 set_cosmetic_tag = BAV_COMMIE
 
+set_party_name = {
+	ideology = neutrality
+	name = GER_neutrality_party_kaiserreich
+	long_name = GER_neutrality_party_kaiserreich_long
+}
+set_party_name = {
+	ideology = fascism
+	name = GER_fascism_party
+	long_name = GER_fascism_party_long
+}
+set_party_name = {
+	ideology = socialism
+	name = BAY_socialism_party
+	long_name = BAY_socialism_party_long
+}
+set_party_name = {
+	ideology = communism
+	name = DDR_communism_party
+	long_name = DDR_communism_party_long
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

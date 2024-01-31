@@ -81,19 +81,29 @@ if = {
 
 
 set_party_name = {
+	ideology = communism
+	name = DDR_communism_party_kapd
+	long_name = DDR_communism_party_kapd_long
+}
+set_party_name = {
 	ideology = pragmatic
 	name = GER_neutrality_party_kaiserreich
 	long_name = GER_neutrality_party_kaiserreich_long
 }
 set_party_name = {
 	ideology = neutrality
-	name = GER_neutrality_party_kaiserreich
-	long_name = GER_neutrality_party_kaiserreich_long
+	name = PRE_neutrality_party
+	long_name = PRE_neutrality_party_long
 }
 set_party_name = {
 	ideology = fascism
 	name = GER_fascism_party
 	long_name = GER_fascism_party_long
+}
+set_party_name = {
+	ideology = socialism
+	name = DDR_socialism_party
+	long_name = DDR_socialism_party_long
 }
 
 set_research_slots = 3

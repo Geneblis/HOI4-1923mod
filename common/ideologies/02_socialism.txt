@@ -1,12 +1,15 @@
 ideologies = {
 	socialism = {
 		types = {
-			socialism = {} #Dont use.
+			socialism = {can_be_randomly_selected = no} #Dont use.
 			social_democracy = {
 			}
-			anarchism = {
-				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			social_liberalism = {
 			}
+
+			#Why are they here?
+			anarchism = {can_be_randomly_selected = no}
+			anarchist_communism = {can_be_randomly_selected = no}
 		}
 
 		dynamic_faction_names = {
