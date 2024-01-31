@@ -2,6 +2,9 @@
 
 oob = "AUS_1936"
 
+add_ideas = AUS_Hainisch
+set_cosmetic_tag = AUS_democratic
+
 set_party_name = {
 	ideology = socialism
 	name = AUS_democratic_party
@@ -47,7 +50,7 @@ create_country_leader = {
 	name = "Ignaz Seipel"
 	picture = "gfx//leaders//AUS//portrait_mon_seipel.png"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = natcon
 	traits = {
 		#
 	}
@@ -76,7 +79,7 @@ recruit_character = AUS_julius_raab
 recruit_character = AUS_leopold_figl
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = pragmatic
 	last_election = "1923.10.21"
 	election_frequency = 48
 	elections_allowed = yes
@@ -84,8 +87,8 @@ set_politics = {
 
 set_popularities = {
 	neutrality = 0
-	pragmatic = 10
-	democratic = 44
+	pragmatic = 44
+	democratic = 10
 	socialism = 40
 	communism = 6
 }

@@ -1,0 +1,10 @@
+SpriteTypes = {
+	spriteType ={
+	    name = "GFX_idea_AUS_Hainisch"
+	    texturefile = "gfx/interface/ideas/AUS_Hainisch.dds"
+	}
+	spriteType ={
+	    name = "GFX_idea_AUS_Miklas"
+	    texturefile = "gfx/interface/ideas/AUS_Miklas.dds"
+	}
+}

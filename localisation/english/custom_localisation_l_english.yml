@@ -64,10 +64,14 @@ GER_neutrality_party:0 "OC-BW"
 GER_neutrality_party_long:0 "Organisation Consul - Bund Wiking"
 
 
-AUS_pragmatic_party:0 "GDVP"
-AUS_pragmatic_party_long:0 "Großdeutsche Volkspartei"
-AUS_liberal_party:0 "CSP"
-AUS_liberal_party_long:0 "Christlichsoziale Partei"
+AUS_pragmatic_party:0 "CSP"
+AUS_pragmatic_party_long:0 "Christlichsoziale Partei"
+AUS_agriculture_party:0 "Landbund"
+AUS_agriculture_party_long:0 "Landbund"
+AUS_liberal_party:0 "GDVP"
+AUS_liberal_party_long:0 "Großdeutsche Volkspartei"
+AUS_unity_party:0 "Einheitsliste"
+AUS_unity_party_long:0 "Christlichsoziale Partei - Großdeutsche Volkspartei"
 
 #Characters
 UKR_MKH_VRS:0 "Military Revolutionary Council"
@@ -79,3 +83,7 @@ VICTORY_POINTS_6474_RUS: "Donetsk"
 VICTORY_POINTS_3529_RUS: "Tsaritsyn"
 VICTORY_POINTS_3151_RUS: "Petrograd"
 VICTORY_POINTS_8027_RUS: "Dushanbe"
+
+#Ideas
+AUS_Hainisch:0 "Michael Hainisch"
+AUS_Miklas:0 "Wilhelm Miklas"
