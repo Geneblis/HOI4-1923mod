@@ -5,6 +5,8 @@ ideologies = {
 			}
 			centrism = {
 			}
+			autocracy = {
+			}
 		}
 
 		dynamic_faction_names = {
