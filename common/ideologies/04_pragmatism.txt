@@ -1,5 +1,5 @@
 ideologies = {
-	pragmatism = {
+	pragmatic = {
 		types = {
 			moderatism = {
 			}

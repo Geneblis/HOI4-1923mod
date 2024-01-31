@@ -101,7 +101,7 @@ set_popularities = {
 	fascism = 10
 	socialism = 5
 	communism = 5
-	pragmatism = 15
+	pragmatic = 15
 }
 
 add_ideas = {

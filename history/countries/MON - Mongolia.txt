@@ -28,7 +28,7 @@ create_dynamic_country = {
 	}
 	set_popularities = {
 		neutrality = 90
-		pragmatism = 10
+		pragmatic = 10
 	}
 	set_politics = {
 		ruling_party = neutrality

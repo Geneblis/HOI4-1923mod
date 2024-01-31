@@ -31,6 +31,11 @@ DDR_communism_party_long:0 "Kommunistische Partei Deutschlands"
 DDR_socialism_party:0 "SPD"
 DDR_socialism_party_long:0 "Sozialdemokratische Partei Deutschlands"
 
+AUS_pragmatic_party:0 "GDVP"
+AUS_pragmatic_party_long:0 "Großdeutsche Volkspartei"
+AUS_liberal_party:0 "CSP"
+AUS_liberal_party_long:0 "Christlichsoziale Partei"
+
 #Characters
 UKR_MKH_VRS:0 "Military Revolutionary Council"
 SOV_LENIN:0 "Vladimir Lenin"

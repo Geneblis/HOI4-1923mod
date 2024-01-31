@@ -81,7 +81,7 @@ if = {
 
 
 set_party_name = {
-	ideology = pragmatism
+	ideology = pragmatic
 	name = GER_neutrality_party_kaiserreich
 	long_name = GER_neutrality_party_kaiserreich_long
 }
@@ -101,14 +101,14 @@ set_convoys = 50
 set_stability = 0.75
 
 set_politics = {
-	ruling_party = pragmatism
+	ruling_party = pragmatic
 	last_election = "1920.3.18"
 	election_frequency = 60
 	elections_allowed = yes
 }
 set_popularities = {
 	socialism = 5
-	pragmatism = 50
+	pragmatic = 50
 	neutrality = 30
 	fascism = 15
 }

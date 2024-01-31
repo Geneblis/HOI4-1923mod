@@ -42,7 +42,7 @@ create_dynamic_country = {
 		}
 	}
 	set_popularities = {
-		pragmatism = 5
+		pragmatic = 5
 		neutrality = 10
 		socialism = 75
 		communism = 10
@@ -180,7 +180,7 @@ set_politics = {
 
 set_popularities = {
 	neutrality = 80
-	pragmatism = 10
+	pragmatic = 10
 	fascism = 10
 }
 

@@ -1,7 +1,7 @@
 ﻿l_english:
- pragmatism:0 "Pragmatism"
- pragmatism_noun:0 "Pragmatic"
- pragmatism_desc:0 "Moderate Regime"
+ pragmatic:0 "Pragmatism"
+ pragmatic_noun:0 "Pragmatic"
+ pragmatic_desc:0 "Moderate Regime"
 
  moderatism:1 "Moderatism"
  moderatism_desc:1 "§YModeratism§!\n\nModeratism is a form of government which avoids the extremes of left and right by taking a moderate position or course of action."
@@ -66,6 +66,8 @@
  oligarchism_desc:0 "§YOligarchy§!\n\nOligarchy is a form of government in which a group of people rule with absolute power."
  theocracy:0 "Theocracy"
  theocracy_desc:0 "§YTheocracy§!\n\n"
+ absolute_monarchy:0 "Absolute Monarchy"
+ absolute_monarchy_desc:0 "§YAbsolute Monarchy§!\n\n"
 
 
  GER_fascism_party:0 "NSDAP"
