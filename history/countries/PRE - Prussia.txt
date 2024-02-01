@@ -128,8 +128,18 @@ add_ideas = {
 }
 
 create_country_leader = {
+	name = "Paul von Hindenburg"
+	desc = ""
+	picture = "gfx/leaders/GER/portrait_ger_hidenburg.png"
+	expire = "1934.8.2"
+	ideology = natcon
+	traits = {
+	}
+}
+
+create_country_leader = {
 	name = "Walther von Lüttwitz"
-	desc = "incredibly homossexual"
+	desc = ""
 	picture = "gfx/leaders/GER/portrait_ger_heinrich.png"
 	expire = "1965.1.1"
 	ideology = despotism

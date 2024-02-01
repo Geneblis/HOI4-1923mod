@@ -2,8 +2,8 @@
 
 create_country_leader = {
 	name = "Hermann Ehrhardt"
-	desc = "very gay"
-	picture = "gfx/leaders/GER/portrait_ger_heinrich.png"
+	desc = ""
+	picture = "gfx/leaders/GER/portrait_ger_ehrhart.png"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {

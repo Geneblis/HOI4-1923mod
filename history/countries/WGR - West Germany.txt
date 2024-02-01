@@ -172,21 +172,12 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Heinrich Brüning"
+	name = "Wilhelm Marx"
 	desc = ""
-	picture = "gfx/leaders/GER/portrait_ger_heinrich.png"
-	expire = "1965.1.1"
-	ideology = centrism
+	picture = "gfx/leaders/GER/portrait_ger_marx.png"
+	expire = "1946.1.1"
+	ideology = liberalism
 	traits = {
 	}
 }
 
-create_country_leader = {
-	name = "Hans Luther"
-	desc = ""
-	picture = "gfx/leaders/GER/portrait_ger_hans.png"
-	expire = "1926.5.12"
-	ideology = centrism
-	traits = {
-	}
-}

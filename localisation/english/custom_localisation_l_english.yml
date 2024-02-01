@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 #Cosmetic Flags
 UKR_MKH:0 "Revolutionary Insurgent Army of Ukraine"
 UKR_MKH_DEF:0 "The Revolutionary Insurgent Army of Ukraine"
@@ -20,8 +20,8 @@ PRE_junkers:0 "Free State of Prussia"
 PRE_junkers_DEF:0 "Free State of Prussia"
 PRE_junkers_ADJ:0 "Prussian"
 
-PRE_kupp:0 "German Reich"
-PRE_kupp_DEF:0 "German Reich"
+PRE_kupp:0 "German State"
+PRE_kupp_DEF:0 "the German State"
 PRE_kupp_ADJ:0 "German Nationalist"
 
 GER_freikorps:0 "Ehrhardt Brigade"
