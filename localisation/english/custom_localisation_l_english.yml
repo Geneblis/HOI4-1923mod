@@ -1,14 +1,14 @@
-﻿l_english:
+l_english:
 #Cosmetic Flags
 UKR_MKH:0 "Revolutionary Insurgent Army of Ukraine"
 UKR_MKH_DEF:0 "The Revolutionary Insurgent Army of Ukraine"
 UKR_MKH_ADJ:0 "Anarchists"
 BAV_COMMIE:0 "Soviet Republic of Bavaria"
-DDR_cosmetic_tag:0 "Peoples' Republic of Germany"
+DDR_cosmetic_tag:0 "People's Republic of Germany"
 WGR_democrats:0 "German Republic"
 PRE_monarchists:0 "Imperial Reclamation Authority"
 BAV_COMMIE_DEF:0 "The Soviet Republic of Bavaria"
-DDR_cosmetic_tag_DEF:0 "The Peoples' Republic of Germany"
+DDR_cosmetic_tag_DEF:0 "The People's Republic of Germany"
 WGR_democrats_DEF:0 "The German Republic"
 PRE_monarchists_DEF:0 "The Imperial Reclamation Authority"
 BAV_COMMIE_ADJ:0 "Bavarian"
