@@ -4,11 +4,13 @@ set_cosmetic_tag = BAV_COMMIE
 
 create_country_leader = {
     name = "Eugen Leviné"
-    desc = "homossexual"
-    picture = "gfx/leaders/GER/portrait_ger_heinrich.png"
+    desc = ""
+    picture = "gfx/leaders/GER/portrait_ger_levine.png"
     expire = "1965.1.1"
     ideology = leninism
     traits = {
+		revolutionary_general
+		marxist_fundamentalist
     }
 }
 

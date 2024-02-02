@@ -43,6 +43,8 @@ create_country_leader = {
 	expire = "1924.1.21"
 	ideology = leninism
 	traits = {
+		devoted_marxist
+		permanent_revolutionary
 	}
 }
 

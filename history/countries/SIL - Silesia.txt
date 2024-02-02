@@ -1,4 +1,4 @@
-﻿capital = 66
+﻿capital = 67
 
 #oob = ""
 
@@ -106,24 +106,74 @@ if = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = neutrality
 	last_election = "1919.8.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	pragmatic = 50
+	pragmatic = 10
 	fascism = 5
 	socialism = 35
-	neutrality = 10
+	neutrality = 50
 }
 
 create_country_leader = {
-	name = "Józef Biniszkiewicz"
+	name = "Silesian Voivodeship"
+	desc = ""
+	picture = "gfx/leaders/POL/portrait_POL_the_sejm.dds"
+	expire = "1939.1.1"
+	ideology = social_democracy
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Silesian Voivodeship"
+	desc = ""
+	picture = "gfx/leaders/POL/portrait_POL_the_sejm.dds"
+	expire = "1939.1.1"
+	ideology = oligarchism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "-----"
+	desc = ""
+	picture = "gfx/leaders/POL/portrait_POL_the_sejm.dds"
+	expire = "1939.1.1"
+	ideology = leninism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Silesian Voivodeship"
+	desc = ""
+	picture = "gfx/leaders/POL/portrait_POL_the_sejm.dds"
+	expire = "1939.1.1"
+	ideology = falangism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Michał Grażyński"
 	desc = ""
 	picture = "GFX_portrait_SIL_Jozef_iniszkiewicz"
-	expire = "1953.3.1"
-	ideology = social_democracy
+	expire = "1965.3.1"
+	ideology = centrism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Michał Grażyński"
+	desc = ""
+	picture = "GFX_portrait_SIL_Jozef_iniszkiewicz"
+	expire = "1965.3.1"
+	ideology = conservatism
 	traits = {
 		
 	}

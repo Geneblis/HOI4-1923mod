@@ -86,12 +86,12 @@ set_party_name = {
 	long_name = DDR_communism_party_kapd_long
 }
 set_party_name = {
-	ideology = pragmatic
+	ideology = neutrality
 	name = PRE_neutrality_party
 	long_name = PRE_neutrality_party_long
 }
 set_party_name = {
-	ideology = neutrality
+	ideology = pragmatic
 	name = GER_neutrality_party_kaiserreich
 	long_name = GER_neutrality_party_kaiserreich_long
 }
@@ -127,6 +127,28 @@ add_ideas = {
 
 }
 
+
+#create_country_leader = { #Kept here for logging reasons, create them with Hindenburg focus.
+#	name = GER_wilhelm_iii
+#	desc = ""
+#	picture = "GFX_portrait_ger_wilhelm_iii"
+#	expire = "1951.1.20"
+#	ideology = moderatism
+#	traits = {
+#		constitutional_monarch
+#	}
+#}
+#
+#create_country_leader = {
+#	name = GER_wilhelm_ii
+#	desc = ""
+#	picture = "gfx/leaders/GER/portrait_ger_kaiser2.png"
+#	expire = "1941.6.4"
+#	ideology = moderatism
+#	traits = {
+#	}
+#}
+
 create_country_leader = {
 	name = "Paul von Hindenburg"
 	desc = ""
@@ -134,16 +156,31 @@ create_country_leader = {
 	expire = "1934.8.2"
 	ideology = natcon
 	traits = {
+		nationalist_symbol
+		staunch_loyalist
+		noble_beurocrat
+	}
+}
+
+create_country_leader = {
+	name = "Karl Jarres"
+	desc = ""
+	picture = "gfx/leaders/GER/portrait_ger_jerres.png"
+	expire = "1951.10.20"
+	ideology = oligarchism
+	traits = {
+		anti_democrat
 	}
 }
 
 create_country_leader = {
 	name = "Walther von Lüttwitz"
 	desc = ""
-	picture = "gfx/leaders/GER/portrait_ger_heinrich.png"
-	expire = "1965.1.1"
+	picture = "gfx/leaders/GER/portrait_ger_luttwitz.png"
+	expire = "1942.1.20"
 	ideology = despotism
 	traits = {
+		anti_democrat
 	}
 }
 
@@ -158,7 +195,6 @@ create_country_leader = {
 		union_man
 	}
 }
-
 
 
 #create_country_leader = {

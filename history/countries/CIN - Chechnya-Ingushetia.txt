@@ -38,7 +38,7 @@ create_dynamic_country = {
 		expire = "1965.1.1"
 		ideology = anarchism
 		traits = {
-
+			anarcho_communist_council
 		}
 	}
 	set_popularities = {
@@ -190,6 +190,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
+		veteran_anti_bolshevik
 	}
 }
 

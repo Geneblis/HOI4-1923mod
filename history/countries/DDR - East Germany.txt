@@ -177,13 +177,24 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Ernst Thälmann"
-	desc = "POLITICS_ERNST_THALMANN_DESC"
-	picture = GFX_portrait_Wilhelm_Pieck
+	desc = ""
+	picture = "gfx/leaders/GER/portrait_ger_thalmann.png"
 	expire = "1956.1.1"
 	ideology = leninism
 	traits = {
-		assassination_survivor
-		political_prisoner
+		marxist_philosopher
+	}
+}
+
+create_country_leader = {
+	name = "Rosa Luxemburg"
+	desc = ""
+	picture = "gfx/leaders/GER/portrait_ger_rosa.png"
+	expire = "1946.1.1"
+	ideology = marxism
+	traits = {
+		marxist_academic
+		SWI_trade_unionist
 	}
 }
 

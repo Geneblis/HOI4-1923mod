@@ -108,6 +108,16 @@ set_popularities = {
 	democratic = 10
 }
 
-
+create_country_leader = {
+	name = "Alexander Kolchak"
+	desc = ""
+	picture = "gfx/leaders/SAX/portrait_sax_frederick.png"
+	expire = "1932.2.18"
+	ideology = despotism
+	traits = {
+		dictator
+		veteran_anti_bolshevik
+	}
+}
 
 
