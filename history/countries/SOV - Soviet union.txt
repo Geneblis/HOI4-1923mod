@@ -730,19 +730,19 @@ if = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "SOV_1936"
+	set_oob = "SOV_1923"
 }
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "SOV_1936_nsb"
+	set_oob = "SOV_1923"
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SOV_1936_naval_mtg"
+		set_naval_oob = "SOV_1923_naval"
 	else = {
-		set_naval_oob = "SOV_1936_naval_legacy"
+		set_naval_oob = "SOV_1923_naval"
 	}
 }
 if = {
@@ -1169,9 +1169,9 @@ add_ideas = {
 	
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "SOV_1939_naval_mtg"
+			set_naval_oob = "SOV_1923_naval"
 		else = {
-			set_naval_oob = "SOV_1939_naval_legacy"
+			set_naval_oob = "SOV_1923_naval"
 		}
 	}
 
@@ -1226,7 +1226,7 @@ add_ideas = {
 			basic_heavy_tank = 1    # Should be available in 1936 (T-35)
 			basic_medium_tank = 1 # Should be available in 1936 (T-28)
 		}
-		set_oob = "SOV_1939"
+		set_oob = "SOV_1923"
 	}
 	if = {
 		limit = {
@@ -1237,7 +1237,7 @@ add_ideas = {
 			basic_heavy_tank_chassis = 1
 			basic_medium_tank_chassis = 1 
 		}
-		set_oob = "SOV_1939_nsb"
+		set_oob = "SOV_1923"
 	}
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
