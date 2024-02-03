@@ -1,5 +1,9 @@
 capital = 64
 
+add_ideas = {
+	GER_general_GCW
+}
+
 set_cosmetic_tag = DDR_cosmetic_tag
 
 # Starting tech

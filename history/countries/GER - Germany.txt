@@ -191,6 +191,7 @@ set_popularities = {
 
 
 add_ideas = {
+	GER_general_GCW
 	sour_loser
 	general_staff
 	limited_exports

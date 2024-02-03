@@ -1,10 +1,16 @@
 SpriteTypes = {
-	spriteType ={
+	spriteType = {
 	    name = "GFX_idea_AUS_Hainisch"
 	    texturefile = "gfx/interface/ideas/AUS_Hainisch.dds"
 	}
-	spriteType ={
+	spriteType = {
 	    name = "GFX_idea_AUS_Miklas"
 	    texturefile = "gfx/interface/ideas/AUS_Miklas.dds"
 	}
+	
+	# german ideas stuff
+	spriteType = {
+		name = "GFX_idea_GER_general_GCW"
+		texturefile = gfx/interface/ideas/GER_general_GCW.dds
+		}
 }
