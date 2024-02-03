@@ -94,7 +94,7 @@ set_politics = {
 
 set_popularities = {
 	democratic = 10
-	pragmatism = 3
+	pragmatic = 3
 	socialism = 87
 }
 
