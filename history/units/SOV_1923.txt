@@ -1287,7 +1287,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location = 11527
+		location = 3406
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -1335,7 +1335,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 74
 		}
-		location = 11555
+		location = 437
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.2
