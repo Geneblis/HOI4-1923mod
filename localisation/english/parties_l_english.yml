@@ -24,6 +24,8 @@
  stalinism_desc:1 "§YMarxist-Leninism (Stalinism)§!\n\nIdentifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authoritative socialist state to purge any counter-revolutionary elements."
  anti_revisionism:0 "Dogmatic Marxism"
  anti_revisionism_desc:0 "§YDogmatic Marxism§!\n\nA reaction to the many ideologies claiming to be successors to Marxism, Anti-Revisionism advocates retaining key elements of original revolutionary theory. Mainly opposing incorporation of capitalist economic elements into socialist states, the ideology is defined as much by what it isn't as what it is."
+ spartacism:0 "Spartacism"
+ spartacism_desc:0 "§YSpartacism§!\n\nBased on the the october 1918 program of the Spartakus League, Spartacism is the belief that for a socialist republic to be estabilished through a democratic party in opposition to the Leninist vanguard party model, which according to them creates a intra-party dictatorship and stiffles the ability of the worker to participate in the revolution."
  
  democratic:0 "Liberalism"
  democratic_noun:0 "Liberal"

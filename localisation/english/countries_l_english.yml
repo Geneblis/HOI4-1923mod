@@ -3723,6 +3723,8 @@
  NOA_SOV_communism_subject:0 "North Ossetian Autonomous Soviet Socialist Republic"
  NOA_SOV_communism_subject_DEF:0 "the North Ossetian Autonomous Soviet Socialist Republic"
  NOA_SOV_communism_subject_ADJ:0 "North Ossetian"
+ VGE_socialism:0 "Tambov Rebellion"
+ VGE_socialism_DEF:0 "United Workers' and Partisans' Army of the Tambov Territory"
  VGE_fascism:0 "Volga German Reich"
  VGE_fascism_DEF:0 "the Volga German Reich"
  VGE_democratic:0 "Republic of Volga Germany"

@@ -15,6 +15,9 @@ ideologies = {
 			anti_revisionism = {
 			}
 			
+			spartacism = {
+			}
+			
 		}
 
 		dynamic_faction_names = {
