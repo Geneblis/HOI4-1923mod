@@ -1,16 +1,11 @@
 ideologies = {
 	fascism = {
 		types = {
-			nazism = {
-			}
-			gen_nazism = {
-			}
-			fascism_ideology = {
-			}
-			falangism = {
-			}
-			rexism = {
-			}
+			nazism = {}
+			gen_nazism = {}
+			fascism_ideology = {}
+			falangism = {}
+			rexism = {}
 		}
 
 		dynamic_faction_names = {

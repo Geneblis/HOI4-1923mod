@@ -207,3 +207,38 @@
 #	}
 #}
 
+PRE = { #Prussians
+	generate_character = {
+		token_base = PRE_bruno_ernst_buchrucker
+		name = "Bruno Ernst Buchrucker"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GER/Portrait_Germany_Generic_land_6.dds"
+				small="GFX_idea_CHI_alexander_von_falkenhausen" 
+			}
+			army = {
+				large="gfx/leaders/GER/Portrait_Germany_Generic_land_6.dds"
+				small="GFX_idea_CHI_alexander_von_falkenhausen" 
+			}
+		}
+		advisor = {
+			slot = army_chief
+			available = {
+				original_tag = PRE
+			}
+			traits = { army_chief_offensive_1 }
+			ai_will_do = {
+				factor = 1
+			}
+			cost = 50
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			traits = { trait_reckless infantry_officer }
+		}
+	}
+}

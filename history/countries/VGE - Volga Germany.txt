@@ -1,53 +1,8 @@
-﻿capital = 195 #Pretograd
+﻿capital = 257 #Tambov
 
-#oob = "FER_1936"
+#oob = "VGE_1936"
 
 set_research_slots = 3
-
-set_party_name = {
-	ideology = communism
-	long_name = SOV_communism_party_russian_long
-	name = SOV_communism_party_russian
-}
-set_party_name = {
-	ideology = fascism
-	long_name = SOV_fascism_party_russian_long
-	name = SOV_fascism_party_russian
-}
-set_party_name = {
-	ideology = socialism
-	long_name = SOV_democratic_party_long
-	name = SOV_democratic_party
-}
-set_party_name = {
-	ideology = pragmatic
-	long_name = YAK_neutrality_party
-	name = YAK_neutrality_party
-}
-set_party_name = {
-	ideology = democratic
-	long_name = SOV_democratic_party
-	name = SOV_democratic_party
-}
-set_party_name = {
-	ideology = neutrality
-	long_name = YAK_neutrality_party
-	name = YAK_neutrality_party
-}
-
-##Russian Civil-War, 1919
-declare_war_on = {
-    target = TMS
-    type = annex_everything
-}
-declare_war_on = {
-    target = KHI
-    type = annex_everything
-}
-declare_war_on = {
-    target = BUK
-    type = annex_everything
-}
 
 # Starting tech
 set_technology = {
@@ -65,7 +20,6 @@ set_technology = {
 	mass_assault = 1
 	fleet_in_being = 1
 }
-
 if = {
 	limit = {
 		NOT = { has_dlc = "By Blood Alone" }
@@ -78,10 +32,11 @@ if = {
 		naval_bomber1 = 1
 	}
 }
-
 if = {
 	limit = {
-		NOT = { has_dlc = "No Step Back" }
+		NOT = {
+			has_dlc = "No Step Back"
+		}
 	}
 	set_technology = {
 		gwtank = 1
@@ -90,7 +45,9 @@ if = {
 }
 if = {
 	limit = {
+		
 		has_dlc = "No Step Back"
+		
 	}
 	set_technology = {
 		gwtank_chassis = 1
@@ -127,28 +84,48 @@ if = {
 		basic_torpedo = 1
 	}
 }
+
 set_politics = {
-	ruling_party = neutrality
-	elections_allowed = no
+	ruling_party = socialism
+	last_election = "1922.8.19"
+	election_frequency = 48
+	elections_allowed = yes
 }
 
 set_popularities = {
-	neutrality = 60
-	pragmatic = 20
-	fascism = 10
 	democratic = 10
+	pragmatism = 3
+	socialism = 87
 }
 
+
 create_country_leader = {
-	name = "Alexander Kolchak"
+	name = "Aleksandr Antonov"
 	desc = ""
-	picture = "gfx/leaders/SOV/portrait_sov_kolchak.png"
-	expire = "1932.2.18"
-	ideology = despotism
+	picture = "gfx/leaders/SOV/portrait_sov_savinkov.png"
+	expire = "1938.2.18"
+	ideology = agrarian_socialism
 	traits = {
-		dictator
+		leftist_independent
 		veteran_anti_bolshevik
 	}
 }
+
+create_country_leader = {
+	name = "Boris Savinkov"
+	desc = ""
+	picture = "gfx/leaders/SOV/portrait_sov_savinkov.png"
+	expire = "1925.5.7"
+	ideology = revolutionary_socialism
+	traits = {
+		fascist_sympathies
+		anti_communist
+		veteran_anti_bolshevik
+	}
+}
+
+
+
+
 
 

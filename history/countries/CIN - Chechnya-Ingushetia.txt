@@ -4,6 +4,37 @@
 
 set_research_slots = 3
 
+set_party_name = {
+	ideology = communism
+	long_name = SOV_communism_party_russian_long
+	name = SOV_communism_party_russian
+}
+set_party_name = {
+	ideology = fascism
+	long_name = SOV_fascism_party_russian_long
+	name = SOV_fascism_party_russian
+}
+set_party_name = {
+	ideology = socialism
+	long_name = SOV_democratic_party_long
+	name = SOV_democratic_party
+}
+set_party_name = {
+	ideology = pragmatic
+	long_name = YAK_neutrality_party
+	name = YAK_neutrality_party
+}
+set_party_name = {
+	ideology = democratic
+	long_name = SOV_democratic_party
+	name = SOV_democratic_party
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = YAK_neutrality_party
+	name = YAK_neutrality_party
+}
+
 ##Russian Civil-War, 1919
 declare_war_on = {
     target = TMS

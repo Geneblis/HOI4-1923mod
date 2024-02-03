@@ -2,12 +2,12 @@ ideologies = {
 	socialism = {
 		types = {
 			socialism = {can_be_randomly_selected = no} #Dont use.
-			social_democracy = {
-			}
-			social_liberalism = {
-			}
+			social_democracy = {}
+			social_liberalism = {}
+			revolutionary_socialism = {}
+			agrarian_socialism = {}
 
-			#Why are they here?
+			#The crazy ones.
 			anarchism = {can_be_randomly_selected = no}
 			anarchist_communism = {can_be_randomly_selected = no}
 		}

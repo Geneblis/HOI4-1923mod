@@ -57,6 +57,11 @@
  social_democracy_desc:0 "§YSocial Democracy§!\n\n"
  social_liberalism:0 "Social Liberalism"
  social_liberalism_desc:0 "§YSocial Liberalism§!\n\n"
+ revolutionary_socialism:0 "Revolutionary Socialism"
+ revolutionary_socialism_desc:0 "§YRevolutionary Socialism§!\n\n"
+ agrarian_socialism:0 "Agrarian Socialism"
+ agrarian_socialism_desc:0 "§YAgrarian Socialism§!\n\n"
+ 
  anarchism:0 "Anarchism"
  anarchism_desc:0 "§YAnarchism§!\n\nAnarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
  anarchist_communism:0 "Anarchist Communism"
