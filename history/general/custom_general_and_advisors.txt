@@ -209,16 +209,38 @@
 
 PRE = { #Prussians
 	generate_character = {
+		token_base = PRE_wilhelm_heye
+		name = "Wilhelm Heye"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GER/portrait_ger_heye.png"
+				small="GFX_idea_generic_political_advisor_europe_4" 
+			}
+			army = {
+				large="gfx/leaders/GER/portrait_ger_heye.png"
+				small="GFX_idea_generic_political_advisor_europe_4" 
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			traits = { career_officer infantry_officer harsh_leader }
+		}
+	}
+	generate_character = {
 		token_base = PRE_bruno_ernst_buchrucker
 		name = "Bruno Ernst Buchrucker"
 		portraits = {
 			civilian = {
 				large="gfx/leaders/GER/Portrait_Germany_Generic_land_6.dds"
-				small="GFX_idea_CHI_alexander_von_falkenhausen" 
+				small="GFX_idea_generic_political_advisor_europe_5" 
 			}
 			army = {
 				large="gfx/leaders/GER/Portrait_Germany_Generic_land_6.dds"
-				small="GFX_idea_CHI_alexander_von_falkenhausen" 
+				small="GFX_idea_generic_political_advisor_europe_5" 
 			}
 		}
 		advisor = {
@@ -242,3 +264,95 @@ PRE = { #Prussians
 		}
 	}
 }
+
+WGR = { #Republican Germany
+	generate_character = {
+		token_base = WGR_hans_von_seeckt
+		name = "Hans von Seeckt"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GER/portrait_ger_seeckt.png"
+				small="GFX_idea_generic_political_advisor_europe_6" 
+			}
+			army = {
+				large="gfx/leaders/GER/portrait_ger_seeckt.png"
+				small="GFX_idea_generic_political_advisor_europe_6" 
+			}
+		}
+		advisor = {
+			slot = army_chief
+			available = {
+				original_tag = WGR
+			}
+			traits = { army_infantry_2 }
+			ai_will_do = {
+				factor = 1
+			}
+			cost = 50
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			traits = { }
+		}
+	}
+	generate_character = {
+		token_base = WGR_Walther_Reinhardt
+		name = "Walther Reinhardt"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GER/portrait_ger_seeckt.png"
+				small="GFX_idea_generic_political_advisor_europe_6" 
+			}
+			army = {
+				large="gfx/leaders/GER/portrait_ger_seeckt.png"
+				small="GFX_idea_generic_political_advisor_europe_6" 
+			}
+		}
+		advisor = {
+			slot = army_chief
+			available = {
+				original_tag = WGR
+			}
+			traits = { army_infantry_2 }
+			ai_will_do = {
+				factor = 1
+			}
+			cost = 50
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			traits = { }
+		}
+	}
+	generate_character = {
+		token_base = WGR_kurt_vonn_hammersteinequord
+		name = "Kurt von Hammerstein-Equord"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GER/portrait_ger_equord.png"
+				small="GFX_idea_generic_political_advisor_europe_5" 
+			}
+			army = {
+				large="gfx/leaders/GER/portrait_ger_equord.png"
+				small="GFX_idea_generic_political_advisor_europe_5" 
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			traits = { }
+		}
+	}
+}
+
