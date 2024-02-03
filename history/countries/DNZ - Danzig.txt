@@ -1,21 +1,16 @@
-﻿capital = 195 #Pretograd
-
-#oob = "FER_1936"
+﻿capital = 85 #Danzig
 
 set_research_slots = 3
 
-##Russian Civil-War, 1919
-declare_war_on = {
-    target = TMS
-    type = annex_everything
+set_party_name = {
+	ideology = pragmatic
+	name = GER_neutrality_party_kaiserreich
+	long_name = GER_neutrality_party_kaiserreich_long
 }
-declare_war_on = {
-    target = KHI
-    type = annex_everything
-}
-declare_war_on = {
-    target = BUK
-    type = annex_everything
+set_party_name = {
+	ideology = socialism
+	name = WGR_ddp_party
+	long_name = WGR_ddp_party_long
 }
 
 # Starting tech
@@ -34,7 +29,6 @@ set_technology = {
 	mass_assault = 1
 	fleet_in_being = 1
 }
-
 if = {
 	limit = {
 		NOT = { has_dlc = "By Blood Alone" }
@@ -47,23 +41,30 @@ if = {
 		naval_bomber1 = 1
 	}
 }
-
 if = {
 	limit = {
-		NOT = { has_dlc = "No Step Back" }
+		NOT = {
+			has_dlc = "No Step Back"
+		}
 	}
 	set_technology = {
 		gwtank = 1
 		basic_light_tank = 1
+		basic_heavy_tank = 1
+		basic_medium_tank = 1
 	}
 }
 if = {
 	limit = {
+		
 		has_dlc = "No Step Back"
+		
 	}
 	set_technology = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		basic_medium_tank_chassis = 1
 	}
 }
 if = {
@@ -96,28 +97,66 @@ if = {
 		basic_torpedo = 1
 	}
 }
+
 set_politics = {
-	ruling_party = neutrality
-	elections_allowed = no
+	ruling_party = pragmatic
+	last_election = "1920.4.7"
+	election_frequency = 36
+	elections_allowed = yes
 }
 
-set_popularities = {
-	neutrality = 60
-	pragmatic = 20
-	fascism = 10
-	democratic = 10
+set_popularities = { #popularities based on 1933 election statistics.
+	democratic = 21
+	fascism = 0
+	communism = 24
+	neutrality = 10
+	pragmatic = 30
+	socialism = 15
 }
 
 create_country_leader = {
-	name = "Alexander Kolchak"
+	name = "Heinrich Sahm"
 	desc = ""
-	picture = "gfx/leaders/SOV/portrait_sov_kolchak.png"
-	expire = "1932.2.18"
-	ideology = despotism
+	picture = "gfx/leaders/GER/portrait_ger_sahm.png"
+	expire = "1953.3.1"
+	ideology = moderatism
 	traits = {
-		dictator
-		veteran_anti_bolshevik
+		
 	}
 }
+
+create_country_leader = {
+	name = "Albert Forster"
+	desc = ""
+	picture = "GFX_portrait_DNZ_Albert_Forster"
+	expire = "1953.3.1"
+	ideology = nazism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Arthur Brill"
+	desc = ""
+	picture = GFX_portrait_Arthur_Brill #TODO
+	expire = "1953.3.1"
+	ideology = social_democracy
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Anton Plenikowski"
+	desc = ""
+	picture = GFX_portrait_Anton_Plenikowski #TODO
+	expire = "1953.3.1"
+	ideology = stalinism
+	traits = {
+		
+	}
+}
+
 
 
