@@ -673,8 +673,8 @@ has_same_ideology = {
 				ROOT = { has_government = socialism }
 			}
 			AND = {
-				has_government = reactionism
-				ROOT = { has_government = reactionism }
+				has_government = pragmatic
+				ROOT = { has_government = pragmatic }
 			}
 		}
 	}

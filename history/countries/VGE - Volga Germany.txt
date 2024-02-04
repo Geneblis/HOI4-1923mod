@@ -107,7 +107,7 @@ create_country_leader = {
 	ideology = agrarian_socialism
 	traits = {
 		leftist_independent
-		veteran_anti_bolshevik
+		anti_soviet_socialist
 	}
 }
 
@@ -120,7 +120,7 @@ create_country_leader = {
 	traits = {
 		fascist_sympathies
 		anti_communist
-		veteran_anti_bolshevik
+		anti_soviet_socialist
 	}
 }
 

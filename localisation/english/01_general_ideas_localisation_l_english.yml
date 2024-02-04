@@ -1,5 +1,13 @@
 ﻿l_english:
 
+#Relations ideas
+fascist_opinions_similar_idea:0 "Positive Relations with Non-Fascist Regimes"
+neutrality_opinions_similar_idea:0 "Positive Relations with Non-Reactionary Regimes"
+pragmatic_opinions_similar_idea:0 "Positive Relations with Non-Pragmatic Regimes"
+democratic_opinions_similar_idea:0 "Positive Relations with Non-Democratic Regimes"
+socialism_opinions_similar_idea:0 "Positive Relations with Non-Socialist Regimes"
+communism_opinions_similar_idea:0 "Positive Relations with Non-Communist Regimes"
+
 # german ideas
 GER_general_GCW:0 "The German Civil War"
 GER_general_GCW_desc:0 "The German Civil War"
@@ -7,6 +15,7 @@ GER_general_GCW_desc:0 "The German Civil War"
 # Austrian ideas
 AUS_Hainisch:0 "Michael Hainisch"
 AUS_Miklas:0 "Wilhelm Miklas"
+AUS_paramilitary_violence:0 "Paramilitary Violence"
 
 # Brazilian ideas
 BRA_tenentism_rise:0 "Rise of Tenentismo"

@@ -8,7 +8,8 @@ state=
 	state_category = town
 
 	history= {
-		owner = NIR
+		owner = IRE
+		controller = NIR
 		victory_points = {
 			9303 3 #Galway
 		}
@@ -23,9 +24,7 @@ state=
 		add_core_of = IRE
 	}
 
-	provinces=
-	{
-337 3396 9255 9303 9321 9369 11238 11287 11371 	}
+	provinces= { 337 3396 9255 9303 9321 9369 11238 11287 11371 	}
 
 	local_supplies=13.0 
 }

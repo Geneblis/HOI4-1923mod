@@ -12,12 +12,17 @@ set_technology = {
 	basic_train = 1
 }
 
+declare_war_on = {
+    target = NIR
+    type = annex_everything
+}
+
 set_convoys = 10
 
 set_party_name = {
 	ideology = pragmatic
-	name = IRE_pragmatic_party
-	long_name = IRE_pragmatic_party_long
+	name = IRE_democratic_party
+	long_name = IRE_democratic_party_long
 }
 set_party_name = {
 	ideology = neutrality
@@ -41,8 +46,8 @@ set_party_name = {
 }
 set_party_name = {
 	ideology = democratic
-	name = IRE_democratic_party
-	long_name = IRE_democratic_party_long
+	name = IRE_conservative_party
+	long_name = IRE_conservative_party_long
 }
 
 set_cosmetic_tag = ire_irish_republic
@@ -68,6 +73,19 @@ recruit_character = IRE_sean_lemass
 recruit_character = IRE_douglas_hyde
 recruit_character = IRE_sean_ceallaigh
 
+create_country_leader = {
+	name = "William Thomas Cosgrave"
+	desc = ""
+	picture = "gfx/leaders/IRE/portrait_ire_cosgrave.png"
+	expire = "1932.2.16"
+	ideology = conservatism
+	traits = {
+		tenacious_negotiator
+		retired_officer
+		likes_allies
+	}
+}
+
 #If these aint working, check the ENG history file.
 set_politics = {
 	ruling_party = democratic
@@ -76,7 +94,9 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	pragmatic = 5
+	democratic = 39
+	pragmatic = 27
+	neutrality = 10
 	socialism = 20
+	communism = 4
 }

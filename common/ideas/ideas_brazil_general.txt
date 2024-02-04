@@ -1,6 +1,7 @@
 ideas = {
 	country = {
 		BRA_tenentism_rise = {
+			picture = chi_war_of_resistance3
 			modifier = {
 				stability_factor = -0.3
 				war_support_factor -0.15

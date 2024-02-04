@@ -1,0 +1,52 @@
+get_similar_relations_scripted_effect = { 
+	if = {
+		limit = {
+			ROOT = {
+				has_government = socialism
+			}
+		}
+		add_ideas = socialism_opinions_similar_idea
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_government = communism
+			}
+		}
+		add_ideas = communism_opinions_similar_idea
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_government = democratic
+			}
+		}
+		add_ideas = democratic_opinions_similar_idea
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_government = pragmatic
+			}
+		}
+		add_ideas = pragmatic_opinions_similar_idea
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_government = neutrality
+			}
+		}
+		add_ideas = neutrality_opinions_similar_idea
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_government = fascism
+			}
+		}
+		add_ideas = fascist_opinions_similar_idea
+	}
+	else = {}
+
+}

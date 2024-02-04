@@ -1,0 +1,7 @@
+on_actions = {
+	on_ruling_party_change = {
+		effect = {
+			get_similar_relations_scripted_effect = yes
+		}
+	}
+}

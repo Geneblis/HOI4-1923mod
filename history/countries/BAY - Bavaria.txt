@@ -14,7 +14,7 @@ create_country_leader = {
     ideology = leninism
     traits = {
 		revolutionary_general
-		marxist_fundamentalist
+		proletariat_internationalist
     }
 }
 

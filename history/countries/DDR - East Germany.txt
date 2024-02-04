@@ -187,6 +187,7 @@ create_country_leader = {
 	ideology = leninism
 	traits = {
 		marxist_philosopher
+		SWI_trade_unionist
 	}
 }
 
@@ -197,8 +198,8 @@ create_country_leader = {
 	expire = "1946.1.1"
 	ideology = spartacism
 	traits = {
+		anti_soviet_socialist
 		marxist_academic
-		SWI_trade_unionist
 	}
 }
 

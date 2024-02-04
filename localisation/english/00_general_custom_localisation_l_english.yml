@@ -82,8 +82,11 @@ AUS_agriculture_party:0 "Landbund"
 AUS_agriculture_party_long:0 "Landbund"
 AUS_liberal_party:0 "GDVP"
 AUS_liberal_party_long:0 "Großdeutsche Volkspartei"
-AUS_unity_party:0 "Einheitsliste"
-AUS_unity_party_long:0 "Christlichsoziale Partei - Großdeutsche Volkspartei"
+
+AUS_federal_state:0 "Federal State of Austria"
+AUS_federal_state_DEF:0 "The Federal State of Austria"
+AUS_federal_state_ADJ:0 "Austrian"
+
 
 #Brazilian Parties
 BRA_reactionary_party_name_1923:0 "PRM/PRP"

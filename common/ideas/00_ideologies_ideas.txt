@@ -1,0 +1,279 @@
+ideas = {
+    hidden_ideas = {
+        fascist_opinions_similar_idea = {
+			cancel = {
+				ROOT = {
+					NOT = {
+						has_government = fascism
+					}
+				}
+			}
+            on_add = {
+                every_other_country = {
+                    limit = {
+						has_government = neutrality
+                    }
+                    add_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party
+                    }
+                    reverse_add_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party 
+                    }
+                }
+            }
+            on_remove = {
+                every_other_country = {
+                    limit = {
+						has_government = neutrality
+                    }
+                    remove_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party
+                    }
+                    ROOT = {
+                        remove_opinion_modifier = {
+                            target = PREV
+                            modifier = similar_ruling_party 
+                        }
+                    }
+                }
+            }
+        }
+
+        neutrality_opinions_similar_idea = {
+			cancel = {
+				ROOT = {
+					NOT = {
+						has_government = neutrality
+					}
+				}
+			}
+            on_add = {
+                every_other_country = {
+                    limit = {
+						OR = {
+                        	has_government = pragmatic
+							has_government = fascism
+						}
+                    }
+                    add_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party
+                    }
+                    reverse_add_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party 
+                    }
+                }
+            }
+            on_remove = {
+                every_other_country = {
+                    limit = {
+						OR = {
+                        	has_government = pragmatic
+							has_government = fascism
+						}
+                    }
+                    remove_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party
+                    }
+                    ROOT = {
+                        remove_opinion_modifier = {
+                            target = PREV
+                            modifier = similar_ruling_party 
+                        }
+                    }
+                }
+            }
+        }
+
+        pragmatic_opinions_similar_idea = {
+			cancel = {
+				ROOT = {
+					NOT = {
+						has_government = pragmatic
+					}
+				}
+			}
+            on_add = {
+                every_other_country = {
+                    limit = {
+						OR = {
+							has_government = democratic
+							has_government = neutrality
+						}
+                    }
+                    add_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party
+                    }
+                    reverse_add_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party 
+                    }
+                }
+            }
+            on_remove = {
+                every_other_country = {
+                    limit = {
+						OR = {
+							has_government = democratic
+							has_government = neutrality
+						}
+                    }
+                    remove_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party
+                    }
+                    ROOT = {
+                        remove_opinion_modifier = {
+                            target = PREV
+                            modifier = similar_ruling_party 
+                        }
+                    }
+                }
+            }
+        }
+
+        democratic_opinions_similar_idea = {
+			cancel = {
+				ROOT = {
+					NOT = {
+						has_government = democratic
+					}
+				}
+			}
+            on_add = {
+                every_other_country = {
+                    limit = {
+						OR = {
+                        	has_government = pragmatic
+							has_government = socialism
+						}
+                    }
+                    add_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party
+                    }
+                    reverse_add_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party 
+                    }
+                }
+            }
+            on_remove = {
+                every_other_country = {
+                    limit = {
+						OR = {
+                        	has_government = pragmatic
+							has_government = socialism
+						}
+                    }
+                    remove_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party
+                    }
+                    ROOT = {
+                        remove_opinion_modifier = {
+                            target = PREV
+                            modifier = similar_ruling_party 
+                        }
+                    }
+                }
+            }
+        }
+
+        socialism_opinions_similar_idea = {
+			cancel = {
+				ROOT = {
+					NOT = {
+						has_government = socialism
+					}
+				}
+			}
+            on_add = {
+                every_other_country = {
+                    limit = {
+						OR = {
+                        	has_government = democratic
+							has_government = communism
+						}
+                    }
+                    add_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party
+                    }
+                    reverse_add_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party 
+                    }
+                }
+            }
+            on_remove = {
+                every_other_country = {
+                    limit = {
+						OR = {
+                        	has_government = democratic
+							has_government = communism
+						}
+                    }
+                    remove_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party
+                    }
+                    ROOT = {
+                        remove_opinion_modifier = {
+                            target = PREV
+                            modifier = similar_ruling_party 
+                        }
+                    }
+                }
+            }
+        }
+
+        communism_opinions_similar_idea = {
+			cancel = {
+				ROOT = {
+					NOT = {
+						has_government = communism
+					}
+				}
+			}
+            on_add = {
+                every_other_country = {
+                    limit = {
+						has_government = socialism
+                    }
+                    add_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party
+                    }
+                    reverse_add_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party 
+                    }
+                }
+            }
+            on_remove = {
+                every_other_country = {
+                    limit = {
+						has_government = socialism
+                    }
+                    remove_opinion_modifier = {
+                        target = ROOT
+                        modifier = similar_ruling_party
+                    }
+                    ROOT = {
+                        remove_opinion_modifier = {
+                            target = PREV
+                            modifier = similar_ruling_party 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
