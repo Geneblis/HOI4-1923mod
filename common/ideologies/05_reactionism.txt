@@ -7,7 +7,8 @@ ideologies = {
 			}
 			despotism = {
 			}
-			absolute_monarchy = {}
+			absolute_monarchy = {
+			}
 		}
 
 		dynamic_faction_names = {

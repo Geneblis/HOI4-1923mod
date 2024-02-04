@@ -43,6 +43,7 @@ pragmatic_acceptance:0 "Acceptance of Pragmatic Diplomacy"
 UKR_MKH_party:0 "VRS"
 UKR_MKH_party_long:0 "Voenno-Revolücionnjy Sovet"
 
+#German Parties
 DDR_communism_party_kapd:0 "KAPD"
 DDR_communism_party_kapd_long:0 "Kommunistische Arbeiterpartei Deutschlands"
 
@@ -76,6 +77,18 @@ AUS_liberal_party:0 "GDVP"
 AUS_liberal_party_long:0 "Großdeutsche Volkspartei"
 AUS_unity_party:0 "Einheitsliste"
 AUS_unity_party_long:0 "Christlichsoziale Partei - Großdeutsche Volkspartei"
+
+#Brazilian Parties
+BRA_reactionary_party_name_1923:0 "PRM/PRP"
+BRA_reactionary_party_name_1923_long:0 "Partido Republicano Mineiro / Partido Republicano Paulista"
+BRA_pragmatic_party:0 "MT-D"
+BRA_pragmatic_party_long:0 "Movimento Tenentista - Direita"
+BRA_socialism_party:0 "MT-E"
+BRA_socialism_party_long:0 "Movimento Tenentista - Esquerda"
+BRA_democratic_party_name_1923:0 "MT-C"
+BRA_democratic_party_name_1923_long:0 "Movimento Tenentista - Centro"
+BRA_fascism_party_name_1923:0 "PRP-PS"
+BRA_fascism_party_name_1923_long:0 "Partido Republicano Paulista - Plínio Salgado Clique"
 
 #Characters
 UKR_MKH_VRS:0 "Military Revolutionary Council"

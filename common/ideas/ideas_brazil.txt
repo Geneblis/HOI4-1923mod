@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		BRA_tenentism_rise = {
+			modifier = {
+				stability_factor = -0.3
+				war_support_factor -0.15
+				political_power_gain = -0.2
+				consumer_goods_factor = 0.3
+			}
+		}
+	}
+}
