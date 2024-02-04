@@ -13,4 +13,15 @@ SpriteTypes = {
 		name = "GFX_idea_GER_general_GCW"
 		texturefile = gfx/interface/ideas/GER_general_GCW.dds
 		}
+		
+	# brazilian ideas
+	spriteType = {
+		name = "GFX_idea_BRA_tenentism_rise"
+		texturefile = gfx/interface/ideas/BRA_tenentismo.dds
+	}
+	
+	spriteType = {
+		name = "GFX_idea_BRA_cafecomleite"
+		texturefile = gfx/interface/ideas/BRA_cafecomleite.dds
+	}
 }

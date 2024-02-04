@@ -2,6 +2,7 @@
 
 add_ideas = {
 	BRA_tenentism_rise
+	BRA_cafecomleite
 }
 
 oob = "BRA_1936"
@@ -250,6 +251,12 @@ set_party_name = {
 	ideology = fascism
 	name = BRA_fascism_party_name_1923
 	long_name = BRA_fascism_party_name_1923_long
+}
+
+set_party_name = {
+	ideology = communism
+	name = BRA_communism_party_name_1923
+	long_name = BRA_communism_party_name_1923_long
 }
 
 set_convoys = 40

@@ -1,12 +1,19 @@
 ideas = {
 	country = {
 		BRA_tenentism_rise = {
-			picture = chi_war_of_resistance3
 			modifier = {
 				stability_factor = -0.3
 				war_support_factor -0.15
 				political_power_gain = -0.2
 				consumer_goods_factor = 0.3
+			}
+		}
+		
+		BRA_cafecomleite = {
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.1
+				drift_defence_factor = 0.5
 			}
 		}
 	}
