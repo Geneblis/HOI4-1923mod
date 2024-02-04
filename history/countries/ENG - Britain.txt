@@ -1,5 +1,26 @@
 ﻿capital = 126
 
+puppet = IRE
+set_autonomy = {
+    target = IRE
+    autonomous_state = autonomy_dominion
+    end_wars = no
+    end_civil_wars = no
+}
+IRE = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1922.6.26"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 75
+		pragmatic = 5
+		socialism = 20
+	}
+}
+
 if = {
 	limit = {
 		NOT = {

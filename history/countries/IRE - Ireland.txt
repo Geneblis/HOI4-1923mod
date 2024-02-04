@@ -1,4 +1,4 @@
-﻿capital = 113
+﻿capital = 135
 
 oob = "IRE_1936"
 
@@ -13,6 +13,39 @@ set_technology = {
 }
 
 set_convoys = 10
+
+set_party_name = {
+	ideology = pragmatic
+	name = IRE_pragmatic_party
+	long_name = IRE_pragmatic_party_long
+}
+set_party_name = {
+	ideology = neutrality
+	name = IRE_national_party
+	long_name = IRE_national_party_long
+}
+set_party_name = {
+	ideology = fascism
+	name = IRE_proto_fascist_party
+	long_name = IRE_proto_fascist_party_long
+}
+set_party_name = {
+	ideology = communism
+	name = IRE_communism_party
+	long_name = IRE_communism_party_long
+}
+set_party_name = {
+	ideology = socialism
+	name = IRE_socialist_party
+	long_name = IRE_socialist_party_long
+}
+set_party_name = {
+	ideology = democratic
+	name = IRE_democratic_party
+	long_name = IRE_democratic_party_long
+}
+
+set_cosmetic_tag = ire_irish_republic
 
 recruit_character = IRE_Éamon_de_valera
 recruit_character = IRE_eoin_oduffy
@@ -35,72 +68,15 @@ recruit_character = IRE_sean_lemass
 recruit_character = IRE_douglas_hyde
 recruit_character = IRE_sean_ceallaigh
 
-1939.1.1 = {
-
-	add_political_power = 1198
-	add_command_power = 100
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "IRE_1939"
-	set_technology = {
-		gw_artillery = 1
-		interwar_antiair = 1
-		infantry_weapons2 = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		fuel_refining = 1
-	}
-}
-
+#If these aint working, check the ENG history file.
 set_politics = {
 	ruling_party = democratic
-	last_election = "1933.1.24"
+	last_election = "1922.6.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 98
-	fascism = 1
-	communism = 1
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1938.6.17"
-		election_frequency = 48
-		elections_allowed = yes
-	}
+	democratic = 75
+	pragmatic = 5
+	socialism = 20
 }

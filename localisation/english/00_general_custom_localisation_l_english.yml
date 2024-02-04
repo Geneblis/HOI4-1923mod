@@ -32,6 +32,14 @@ GER_freikorps:0 "Ehrhardt Brigade"
 GER_freikorps_DEF:0 "The Ehrhardt Brigade"
 GER_freikorps_ADJ:0 "Freikorps"
 
+nir_irish_republic:0 "Irish Republic"
+nir_irish_republic_DEF:0 "The Irish Republic"
+nir_irish_republic_ADJ:0 "Irish"
+
+ire_irish_republic:0 "Irish Free State"
+ire_irish_republic_DEF:0 "The Irish Free State"
+ire_irish_republic_ADJ:0 "Irish"
+
 #Ideologies and Parties
 
 socialism_drift:0 "Daily Socialism Support"
@@ -46,7 +54,6 @@ UKR_MKH_party_long:0 "Voenno-Revolücionnjy Sovet"
 #German Parties
 DDR_communism_party_kapd:0 "KAPD"
 DDR_communism_party_kapd_long:0 "Kommunistische Arbeiterpartei Deutschlands"
-
 DDR_communism_party:0 "KPD"
 DDR_communism_party_long:0 "Kommunistische Partei Deutschlands"
 DDR_socialism_party:0 "SPD"
@@ -68,7 +75,7 @@ WGR_ddp_party_long:0 "Deutsche Demokratische Partei"
 GER_neutrality_party:0 "OC-BW"
 GER_neutrality_party_long:0 "Organisation Consul - Bund Wiking"
 
-
+#Austrian Parties
 AUS_pragmatic_party:0 "CSP"
 AUS_pragmatic_party_long:0 "Christlichsoziale Partei"
 AUS_agriculture_party:0 "Landbund"
@@ -89,6 +96,20 @@ BRA_democratic_party_name_1923:0 "MT-C"
 BRA_democratic_party_name_1923_long:0 "Movimento Tenentista - Centro"
 BRA_fascism_party_name_1923:0 "PRP-PS"
 BRA_fascism_party_name_1923_long:0 "Partido Republicano Paulista - Plínio Salgado Clique"
+
+#Irish Parties
+IRE_pragmatic_party:0 "Military Government"
+IRE_pragmatic_party_long:0 "FMilitary Government"
+IRE_proto_fascist_party:0 "NP"
+IRE_proto_fascist_party_long:0 "Nationalist Party"
+IRE_conservative_party:0 "CG"
+IRE_conservative_party_long:0 "Cumann na nGaedheal"
+IRE_socialist_party:0 "SF"
+IRE_socialist_party_long:0 "Sinn Féin"
+IRE_national_party:0 "NL"
+IRE_national_party_long:0 "National League"
+NIR_neutrality_party:0 "IRA"
+NIR_neutrality_party_long:0 "Irish Republican Army Council"
 
 #Characters
 UKR_MKH_VRS:0 "Military Revolutionary Council"
