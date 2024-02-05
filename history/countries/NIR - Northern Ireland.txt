@@ -47,6 +47,26 @@ set_party_name = {
 
 set_cosmetic_tag = nir_irish_republic
 
+generate_character = {
+	token_base = NIR_lynch
+	name = "Liam Lynch"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/IRE/portrait_ire_lynch.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = despotism
+		expire = 1923.10.6
+		traits = {  
+			revolutionary_general
+			our_right_to_survive
+		}
+		desc = ""
+	}
+}
+
 recruit_character = NIR_aa2
 recruit_character = NIR_awt
 recruit_character = NIR_coi
@@ -82,14 +102,3 @@ set_popularities = {
 	pragmatic = 25
 }
 
-create_country_leader = {
-	name = "Liam Lynch"
-	desc = ""
-	picture = "gfx/leaders/IRE/portrait_ire_lynch.png"
-	expire = "1923.10.6"
-	ideology = despotism
-	traits = {
-		revolutionary_general
-		our_right_to_survive
-	}
-}

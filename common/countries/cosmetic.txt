@@ -11,13 +11,18 @@ DDR_cosmetic_tag = {
 }
 
 GER_freikorps = {
-    color = rgb { 55 55 55 }
-    color_ui = rgb { 55 55 55 }
+    color = rgb { 80 80 80 }
+    color_ui = rgb { 80 80 80 }
 }
 
 WGR_democrats = {
     color = rgb { 135 135 135 }
     color_ui = rgb { 135 135 135 }
+}
+
+UKR_MKH = {
+    color = rgb { 60 60 60 }
+    color_ui = rgb { 60 60 60 }
 }
 
 # OLD STUFF

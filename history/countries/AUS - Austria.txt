@@ -46,24 +46,42 @@ set_technology = {
 	basic_train = 1
 }
 
-create_country_leader = {
+generate_character = {
+	token_base = AUS_Ignaz_seipel
 	name = "Ignaz Seipel"
-	picture = "gfx//leaders//AUS//portrait_mon_seipel.png"
-	expire = "1965.1.1"
-	ideology = natcon
-	traits = {
-		conservative_nationalist
-		devoted_corporatist
+	portraits = {
+		civilian = {
+			large="gfx/leaders/AUS/portrait_mon_seipel.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = natcon
+		expire = 1965.1.24
+		traits = { 
+			conservative_nationalist
+			devoted_corporatist
+		}
+		desc = ""
 	}
 }
 
-create_country_leader = {
+generate_character = {
+	token_base = AUS_karl_seitz
 	name = "Karl Seitz"
-	picture = "gfx//leaders//AUS//portrait_aus_karl_seitz.png"
-	expire = "1985.1.1"
-	ideology = social_democracy
-	traits = {
-		pragmatic_socialist
+	portraits = {
+		civilian = {
+			large="gfx/leaders/AUS/portrait_aus_karl_seitz.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = social_democracy
+		expire = 1965.1.24
+		traits = { 
+			pragmatic_socialist
+		}
+		desc = ""
 	}
 }
 

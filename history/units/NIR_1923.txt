@@ -29,21 +29,21 @@ division_template = {
 
 units = {
 	division = {
-		name = "Republican Division"
+		name = "Republican Militia"
 		location = 7394
 		division_template = "Militia Division"
 		start_experience_factor = 0.12
 		start_equipment_factor = 0.4
 	}
 	division = {
-		name = "Republican Division"
+		name = "Republican Militia"
 		location = 7394
 		division_template = "Militia Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.23
 	}
 	division = {
-		name = "Republican Division"
+		name = "Republican Militia"
 		location = 7394
 		division_template = "Militia Division"
 		start_experience_factor = 0.15

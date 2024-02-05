@@ -154,35 +154,59 @@ set_popularities = {
 add_ideas = {
 }
 
-create_country_leader = {
-	name = "Heinrich Brüning"
-	desc = ""
-	picture = "gfx/leaders/GER/portrait_ger_heinrich.png"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Hans Luther"
-	desc = ""
-	picture = "gfx/leaders/GER/portrait_ger_hans.png"
-	expire = "1926.5.12"
-	ideology = liberalism
-	traits = {
-	}
-}
-
-create_country_leader = {
+generate_character = {
+	token_base = WGR_MARX
 	name = "Wilhelm Marx"
-	desc = ""
-	picture = "gfx/leaders/GER/portrait_ger_marx.png"
-	expire = "1946.1.1"
-	ideology = liberalism
-	traits = {
-		democratic_restorationist
-		noble_beurocrat
+	portraits = {
+		civilian = {
+			large="gfx/leaders/GER/portrait_ger_marx.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = liberalism
+		expire = 1946.1.1
+		traits = {  
+			democratic_restorationist
+			noble_beurocrat
+		}
+		desc = ""
+	}
+}
+
+generate_character = {
+	token_base = WGR_LUTHER
+	name = "Hans Luther"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/GER/portrait_ger_hans.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = liberalism
+		expire = 1926.5.12
+		traits = {  
+		}
+		desc = ""
+	}
+}
+
+generate_character = {
+	token_base = WGR_heinirich_bruning
+	name = "Heinrich Brüning"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/GER/portrait_ger_heinrich.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = liberalism
+		expire = 1965.1.1
+		traits = {  
+		}
+		desc = ""
 	}
 }
 

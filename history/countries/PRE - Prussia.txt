@@ -153,40 +153,65 @@ add_ideas = {
 #	}
 #}
 
-create_country_leader = {
-	name = "Paul von Hindenburg"
-	desc = ""
-	picture = "gfx/leaders/GER/portrait_ger_hidenburg.png"
-	expire = "1934.8.2"
-	ideology = natcon
-	traits = {
-		nationalist_symbol
-		staunch_loyalist
-		noble_beurocrat
-	}
-}
-
-create_country_leader = {
-	name = "Karl Jarres"
-	desc = ""
-	picture = "gfx/leaders/GER/portrait_ger_jerres.png"
-	expire = "1951.10.20"
-	ideology = oligarchism
-	traits = {
-		anti_democrat
-	}
-}
-
-create_country_leader = {
+generate_character = {
+	token_base = PRE_walther_luttwitz
 	name = "Walther von Lüttwitz"
-	desc = ""
-	picture = "gfx/leaders/GER/portrait_ger_luttwitz.png"
-	expire = "1942.1.20"
-	ideology = despotism
-	traits = {
-		anti_democrat
+	portraits = {
+		civilian = {
+			large="gfx/leaders/GER/portrait_ger_luttwitz.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = despotism
+		expire = 1942.1.20
+		traits = {  
+			anti_democrat
+		}
+		desc = ""
 	}
 }
+
+generate_character = {
+	token_base = PRE_paul_von_hidenburg
+	name = "Paul von Hindenburg"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/GER/portrait_ger_hidenburg.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = natcon
+		expire = 1934.8.2
+		traits = {  
+			nationalist_symbol
+			staunch_loyalist
+			noble_beurocrat
+		}
+		desc = ""
+	}
+}
+
+generate_character = {
+	token_base = PRE_karl_jarres
+	name = "Karl Jarres"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/GER/portrait_ger_jerres.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = oligarchism
+		expire = 1951.10.20
+		traits = {  
+			anti_democrat
+		}
+		desc = ""
+	}
+}
+
 
 create_country_leader = {
 	name = "Otto Wels"

@@ -98,7 +98,7 @@ set_popularities = {
 	socialism = 87
 }
 
-
+#Note to change these into characters.
 create_country_leader = {
 	name = "Aleksandr Antonov"
 	desc = ""

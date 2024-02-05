@@ -7,6 +7,7 @@ pragmatic_opinions_similar_idea:0 "Positive Relations with Non-Pragmatic Regimes
 democratic_opinions_similar_idea:0 "Positive Relations with Non-Democratic Regimes"
 socialism_opinions_similar_idea:0 "Positive Relations with Non-Socialist Regimes"
 communism_opinions_similar_idea:0 "Positive Relations with Non-Communist Regimes"
+similar_ideology_ruling_country:0 "Similar Ideology"
 
 # german ideas
 GER_general_GCW:0 "The German Civil War"

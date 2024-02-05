@@ -52,6 +52,27 @@ set_party_name = {
 
 set_cosmetic_tag = ire_irish_republic
 
+generate_character = {
+	token_base = IRE_WTC
+	name = "William Thomas Cosgrave"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/IRE/portrait_ire_cosgrave.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = conservatism
+		expire = 1932.2.16
+		traits = {  
+			tenacious_negotiator
+			retired_officer
+			likes_allies
+		}
+		desc = ""
+	}
+}
+
 recruit_character = IRE_Éamon_de_valera
 recruit_character = IRE_eoin_oduffy
 recruit_character = IRE_james_larkin
@@ -72,19 +93,6 @@ recruit_character = IRE_john_byrne
 recruit_character = IRE_sean_lemass
 recruit_character = IRE_douglas_hyde
 recruit_character = IRE_sean_ceallaigh
-
-create_country_leader = {
-	name = "William Thomas Cosgrave"
-	desc = ""
-	picture = "gfx/leaders/IRE/portrait_ire_cosgrave.png"
-	expire = "1932.2.16"
-	ideology = conservatism
-	traits = {
-		tenacious_negotiator
-		retired_officer
-		likes_allies
-	}
-}
 
 #If these aint working, check the ENG history file.
 set_politics = {

@@ -1,14 +1,22 @@
 ﻿capital = 64
 
-create_country_leader = {
+generate_character = {
+	token_base = GER_ehrhardt
 	name = "Hermann Ehrhardt"
-	desc = ""
-	picture = "gfx/leaders/GER/portrait_ger_ehrhart.png"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		anti_democrat
-		disdain_for_politicians_1
+	portraits = {
+		civilian = {
+			large="gfx/leaders/GER/portrait_ger_ehrhart.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = despotism
+		expire = 1965.1.24
+		traits = {  
+			anti_democrat
+			disdain_for_politicians_1
+		}
+		desc = ""
 	}
 }
 

@@ -87,6 +87,10 @@ AUS_federal_state:0 "Federal State of Austria"
 AUS_federal_state_DEF:0 "The Federal State of Austria"
 AUS_federal_state_ADJ:0 "Austrian"
 
+SWE_socdem:0 "Kingdom of Sweden"
+SWE_socdem_DEF:0 "the Kingdom of Sweden"
+SWE_socdem_ADJ:0 "Swedish"
+
 
 #Brazilian Parties
 BRA_reactionary_party_name_1923:0 "PRM/PRP"

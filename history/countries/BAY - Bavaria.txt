@@ -6,16 +6,24 @@ add_ideas = {
 
 set_cosmetic_tag = BAV_COMMIE
 
-create_country_leader = {
-    name = "Eugen Leviné"
-    desc = ""
-    picture = "gfx/leaders/GER/portrait_ger_levine.png"
-    expire = "1965.1.1"
-    ideology = leninism
-    traits = {
-		revolutionary_general
-		proletariat_internationalist
-    }
+generate_character = {
+	token_base = BAY_levine
+	name = "Eugen Leviné"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/GER/portrait_ger_levine.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = leninism
+		expire = 1965.1.24
+		traits = {  
+			revolutionary_general
+			proletariat_internationalist
+		}
+		desc = ""
+	}
 }
 
 set_party_name = {

@@ -46,15 +46,23 @@ set_party_name = {
 
 #COUNTRY LEADERS
 
-create_country_leader = {
+generate_character = {
+	token_base = SOV_LENIN
 	name = SOV_LENIN
-	desc = " "
-	picture = "gfx/leaders/SOV/portrait_sov_lenin.png"
-	expire = "1924.1.21"
-	ideology = leninism
-	traits = {
-		devoted_marxist
-		triumphant_revolutionary
+	portraits = {
+		civilian = {
+			large="gfx/leaders/SOV/portrait_sov_lenin.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = leninism
+		expire = 1965.1.24
+		traits = {  
+			devoted_marxist
+			triumphant_revolutionary
+		}
+		desc = ""
 	}
 }
 
@@ -1274,7 +1282,7 @@ set_politics = {
 	ruling_party = communism
 	last_election = "1919.7.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = no #Problem? Party centralizer?
 }
 set_popularities = {
 	socialism = 10

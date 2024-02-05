@@ -179,27 +179,44 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Ernst Thälmann"
-	desc = ""
-	picture = "gfx/leaders/GER/portrait_ger_thalmann.png"
-	expire = "1956.1.1"
-	ideology = leninism
-	traits = {
-		marxist_philosopher
-		SWI_trade_unionist
+generate_character = {
+	token_base = DDR_LUXEMBURG
+	name = "Rosa Luxemburg"
+	gender = female
+	portraits = {
+		civilian = {
+			large="gfx/leaders/GER/portrait_ger_rosa.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = spartacism
+		expire = 1946.1.24
+		traits = {  
+			revolutionary_general
+			proletariat_internationalist
+		}
+		desc = ""
 	}
 }
 
-create_country_leader = {
-	name = "Rosa Luxemburg"
-	desc = ""
-	picture = "gfx/leaders/GER/portrait_ger_rosa.png"
-	expire = "1946.1.1"
-	ideology = spartacism
-	traits = {
-		anti_soviet_socialist
-		marxist_academic
+generate_character = {
+	token_base = DDR_ernst_thalmann
+	name = "Ernst Thälmann"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/GER/portrait_ger_thalmann.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = leninism
+		expire = 1956.1.24
+		traits = {  
+			marxist_philosopher
+			SWI_trade_unionist
+		}
+		desc = ""
 	}
 }
 

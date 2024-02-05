@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = CIN
+		controller = SOV
 		victory_points = {
 			3529 30.0
 		}
