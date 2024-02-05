@@ -7,6 +7,7 @@ country_event = { #July Revolts
     desc = austrian_events.1.d
     is_triggered_only = no
     fire_only_once = yes
+	picture = GFX_report_event_generic_factory
     trigger = {
         tag = AUS
         date > 1927.1.1
@@ -16,7 +17,7 @@ country_event = { #July Revolts
         name = austrian_events.1.a
         add_popularity = {
             ideology = liberalism
-            popularity = 0.1
+            popularity = 0.02
         }
         add_popularity = {
             ideology = socialism
@@ -25,6 +26,10 @@ country_event = { #July Revolts
         add_popularity = {
             ideology = communism
             popularity = 0.05
+        }
+        add_popularity = {
+            ideology = pragmatic
+            popularity = -0.08
         }
         add_manpower = -100
         add_stability = -0.1
@@ -46,6 +51,7 @@ country_event = { #1923 elections
     desc = austrian_events.2.d
     is_triggered_only = no
     fire_only_once = yes
+	picture = GFX_report_event_generic_factory
     trigger = {
         tag = AUS
         date > 1923.10.1
@@ -97,6 +103,7 @@ country_event = { #1927 elections
     desc = austrian_events.3.d
     is_triggered_only = no
     fire_only_once = yes
+	picture = GFX_report_event_generic_factory
     trigger = {
         tag = AUS
         date > 1927.4.1
@@ -172,10 +179,11 @@ country_event = { #Austrian civil-war
     desc = austrian_events.4.d
     is_triggered_only = no
     fire_only_once = yes
+	picture = GFX_report_event_generic_factory
     trigger = {
         tag = AUS
-        date > 1928.12.1
-        date < 1929.12.1
+        date > 1927.12.1
+        date < 1928.12.1
     }
 
     option = {

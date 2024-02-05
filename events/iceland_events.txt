@@ -1,0 +1,74 @@
+
+add_namespace = true_iceland_events
+
+#Bruh, who cares about Iceland?
+
+country_event = { #1923 election
+    id = true_iceland_events.1
+    title = true_iceland_events.1.t
+    desc = true_iceland_events.1.d
+    is_triggered_only = no
+    fire_only_once = yes
+	picture = GFX_report_event_generic_factory
+    trigger = {
+        tag = ICE
+        date > 1924.3.1
+    }
+
+    option = {
+        name = true_iceland_events.1.a
+        add_popularity = {
+            ideology = democratic
+            popularity = 0.05
+        }
+        add_popularity = {
+            ideology = pragmatic
+            popularity = 0.07
+        }
+        set_party_name = {
+            ideology = democratic
+            name = ICE_conservative_party
+            long_name = ICE_conservative_party
+        }
+        ICE = {
+            retire_character = ICE_eggzzz
+            promote_character = {
+                character = ICE_magnusson
+                ideology = conservatism
+            }
+        }
+		ai_chance = {
+			factor = 1
+		}
+    }
+}
+
+country_event = { #1927 elections
+    id = true_iceland_events.2
+    title = true_iceland_events.2.t
+    desc = true_iceland_events.2.d
+    is_triggered_only = no
+    fire_only_once = yes
+	picture = GFX_report_event_generic_factory
+    trigger = {
+        tag = ICE
+        date > 1926.10.27
+        date < 1927.10.27
+    }
+
+    option = {
+        name = true_iceland_events.2.a
+        add_popularity = {
+            ideology = pragmatic
+            popularity = 0.1
+        }
+        set_politics = {
+            ruling_party = pragmatic
+            elections_allowed = yes
+        }        
+        add_political_power = -25
+		ai_chance = {
+			factor = 1
+		}
+    }
+}

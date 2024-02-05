@@ -52,6 +52,10 @@ AUS_federal_state:0 "Federal State of Austria"
 AUS_federal_state_DEF:0 "The Federal State of Austria"
 AUS_federal_state_ADJ:0 "Austrian"
 
+DEN_kingdom:0 "Kingdom of Denmark"
+DEN_kingdom_DEF:0 "The Kingdom of Denmark"
+DEN_kingdom_ADJ:0 "Danish"
+
 #Ideologies and Parties
 
 socialism_drift:0 "Daily Socialism Support"
@@ -105,7 +109,9 @@ LUX_pragmatic_party_long:0 "Union Nationale Indépendant"
 #Nordic Parties
 SWE_moderates_party:0 "AV"
 SWE_moderates_party_long:0 "Allmänna valmansförbundet"
-
+ICE_independence_party:0 "Sjálfstæðisflokkurinn"
+ICE_socialism_party:0 "Alþýðuflokkurinn"
+ICE_conservative_party:0 "Íhaldsflokkurinn"
 
 #Brazilian Parties
 BRA_reactionary_party_name_1923:0 "PRM/PRP"
