@@ -2,13 +2,6 @@
 
 oob = "POL_1936"
 
-puppet = SIL
-set_autonomy = {
-    target = SIL
-    autonomous_state = autonomy_supervised_state
-    end_wars = no
-    end_civil_wars = no
-}
 puppet = DNZ
 set_autonomy = {
     target = DNZ

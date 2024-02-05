@@ -7,6 +7,10 @@ SpriteTypes = {
 	    name = "GFX_idea_AUS_Miklas"
 	    texturefile = "gfx/interface/ideas/AUS_Miklas.dds"
 	}
+	spriteType = {
+	    name = "GFX_idea_LUX_charlotte"
+	    texturefile = "gfx/interface/ideas/LUX_charlotte.dds"
+	}
 	
 	# german ideas stuff
 	spriteType = {

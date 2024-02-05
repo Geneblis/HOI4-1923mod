@@ -1,10 +1,9 @@
 ideologies = {
 	democratic = {
 		types = {
-			conservatism = {
-			}
-			liberalism = {
-			}
+			conservatism = {}
+			liberalism = {}
+			social_liberalism = {}
 		}
 
 		dynamic_faction_names = {

@@ -1,6 +1,10 @@
 ideas = {
 	country = {
-	
+		LUX_charlotte = { #Luxemburg's monarch.
+			traits = { popular_figurehead }
+		}
+
+
 		GER_general_GCW = { # this is the german civil war idea for the german factions
 			modifier = {
 				monthly_population = -0.005

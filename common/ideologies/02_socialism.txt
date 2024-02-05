@@ -3,7 +3,6 @@ ideologies = {
 		types = {
 			socialism = {can_be_randomly_selected = no} #Dont use.
 			social_democracy = {}
-			social_liberalism = {}
 			revolutionary_socialism = {}
 			agrarian_socialism = {}
 

@@ -40,6 +40,18 @@ ire_irish_republic:0 "Irish Free State"
 ire_irish_republic_DEF:0 "The Irish Free State"
 ire_irish_republic_ADJ:0 "Irish"
 
+SWE_socdem:0 "Kingdom of Sweden"
+SWE_socdem_DEF:0 "the Kingdom of Sweden"
+SWE_socdem_ADJ:0 "Swedish"
+
+NOR_real:0 "Kingdom of Norway"
+NOR_real_DEF:0 "the Kingdom of Norway"
+NOR_real_ADJ:0 "Norwegian"
+
+AUS_federal_state:0 "Federal State of Austria"
+AUS_federal_state_DEF:0 "The Federal State of Austria"
+AUS_federal_state_ADJ:0 "Austrian"
+
 #Ideologies and Parties
 
 socialism_drift:0 "Daily Socialism Support"
@@ -83,13 +95,16 @@ AUS_agriculture_party_long:0 "Landbund"
 AUS_liberal_party:0 "GDVP"
 AUS_liberal_party_long:0 "Großdeutsche Volkspartei"
 
-AUS_federal_state:0 "Federal State of Austria"
-AUS_federal_state_DEF:0 "The Federal State of Austria"
-AUS_federal_state_ADJ:0 "Austrian"
 
-SWE_socdem:0 "Kingdom of Sweden"
-SWE_socdem_DEF:0 "the Kingdom of Sweden"
-SWE_socdem_ADJ:0 "Swedish"
+#Luxemburg Parties
+LUX_socialism_party:0 "LSAP"
+LUX_socialism_party_long:0 "Lëtzebuerger Sozialistesch Aarbechterpartei"
+LUX_pragmatic_party:0 "UNI"
+LUX_pragmatic_party_long:0 "Union Nationale Indépendant"
+
+#Nordic Parties
+SWE_moderates_party:0 "AV"
+SWE_moderates_party_long:0 "Allmänna valmansförbundet"
 
 
 #Brazilian Parties
