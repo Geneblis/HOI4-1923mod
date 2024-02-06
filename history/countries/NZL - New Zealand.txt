@@ -1,6 +1,108 @@
-﻿capital = 284
+capital = 284
 
 oob = "NZL_1936"
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1922.12.7"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	socialism = 29
+	democratic = 50
+	pragmatic = 16
+	communism = 3
+	neutrality = 2
+}
+
+set_cosmetic_tag = NZL_democratic
+
+set_party_name = {
+	ideology = pragmatic
+	name = NZL_country_party
+	long_name = NZL_country_party
+}
+set_party_name = {
+	ideology = socialism
+	name = NZL_democratic_party
+	long_name = NZL_democratic_party
+}
+set_party_name = {
+	ideology = democratic
+	name = NZL_reform_party
+	long_name = NZL_reform_party
+}
+
+generate_character = {
+    token_base = NZL_William_Massey
+    name = "William Massey"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/NZL/portrait_NZL_William_Massey.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = conservatism
+        expire = 1925.5.10
+        traits = {
+        }
+        desc = ""
+    }
+}
+generate_character = {
+    token_base = NZL_Gordon_Coates
+    name = "Gordon Coates"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/NZL/portrait_NZL_Gordon_Coates.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = conservatism
+        expire = 1928.12.10
+        traits = {
+        }
+        desc = ""
+    }
+}
+generate_character = {
+    token_base = NZL_Joseph_Ward
+    name = "Sir Joseph Ward"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/NZL/portrait_NZL_Joseph_Ward.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = conservatism
+        expire = 1930.5.28
+        traits = {
+        }
+        desc = ""
+    }
+}
+generate_character = {
+    token_base = NZL_George_Forbes
+    name = "George Forbes"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/NZL/portrait_NZL_George_Forbes.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = conservatism
+        expire = 1935.12.6
+        traits = {
+        }
+        desc = ""
+    }
+}
+
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "NZL_1936_air_bba"
@@ -102,18 +204,8 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-set_politics = {
-	ruling_party = democratic
-	last_election = "1935.11.27"
-	election_frequency = 36
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 100
-}
 
 set_convoys = 70
-
 
 
 ### VARIANTS ###
