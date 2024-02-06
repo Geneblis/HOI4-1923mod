@@ -149,6 +149,18 @@ IRE_national_party_long:0 "National League"
 NIR_neutrality_party:0 "IRA"
 NIR_neutrality_party_long:0 "Irish Republican Army Council"
 
+#Polish Parties
+POL_pragmatic_party:0 "TRLRP"
+POL_pragmatic_party_long:0 "Tymczasowy Rząd Ludowy Republiki Polskiej"
+POL_reactionary:0 "TRLRP"
+POL_reactionary_long:0 "Tymczasowy Rząd Ludowy Republiki Polskiej"
+POL_democratic_party:0 "PSL"
+POL_democratic_party_long:0 "Polskie Stronnictwo Ludowe"
+POL_fascism_party:0 "ND"
+POL_fascism_party_long:0 "Narodowa Demokracja"
+POL_socialism_party:0 "PPS"
+POL_socialism_party_long:0 "Polska Partia Socjalistyczna"
+
 #Characters
 UKR_MKH_VRS:0 "Military Revolutionary Council"
 SOV_LENIN:0 "Vladimir Lenin"

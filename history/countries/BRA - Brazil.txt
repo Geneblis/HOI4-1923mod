@@ -75,71 +75,119 @@ if = {
 }
 set_country_flag = monroe_doctrine
 
-create_country_leader = {
-	name = "Artur Bernardes"
-	desc = ""
-	picture = "gfx/leaders/BRA/portrait_bra_artur_bernades.png"
-	expire = "1946.1.1"
-	ideology = oligarchism
-	traits = {
-		incompetent_leader
-	}
+generate_character = {
+    token_base = BRA_artur_bernades
+    name = "Artur Bernardes"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/BRA/portrait_bra_artur_bernades.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = oligarchism
+        expire = 1965.1.24
+        traits = {  
+            incompetent_leader
+        }
+        desc = ""
+    }
 }
 
-create_country_leader = {
-	name = "Plínio Salgado"
-	desc = ""
-	picture = "gfx/leaders/BRA/portrait_bra_pliniosal.png"
-	expire = "1946.1.1"
-	ideology = rexism
-	traits = {
-		anti_communist
-		national_integralist
-	}
+generate_character = {
+    token_base = BRA_plinio_salgado
+    name = "Plínio Salgado"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/BRA/portrait_bra_pliniosal.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = rexism
+        expire = 1965.1.24
+        traits = {  
+            anti_communist
+			national_integralist
+        }
+        desc = ""
+    }
 }
 
-create_country_leader = {
-	name = "Luís Carlos Prestes"
-	desc = ""
-	picture = "gfx/leaders/BRA/portrait_bra_lcp.png"
-	expire = "1946.1.1"
-	ideology = revolutionary_socialism
-	traits = {
-		revolutionary_general
-	}
+generate_character = {
+    token_base = BRA_lcp
+    name = "Luís Carlos Prestes"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/BRA/portrait_bra_lcp.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = revolutionary_socialism
+        expire = 1965.1.24
+        traits = {  
+            revolutionary_general
+        }
+        desc = ""
+    }
 }
 
-create_country_leader = {
-	name = "Juarez Távora"
-	desc = ""
-	picture = "gfx/leaders/BRA/portrait_bra_juarez.png"
-	expire = "1946.1.1"
-	ideology = natcon
-	traits = {
-		conservative_nationalist
-	}
+generate_character = {
+    token_base = BRA_juarez
+    name = "Juarez Távora"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/BRA/portrait_bra_juarez.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = natcon
+        expire = 1965.1.24
+        traits = {  
+            conservative_nationalist
+        }
+        desc = ""
+    }
 }
 
-create_country_leader = {
-	name = "Joaquim Francisco de Assis Brasil"
-	desc = ""
-	picture = "gfx/leaders/BRA/portrait_bra_assisbrasil.png"
-	expire = "1946.1.1"
-	ideology = liberalism
-	traits = {
-		the_gentleman_president
-	}
+generate_character = {
+    token_base = BRA_assisbrasil
+    name = "Joaquim Francisco de Assis Brasil"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/BRA/portrait_bra_assisbrasil.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = liberalism
+        expire = 1965.1.24
+        traits = {  
+            the_gentleman_president
+        }
+        desc = ""
+    }
 }
 
-create_country_leader = {
-	name = "Astrojildo Pereira"
-	desc = ""
-	picture = "gfx/leaders/BRA/portrait_bra_astrojildo.png"
-	expire = "1946.1.1"
-	ideology = marxism
-	traits = {
-		devoted_marxist
-	}
+generate_character = {
+    token_base = BRA_astrojildo
+    name = "Astrojildo Pereira"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/BRA/portrait_bra_astrojildo.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = marxism
+        expire = 1965.1.24
+        traits = {  
+            devoted_marxist
+        }
+        desc = ""
+    }
 }
 
 1939.1.1 = {
