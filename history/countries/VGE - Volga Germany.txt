@@ -99,32 +99,47 @@ set_popularities = {
 }
 
 #Note to change these into characters.
-create_country_leader = {
-	name = "Aleksandr Antonov"
-	desc = ""
-	picture = "gfx/leaders/SOV/portrait_sov_savinkov.png"
-	expire = "1938.2.18"
-	ideology = agrarian_socialism
-	traits = {
-		leftist_independent
-		anti_soviet_socialist
-	}
+
+generate_character = {
+    token_base = VGE_Aleksandr
+    name = "Aleksandr Antonov"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/SOV/portrait_sov_savinkov.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = agrarian_socialism
+        expire = 1965.1.24
+        traits = {  
+			leftist_independent
+			anti_soviet_socialist
+        }
+        desc = ""
+    }
 }
 
-create_country_leader = {
-	name = "Boris Savinkov"
-	desc = ""
-	picture = "gfx/leaders/SOV/portrait_sov_savinkov.png"
-	expire = "1925.5.7"
-	ideology = revolutionary_socialism
-	traits = {
-		fascist_sympathies
-		anti_communist
-		anti_soviet_socialist
-	}
+generate_character = {
+    token_base = VGE_Boris
+    name = "Boris Savinkov"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/SOV/portrait_sov_savinkov.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = revolutionary_socialism
+        expire = 1965.1.24
+        traits = {  
+			fascist_sympathies
+			anti_communist
+			anti_soviet_socialist
+        }
+        desc = ""
+    }
 }
-
-
 
 
 

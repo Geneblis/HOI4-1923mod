@@ -135,16 +135,24 @@ set_popularities = {
 	democratic = 10
 }
 
-create_country_leader = {
-	name = "Alexander Kolchak"
-	desc = ""
-	picture = "gfx/leaders/SOV/portrait_sov_kolchak.png"
-	expire = "1932.2.18"
-	ideology = despotism
-	traits = {
-		dictator
-		veteran_anti_bolshevik
-	}
+generate_character = {
+    token_base = FER_kolchak
+    name = "Alexander Kolchak"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/SOV/portrait_sov_kolchak.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = despotism
+        expire = 1965.1.24
+        traits = {
+            dictator
+			veteran_anti_bolshevik
+        }
+        desc = ""
+    }
 }
 
 

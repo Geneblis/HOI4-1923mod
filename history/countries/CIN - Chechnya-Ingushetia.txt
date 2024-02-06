@@ -68,6 +68,7 @@ create_dynamic_country = {
 			anarcho_communist_council
 		}
 	}
+	
 	set_popularities = {
 		pragmatic = 15
 		socialism = 75
@@ -210,15 +211,23 @@ set_popularities = {
 	fascism = 10
 }
 
-create_country_leader = {
-	name = "Anton Denikin"
-	desc = ""
-	picture = "gfx/leaders/SOV/portrait_sov_denikin.png"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		veteran_anti_bolshevik
-	}
+generate_character = {
+    token_base = CIN_anton
+    name = "Anton Denikin"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/SOV/portrait_sov_denikin.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = despotism
+        expire = 1965.1.24
+        traits = {  
+            veteran_anti_bolshevik
+        }
+        desc = ""
+    }
 }
 
 recruit_character = CIN_hasan_israilov
