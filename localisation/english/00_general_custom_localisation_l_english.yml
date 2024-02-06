@@ -113,6 +113,14 @@ ICE_independence_party:0 "Sjálfstæðisflokkurinn"
 ICE_socialism_party:0 "Alþýðuflokkurinn"
 ICE_conservative_party:0 "Íhaldsflokkurinn"
 
+#Australia and New Zealand
+AUS_the_coalition:0 "LNP"
+AUS_the_coalition_long:0 "Liberal–National Coalition"
+NZL_reform_party:0 "Reform Party"
+NZL_liberal_party:0 "Liberal Party"
+NZL_united_party:0 "United Party"
+NZL_country_party:0 "Country Party"
+
 #Brazilian Parties
 BRA_reactionary_party_name_1923:0 "PRM/PRP"
 BRA_reactionary_party_name_1923_long:0 "Partido Republicano Mineiro / Partido Republicano Paulista"

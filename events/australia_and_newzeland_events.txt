@@ -1,0 +1,65 @@
+
+add_namespace = aussie_zealand_events
+
+country_event = { #1928 New Zealand elections
+    id = aussie_zealand_events.1
+    title = aussie_zealand_events.1.t
+    desc = aussie_zealand_events.1.d
+    is_triggered_only = no
+    fire_only_once = yes
+	picture = GFX_report_event_generic_factory
+    trigger = {
+        tag = NZL
+        date > 1928.12.10
+    }
+
+    option = {
+        name = aussie_zealand_events.1.a
+        add_popularity = {
+            ideology = socialism
+            popularity = 0.09
+        }
+        set_party_name = {
+            ideology = democratic
+            name = NZL_united_party
+            long_name = NZL_united_party
+        }
+        set_party_name = {
+            ideology = pragmatic
+            name = NZL_reform_party
+            long_name = NZL_reform_party
+        }
+		ai_chance = {
+			factor = 1
+		}
+    }
+}
+
+country_event = { #1935 New Zealand elections
+    id = aussie_zealand_events.2
+    title = aussie_zealand_events.2.t
+    desc = aussie_zealand_events.2.d
+    is_triggered_only = no
+    fire_only_once = yes
+	picture = GFX_report_event_generic_factory
+    trigger = {
+        tag = NZL
+        date > 1935.12.1
+    }
+
+    option = {
+        name = aussie_zealand_events.2.a
+        add_popularity = {
+            ideology = socialism
+            popularity = 0.1
+        }
+        set_politics = {
+            ruling_party = socialism
+            elections_allowed = yes
+        }
+        add_political_power = -25
+		ai_chance = {
+			factor = 1
+		}
+    }
+}
