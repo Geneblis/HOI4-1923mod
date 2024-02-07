@@ -71,11 +71,11 @@ create_dynamic_country = {
 	
 	set_popularities = {
 		pragmatic = 15
-		socialism = 75
-		communism = 10
+		communism = 75
+		socialism = 10
 	}
 	set_politics = {
-		ruling_party = socialism
+		ruling_party = communism
 	    elections_allowed = no
 	    long_name = UKR_MKH_party_long
 	    name = UKR_MKH_party

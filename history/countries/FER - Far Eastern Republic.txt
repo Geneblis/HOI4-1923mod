@@ -35,6 +35,10 @@ set_party_name = {
 	name = YAK_neutrality_party
 }
 
+create_faction = YAK_neutrality_party
+add_to_faction = FER
+add_to_faction = CIN
+
 ##Russian Civil-War, 1919
 declare_war_on = {
     target = BUK

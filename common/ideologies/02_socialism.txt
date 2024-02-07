@@ -5,10 +5,6 @@ ideologies = {
 			social_democracy = {}
 			revolutionary_socialism = {}
 			agrarian_socialism = {}
-
-			#The crazy ones.
-			anarchism = {can_be_randomly_selected = no}
-			anarchist_communism = {can_be_randomly_selected = no}
 		}
 
 		dynamic_faction_names = {

@@ -9,7 +9,6 @@ state=
 
 	history= {
 		owner = IRE
-		controller = NIR
 		victory_points = {
 			9303 3 #Galway
 		}

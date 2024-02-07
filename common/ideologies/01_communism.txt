@@ -2,22 +2,15 @@ ideologies = {
 	communism = {
 
 		types = {
-
-			marxism = {
-			}
-
-			leninism = {
-			}
-
-			stalinism = {
-			}
-
-			anti_revisionism = {
-			}
+			marxism = {}
+			leninism = {}
+			stalinism = {}
+			anti_revisionism = {}
+			spartacism = {}
 			
-			spartacism = {
-			}
-			
+			#The crazy ones.
+			anarchism = {can_be_randomly_selected = no}
+			anarchist_communism = {can_be_randomly_selected = no}
 		}
 
 		dynamic_faction_names = {
