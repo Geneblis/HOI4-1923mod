@@ -27,7 +27,18 @@ spriteTypes = {
 		name = "GFX_ideology_absolute_monarchy"
 		texturefile = "gfx/interface/ideologies/absolute_monarchy.dds"
 	}
-	absolute_monarchy
+	spriteType = {
+		name = "GFX_ideology_natcon"
+		texturefile = "gfx/interface/ideologies/natcon_ideology.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_liberalism"
+		texturefile = "gfx/interface/ideologies/social_liberalism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_centrism"
+		texturefile = "gfx/interface/ideologies/centrism.dds"
+	}
 
 	#Country-exclusives/Parties
 	spriteType = {
