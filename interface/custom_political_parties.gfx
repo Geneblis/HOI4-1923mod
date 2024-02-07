@@ -39,6 +39,10 @@ spriteTypes = {
 		name = "GFX_ideology_centrism"
 		texturefile = "gfx/interface/ideologies/centrism.dds"
 	}
+	spriteType = {
+		name = "GFX_ideology_conservatism"
+		texturefile = "gfx/interface/ideologies/conservatism.dds"
+	}
 
 	#Country-exclusives/Parties
 	spriteType = {
