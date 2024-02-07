@@ -2,6 +2,8 @@
 
 oob = "POL_1936"
 
+set_cosmetic_tag = POL_cosmetic
+
 puppet = DNZ
 set_autonomy = {
     target = DNZ

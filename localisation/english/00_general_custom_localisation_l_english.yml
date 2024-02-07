@@ -60,6 +60,10 @@ CZE_republic:0 "Czechoslovak Republic"
 CZE_republic_DEF:0 "Czechoslovak Republic"
 CZE_republic_ADJ:0 "Czechoslovakian"
 
+POL_cosmetic:0 "Polish Republic"
+POL_cosmetic_DEF:0 "The Polish Republic"
+POL_cosmetic_ADJ:0 "Polish"
+
 #Ideologies and Parties
 socialism_drift:0 "Daily Socialism Support"
 pragmatic_drift:0 "Daily Pragmatism Support"
