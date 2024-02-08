@@ -24,10 +24,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/nazism.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_absolute_monarchy"
-		texturefile = "gfx/interface/ideologies/absolute_monarchy.dds"
-	}
-	spriteType = {
 		name = "GFX_ideology_natcon"
 		texturefile = "gfx/interface/ideologies/natcon_ideology.dds"
 	}
