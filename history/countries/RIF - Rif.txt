@@ -1,0 +1,67 @@
+﻿capital = 290
+
+declare_war_on = {
+    target = SPR
+    type = independence_wargoal
+}
+
+set_cosmetic_tag = RIF_democratic
+
+#1922.1.1 = {#Dont add, its causing issues.
+#    SPR = {
+#        set_province_controller = 12100
+#        set_province_controller = 9945
+#        set_province_controller = 10113
+#    }
+#}
+
+IF = {
+	limit = {has_dlc = "By Blood Alone"}
+	recruit_character =  RIF_abd_el_krim
+}
+
+add_ideas = {
+	service_by_requirement 
+	war_economy 
+	closed_economy
+}
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_war_support = 0.52
+set_stability = 0.42
+
+set_convoys = 10
+
+generate_character = {
+	token_base = RIF_Abd_Krim
+	name = "Abd el-Krim"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/SPR/portrait_rif_Abd_Krim.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = despotism
+		expire = 1927.1.20
+		traits = {  
+			#
+		}
+		desc = ""
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1921.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	pragmatic = 30
+	socialism = 10
+	neutrality = 60
+}

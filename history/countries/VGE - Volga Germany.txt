@@ -105,7 +105,7 @@ generate_character = {
     name = "Aleksandr Antonov"
     portraits = {
         civilian = {
-            large="gfx/leaders/SOV/portrait_sov_savinkov.png"
+            large="gfx/leaders/SOV/portrait_sov_antonov.png"
             small="GFX_idea_generic_political_advisor_europe_5" 
         }
     }
@@ -130,12 +130,11 @@ generate_character = {
         }
     }
     country_leader = {
-        ideology = revolutionary_socialism
+        ideology = fascism_ideology
         expire = 1965.1.24
         traits = {  
-			fascist_sympathies
 			anti_communist
-			anti_soviet_socialist
+			subservient_ultranationalist
         }
         desc = ""
     }

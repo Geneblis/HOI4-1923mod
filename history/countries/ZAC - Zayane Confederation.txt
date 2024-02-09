@@ -1,0 +1,66 @@
+﻿capital = 462
+
+declare_war_on = {
+    target = FRA
+    type = independence_wargoal
+}
+
+1922.1.1 = {
+    FRA = {
+        set_province_controller = 4933
+        set_province_controller = 7958
+        set_province_controller = 4154
+        set_province_controller = 1152
+        set_province_controller = 1207
+        set_province_controller = 10107
+        set_province_controller = 1102
+    }
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	service_by_requirement 
+	war_economy 
+	closed_economy
+}
+
+set_convoys = 20
+
+set_war_support = 0.52
+set_stability = 0.42
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1921.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 25
+	fascism = 20
+	communism = 5
+	neutrality = 50
+}
+
+generate_character = {
+	token_base = ZAC_mouha
+	name = "Mouha Ou Hammou Zayani"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/FRA/portrait_fra_mouha_zayani.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = despotism
+		expire = 1942.1.20
+		traits = {  
+			#
+		}
+		desc = ""
+	}
+}

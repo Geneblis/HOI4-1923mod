@@ -64,6 +64,10 @@ POL_cosmetic:0 "Polish Republic"
 POL_cosmetic_DEF:0 "The Polish Republic"
 POL_cosmetic_ADJ:0 "Polish"
 
+ZAC:0 "Zayane Confederation"
+ZAC_DEF:0 "The Zayane confederation"
+ZAC_ADJ:0 "Zayane"
+
 #Ideologies and Parties
 socialism_drift:0 "Daily Socialism Support"
 pragmatic_drift:0 "Daily Pragmatism Support"

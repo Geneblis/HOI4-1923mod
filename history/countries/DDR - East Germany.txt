@@ -1,4 +1,4 @@
-capital = 64
+capital = 55
 
 add_ideas = {
 	GER_general_GCW

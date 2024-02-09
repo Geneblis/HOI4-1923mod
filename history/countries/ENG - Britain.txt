@@ -25,16 +25,14 @@ IRE = {
 AST = {
 	set_politics = {
 		ruling_party = democratic
-		last_election = "1922.12.7"
+		last_election = "1922.12.16"
 		election_frequency = 36
 		elections_allowed = yes
 	}
 	set_popularities = {
-		socialism = 29
-		democratic = 50
-		pragmatic = 16
-		communism = 3
-		neutrality = 2
+		democratic = 51
+		socialism = 48
+		pragmatic = 1
 	}
 }
 
