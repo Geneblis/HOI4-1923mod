@@ -1,0 +1,2 @@
+ZAC = "countries/Morocco.txt"
+SHR = "countries/Greece.txt"

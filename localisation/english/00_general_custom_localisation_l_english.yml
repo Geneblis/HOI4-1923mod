@@ -1,8 +1,5 @@
 ﻿l_english:
 #Cosmetic Flags
-UKR_MKH:0 "Revolutionary Insurgent Army of Ukraine"
-UKR_MKH_DEF:0 "The Revolutionary Insurgent Army of Ukraine"
-UKR_MKH_ADJ:0 "Anarchists"
 BAV_COMMIE:0 "Soviet Republic of Bavaria"
 DDR_cosmetic_tag:0 "Free Socialist Republic of Germany"
 WGR_democrats:0 "German Republic"
@@ -35,7 +32,6 @@ GER_freikorps_ADJ:0 "Freikorps"
 nir_irish_republic:0 "Irish Republic"
 nir_irish_republic_DEF:0 "The Irish Republic"
 nir_irish_republic_ADJ:0 "Irish"
-
 ire_irish_republic:0 "Irish Free State"
 ire_irish_republic_DEF:0 "The Irish Free State"
 ire_irish_republic_ADJ:0 "Irish"
@@ -43,7 +39,6 @@ ire_irish_republic_ADJ:0 "Irish"
 SWE_socdem:0 "Kingdom of Sweden"
 SWE_socdem_DEF:0 "the Kingdom of Sweden"
 SWE_socdem_ADJ:0 "Swedish"
-
 NOR_real:0 "Kingdom of Norway"
 NOR_real_DEF:0 "the Kingdom of Norway"
 NOR_real_ADJ:0 "Norwegian"
@@ -64,9 +59,29 @@ POL_cosmetic:0 "Polish Republic"
 POL_cosmetic_DEF:0 "The Polish Republic"
 POL_cosmetic_ADJ:0 "Polish"
 
+MOR_subject:0 "$OVERLORDADJ$ Morroco"
+MOR_subject_DEF:0 "$OVERLORDADJ$ Morroco"
 ZAC:0 "Zayane Confederation"
 ZAC_DEF:0 "The Zayane confederation"
 ZAC_ADJ:0 "Zayane"
+
+SHR:0 "Hellenic Republic"
+SHR_DEF:0 "The Second Hellenic Republic"
+SHR_ADJ:0 "Hellene"
+
+UKR_MKH:0 "Revolutionary Insurgent Army of Ukraine"
+UKR_MKH_DEF:0 "The Revolutionary Insurgent Army of Ukraine"
+UKR_MKH_ADJ:0 "Anarchists"
+GEO_demo_rep:0 "Democratic Republic of Georgia"
+GEO_demo_rep_DEF:0 "the Democratic Republic of Georgia"
+GEO_demo_rep_ADJ:0 "Georgian"
+AFG_emirate:0 "Emirate of Afghanistan"
+AFG_emirate_DEF:0 "the Emirate of Afghanistan"
+AFG_emirate_ADJ:0 "Afghan"
+AFG_saqqawist_emirate:0 "Emirate of Afghanista"
+AFG_saqqawist_emirate_DEF:0 "the Saqqawist Emirate of Afghanistan"
+AFG_saqqawist_emirate_ADJ:0 "Saqqawist"
+
 
 #Ideologies and Parties
 socialism_drift:0 "Daily Socialism Support"
@@ -101,7 +116,7 @@ GER_neutrality_party:0 "OC-BW"
 GER_neutrality_party_long:0 "Organisation Consul - Bund Wiking"
 AUS_pragmatic_party:0 "CSP"
 AUS_pragmatic_party_long:0 "Christlichsoziale Partei"
-AUS_agriculture_party:0 "Landbund"
+AUS_agriculture_party:0 "Lb"
 AUS_agriculture_party_long:0 "Landbund"
 AUS_liberal_party:0 "GDVP"
 AUS_liberal_party_long:0 "Großdeutsche Volkspartei"
@@ -118,13 +133,21 @@ CZE_neutrality_party_long:0 "Křesťanská a demokratická unie – Českosloven
 CZE_liberal_party:0 "ČsND"
 CZE_liberal_party_long:0 "Československá národní demokracie"
 
-#Ukranian Parties
+#Russian and Neighboring States
 UKR_socialism_party:0 "URP"
 UKR_socialism_party_long:0 "Ukraiinśka Radykaľna Partiia"
 UKR_pragmatic_party:0 "UTR"
 UKR_pragmatic_party_long:0 "Ukrainska Tsentralna Rada"
 UKR_MKH_party:0 "VRS"
 UKR_MKH_party_long:0 "Voenno-Revolücionnjy Sovet"
+GEO_neutrality_committee:0 "SDK - TMC"
+GEO_neutrality_committee_long:0 "Sakartvelos Damouk'ideblobis K'omit'et'i (Committee for the Independence of Georgia) - Tbilisi Military Center"
+GEO_democratic_committee:0 "SDK - ND"
+GEO_democratic_committee_long:0 "Sakartvelos Damouk'ideblobis K'omit'et'i (Committee for the Independence of Georgia) - National-Democratic Faction"
+GEO_socialism_committee:0 "SDK - SD"
+GEO_socialism_committee_long:0 "Sakartvelos Damouk'ideblobis K'omit'et'i (Committee for the Independence of Georgia) - Social Democrat Faction"
+GEO_pragmatic_committee:0 "SDK - SP"
+GEO_pragmatic_committee_long:0 "Sakartvelos Damouk'ideblobis K'omit'et'i (Committee for the Independence of Georgia) - Socialist-Federalist Faction"
 
 #Nordic Parties
 SWE_moderates_party:0 "AV"
@@ -180,6 +203,13 @@ POL_fascism_party:0 "ND"
 POL_fascism_party_long:0 "Narodowa Demokracja"
 POL_socialism_party:0 "PPS"
 POL_socialism_party_long:0 "Polska Partia Socjalistyczna"
+
+#Balkan Parties
+SHR_RG_party:0 "Revolutionary Government"
+SHR_democratic_party:0 "KF"
+SHR_democratic_party_long:0 "Komma Fileleetheron"
+SHR_socialism_party:0 "AKE"
+SHR_socialism_party_long:0 "Ayrotiko Komma Ellathos"
 
 #Characters
 UKR_MKH_VRS:0 "Military Revolutionary Council"

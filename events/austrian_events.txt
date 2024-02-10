@@ -16,7 +16,7 @@ country_event = { #July Revolts
     option = {
         name = austrian_events.1.a
         add_popularity = {
-            ideology = liberalism
+            ideology = democratic
             popularity = 0.02
         }
         add_popularity = {
@@ -28,7 +28,7 @@ country_event = { #July Revolts
             popularity = 0.05
         }
         add_popularity = {
-            ideology = pragmatic
+            ideology = neutrality
             popularity = -0.08
         }
         add_manpower = -100
@@ -61,12 +61,16 @@ country_event = { #1923 elections
     option = {
         name = austrian_events.2.a
         add_popularity = {
-            ideology = socialism
-            popularity = -0.1
+            ideology = neutrality
+            popularity = 0.1
         }
         add_popularity = {
             ideology = democratic
-            popularity = 0.05
+            popularity = 0.02
+        }
+        add_popularity = {
+            ideology = pragmatic
+            popularity = 0.04
         }
         add_political_power = -25
 		ai_chance = {
@@ -77,7 +81,7 @@ country_event = { #1923 elections
         name = austrian_events.2.b
         add_popularity = {
             ideology = socialism
-            popularity = 0.10
+            popularity = 0.05
         }
         add_popularity = {
             ideology = communism
@@ -114,20 +118,20 @@ country_event = { #1927 elections
         name = austrian_events.3.a
         add_popularity = {
             ideology = socialism
-            popularity = -0.1
+            popularity = -0.06
         }
         add_popularity = {
             ideology = democratic
-            popularity = 0.05
+            popularity = 0.07
         }
         if = {
             limit = {
                 AUS = {
-                    NOT = { has_government = pragmatic }
+                    NOT = { has_government = neutrality }
                 }
             }
             set_politics = {
-                ruling_party = pragmatic
+                ruling_party = neutrality
                 elections_allowed = yes
                 last_election = "1927.4.24"
                 election_frequency = 36
@@ -197,6 +201,11 @@ country_event = { #Austrian civil-war
                 election_frequency = 36
                 long_name = AUS_neutrality_party
                 name = AUS_neutrality_party
+            }
+            set_party_name = {
+                ideology = neutrality
+                name = AUS_neutrality_party
+                long_name = AUS_neutrality_party_long
             }
             set_cosmetic_tag = AUS_federal_state
 

@@ -11,6 +11,9 @@
  autocracy_desc:0 "§YPragmatic Autocracy§!\n\nA Pragmatic Autocracy is a government that is dictatorial in form, but that is disfavorable towards taking strong ideological positions over any policy, rather trying to do what is most pratical to mantain its power intact."
  natcon:0 "National Conservatism"
  natcon_desc:0 "§YNational Conservatism§!\n\nNational Conservative is, as the name suggests, a variant of conservatism that sees the nation and its traditions as the soul of society. Prioritizing national interests first, they sometimes can take a isolationist or irredentist foreign policy depending on the conditions it's in."
+ enlightened_absolutism:0 "Enlightened Absolutism"
+ enlightened_absolutism_desc:0 "§YEnlightened Absolutism§!\n\n "
+
 
  communism:0 "Communism"
  communism_noun:0 "Communist"

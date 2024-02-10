@@ -1,22 +1,29 @@
 ﻿##Russian Civil-War, 1919
 
-declare_war_on = {
-    target = BUK
-    type = annex_everything
+1923.1.1 = {
+	SOV = {
+		declare_war_on = {
+			target = BUK
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = CIN
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = FER
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = VGE
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GEO
+			type = annex_everything
+		}
+	}
 }
-declare_war_on = {
-    target = CIN
-    type = annex_everything
-}
-declare_war_on = {
-    target = FER
-    type = annex_everything
-}
-declare_war_on = {
-    target = VGE
-    type = annex_everything
-}
-
 
 #You don't want Russian party names? Just remove these lines
 set_party_name = {

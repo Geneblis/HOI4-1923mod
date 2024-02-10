@@ -1,0 +1,126 @@
+﻿capital = 267
+
+set_politics = {
+	ruling_party = pragmatic
+	last_election = "1922.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_party_name = {
+	ideology = pragmatic
+	name = AFG_neutrality_party
+	long_name = AFG_neutrality_party_long
+}
+
+set_popularities = {
+	pragmatic = 70
+	socialism = 7
+	democratic = 8
+	neutrality = 15
+}
+
+set_cosmetic_tag = AFG_emirate
+
+generate_character = {
+    token_base = AFG_Amanullah_Khan
+    name = "Amanullah Khan"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/AFG/portrait_afg_Amanullah_Khan.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = enlightened_absolutism
+        expire = 1960.4.26
+        traits = {  
+			modernist_and_reformer
+			divisive_absolute_monarch
+        }
+        desc = ""
+    }
+}
+
+generate_character = {
+    token_base = AFG_Mohammad_Nadir_Shah
+    name = "Mohammad Nadir Shah"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/AFG/Portrait_afg_Mohammad_Nadir_Shah.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = absolute_monarchy
+        expire = 1933.11.8
+        traits = {  
+            propaganda_expert
+			war_industrialist
+			staunch_monarchist
+        }
+        desc = ""
+    }
+}
+
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "AFG_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "AFG_1936_nsb"
+}
+
+set_technology = {
+	infantry_weapons = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = { #vanilla keeps the old system, nsb afghanistan will no longer produce some of the most advanced tanks in the world
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = { 
+		gwtank_chassis = 1
+		
+	}
+}
+
+recruit_character = AFG_mohammed_zahir_shah
+recruit_character = AFG_akram_sattari
+recruit_character = AFG_yaqub_khan
+recruit_character = AFG_mihrdil_shahnawaz
+recruit_character = AFG_sardar_shah_wali_khan
+recruit_character = AFG_hares_muzafar
+recruit_character = AFG_asadullah_seraj_khan
+recruit_character = AFG_gholam_wali
+recruit_character = AFG_nasirullah_husain
+recruit_character = AFG_muhammad_amin_bughra
+recruit_character = AFG_azam_ataullah
+recruit_character = AFG_mohammed_daoud_khan
+recruit_character = AFG_renato_bardolucci
+recruit_character = AFG_ali_muhammed_khan
+recruit_character = AFG_mohammed_etemadi_khan
+recruit_character = AFG_aalem_daana
+recruit_character = AFG_wazir_akbar_khan
+recruit_character = AFG_mahmud_khan
+recruit_character = AFG_haji_faiz_muhammed_zikeria
+recruit_character = AFG_mohammad_hashim_khan
+recruit_character = AFG_muhammed_nowroz
+

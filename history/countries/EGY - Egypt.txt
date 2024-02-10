@@ -50,7 +50,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Farouk Muhammad Ali"
+	name = "Faud I"
 	desc = ""
 	picture = "GFX_portrait_egy_faud_i"
 	ideology = absolute_monarchy

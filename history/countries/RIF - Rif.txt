@@ -1,19 +1,20 @@
 ﻿capital = 290
 
-declare_war_on = {
-    target = SPR
-    type = independence_wargoal
-}
-
 set_cosmetic_tag = RIF_democratic
 
-#1922.1.1 = {#Dont add, its causing issues.
-#    SPR = {
-#        set_province_controller = 12100
-#        set_province_controller = 9945
-#        set_province_controller = 10113
-#    }
-#}
+1923.1.1 = {
+	SPR = {
+		declare_war_on = {
+			target = RIF
+			type = annex_everything
+		}
+	}
+    #SPR = {#Dont add, its causing issues.
+    #    set_province_controller = 12100
+    #    set_province_controller = 9945
+    #    set_province_controller = 10113
+    #}
+}
 
 IF = {
 	limit = {has_dlc = "By Blood Alone"}
@@ -48,7 +49,8 @@ generate_character = {
 		ideology = despotism
 		expire = 1927.1.20
 		traits = {  
-			#
+			veteran_guerrilla_fighter
+			ICE_independence_advocate
 		}
 		desc = ""
 	}

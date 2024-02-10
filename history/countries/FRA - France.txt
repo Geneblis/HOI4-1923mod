@@ -1,5 +1,33 @@
 ﻿capital = 16
 
+1923.1.1 = {
+	FRA = {puppet = MOR}
+	MOR = {
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1921.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_popularities = {
+			pragmatic = 25
+			democratic = 10
+			socialism = 5
+			neutrality = 60
+		}
+		declare_war_on = {
+			target = ZAC
+			type = annex_everything
+		}
+		set_province_controller = 4933
+		set_province_controller = 7958
+		set_province_controller = 4154
+		set_province_controller = 1152
+		set_province_controller = 1207
+		set_province_controller = 10107
+		set_province_controller = 1102
+	}
+}
 if = {
 	limit = {
 		NOT = {

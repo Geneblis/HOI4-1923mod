@@ -36,8 +36,8 @@ ideologies = {
             can_create_factions = no
             can_send_volunteers = yes
         }
-        can_collaborate = yes
-        can_host_government_in_exile = yes
+        can_collaborate = no
+        can_host_government_in_exile = no
 
 		modifiers = {
 			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead

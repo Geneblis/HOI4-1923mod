@@ -15,6 +15,16 @@ set_party_name = {
 	name = AUS_liberal_party
 	long_name = AUS_liberal_party_long
 }
+set_party_name = {
+	ideology = neutrality
+	name = AUS_pragmatic_party
+	long_name = AUS_pragmatic_party_long
+}
+set_party_name = {
+	ideology = pragmatic
+	name = AUS_agriculture_party
+	long_name = AUS_agriculture_party
+}
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -108,15 +118,14 @@ recruit_character = AUS_julius_raab
 recruit_character = AUS_leopold_figl
 
 set_politics = {
-	ruling_party = pragmatic
+	ruling_party = neutrality
 	last_election = "1923.10.21"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	neutrality = 0
-	pragmatic = 44
+	neutrality = 44
 	democratic = 10
 	socialism = 40
 	communism = 6

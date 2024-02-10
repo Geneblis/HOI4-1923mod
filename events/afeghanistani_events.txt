@@ -1,0 +1,113 @@
+
+add_namespace = afeghanistani_events
+
+country_event = { #Afeghan civil-war
+    id = afeghanistani_events.1
+    title = afeghanistani_events.1.t
+    desc = afeghanistani_events.1.d
+    is_triggered_only = no
+    fire_only_once = yes
+	picture = GFX_report_event_generic_factory
+    trigger = {
+        tag = AFG
+        date > 1924.1.10
+    }
+
+    option = { #Depose the King
+        name = afeghanistani_events.1.a
+        set_cosmetic_tag = AFG_neutrality
+        start_civil_war = {
+            ruling_party = neutrality
+            ideology = neutrality
+            size = 0.3
+            capital = 415
+            states = {
+                415
+            }
+            keep_all_characters = yes
+            set_cosmetic_tag = AFG_saqqawist_emirate
+            create_country_leader = {
+                name = "Habibullah Kalakani"
+                desc = ""
+                picture = "gfx/leaders/AFG/Portrait_afg_Kalakani.png"
+                expire = "1965.1.1"
+                ideology = absolute_monarchy
+                traits = {
+                    traditionalist_theorist
+                }
+            }
+            set_party_name = {
+                ideology = neutrality
+                name = AFG_saqqawist_emirate_ADJ
+                long_name = AFG_saqqawist_emirate_ADJ
+            }
+            set_party_name = {
+                ideology = pragmatic
+                name = AFG_saqqawist_emirate_ADJ
+                long_name = AFG_saqqawist_emirate_ADJ
+            }
+            add_ideas = CSA_spirit_of_rebellion
+        }
+        add_timed_idea = {
+            idea = military_parade
+            days = 180
+        }
+		ai_chance = {
+			factor = 0.6
+		}
+    }
+    option = { #Keep the current King
+        name = afeghanistani_events.1.b
+        set_cosmetic_tag = AFG_neutrality
+        start_civil_war = {
+            ideology = neutrality
+            size = 0.3
+            capital = 415
+            states = {
+                415
+            }
+            keep_all_characters = yes
+            set_cosmetic_tag = AFG_saqqawist_emirate
+            create_country_leader = {
+                name = "Habibullah Kalakani"
+                desc = ""
+                picture = "gfx/leaders/AFG/Portrait_afg_Kalakani.png"
+                expire = "1965.1.1"
+                ideology = absolute_monarchy
+                traits = {
+                    traditionalist_theorist
+                }
+            }
+            set_party_name = {
+                ideology = neutrality
+                name = AFG_saqqawist_emirate_ADJ
+                long_name = AFG_saqqawist_emirate_ADJ
+            }
+            set_party_name = {
+                ideology = pragmatic
+                name = AFG_saqqawist_emirate_ADJ
+                long_name = AFG_saqqawist_emirate_ADJ
+            }
+            add_ideas = CSA_spirit_of_rebellion
+        }
+        add_popularity = {
+            ideology = pragmatic
+            popularity = 0.7
+        }
+        add_timed_idea = {
+            idea = american_influence_defence_democratic
+            days = 180
+        }
+        add_timed_idea = {
+            idea = CZE_fortification_focus4
+            days = 200
+        }
+        add_timed_idea = {
+            idea = air_support_focus
+            days = 60
+        }
+		ai_chance = {
+			factor = 0.4
+		}
+    }
+}

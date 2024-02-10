@@ -1,4 +1,8 @@
 #reload countrycolors
+SHR = {
+	color = rgb { 63 151 192 }
+	color_ui = rgb { 63 151 192 }
+}
 GER = {
 	color = rgb { 91 86 90 }
 	color_ui = rgb { 91 86 90 }

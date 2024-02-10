@@ -7,6 +7,26 @@ set_technology = {
 
 set_convoys = 20
 
+1923.1.1 = {
+	division_template = {
+		name = "Garrison Division"
+		is_locked = yes
+		priority = 0
+		template_counter = 0
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 0 y = 3 }
+		}
+	}
+	461 = {
+		create_unit = {
+			division = "name = \"Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2 start_manpower_factor = 1.0 start_equipment_factor = 0.7" owner = PREV count = 5 allow_spawning_on_enemy_provs = yes
+		}
+	}
+}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1921.1.1"
@@ -14,18 +34,48 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 5
-	neutrality = 50
+	pragmatic = 25
+	democratic = 10
+	socialism = 5
+	neutrality = 60
 }
 
-create_country_leader = {
-	name = "Mohammed V"
-	desc = ""
-	picture = GFX_portrait_Mohammed_V
-	ideology = despotism
-	traits = {
-		#
-	}
+generate_character = {
+    token_base = MOR_yusuf
+    name = "Yusef I"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/FRA/portrait_mor_yusuf.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = absolute_monarchy
+        expire = 1927.1.24
+        traits = {  
+            unpopular_monarch
+        }
+        desc = ""
+    }
+}
+
+generate_character = {
+    token_base = MOR_Mohammed_V
+    name = "Mohammed V"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/FRA/portrait_mor_Mohammed_V.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = absolute_monarchy
+        expire = 1965.1.24
+        traits = {  
+            rich_sultan
+            conservative_nationalist
+            staunch_anti_fascist
+        }
+        desc = ""
+    }
 }

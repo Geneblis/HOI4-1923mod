@@ -1,6 +1,4 @@
-ZAC = "countries/Morocco.txt" #New
-
-GER	= "countries/Germany.txt" #Vanilla
+GER	= "countries/Germany.txt"
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"
 SWE	= "countries/Sweden.txt"

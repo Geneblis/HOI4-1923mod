@@ -9,6 +9,8 @@ ideologies = {
 			}
 			absolute_monarchy = {
 			}
+			natcon = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -32,8 +34,8 @@ ideologies = {
             can_create_factions = no
             can_send_volunteers = yes
         }
-        can_collaborate = yes
-        can_host_government_in_exile = yes
+        can_collaborate = no
+        can_host_government_in_exile = no
 
 		modifiers = {
 			#increased_influence_factor = 0.3 #30% easier to influence

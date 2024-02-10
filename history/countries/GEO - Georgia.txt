@@ -1,8 +1,54 @@
 ﻿capital = 231 #Tbilisi
 
-oob = "GEO_1936"
+oob = "GEO_1923"
 
 set_research_slots = 3
+
+set_cosmetic_tag = GEO_demo_rep
+
+
+set_politics = {
+	ruling_party = socialism
+	last_election = "1921.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 30
+	socialism = 40
+	pragmatic = 20
+	neutrality = 10
+}
+
+add_ideas = {
+	service_by_requirement 
+	war_economy 
+	closed_economy
+}
+
+set_war_support = 0.56
+set_stability = 0.38
+
+set_party_name = { #They were the majority, thats why they start as socialists.
+	ideology = socialism
+	name = GEO_socialism_committee
+	long_name = GEO_socialism_committee_long
+}
+set_party_name = {
+	ideology = democratic
+	name = GEO_democratic_committee
+	long_name = GEO_democratic_committee_long
+}
+set_party_name = {
+	ideology = neutrality
+	name = GEO_neutrality_committee
+	long_name = GEO_neutrality_committee_long
+}
+set_party_name = { #Could work for Socialism as well.
+	ideology = pragmatic
+	name = GEO_pragmatic_committee
+	long_name = GEO_pragmatic_committee_long
+}
 
 # Starting tech
 set_technology = {
@@ -85,11 +131,24 @@ if = {
 	}
 }
 
-set_popularities = {
-	democratic = 40
-	communism = 40
-	fascism = 10
-	neutrality = 10
+generate_character = {
+	token_base = GEO_Kote_Andronikashvili
+	name = "Kote Andronikashvili"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/SOV/portrait_geo_andronikashvili.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = social_democracy
+		expire = 1927.1.24
+		traits = { 
+			smooth_talking_charmer
+			leftist_independent
+		}
+		desc = ""
+	}
 }
 
 create_country_leader = {
@@ -104,7 +163,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kandid Charkviani"
+	name = "Lavrentiy Beria"
 	desc = ""
 	picture = GFX_portrait_Kandid_Charkviani
 	expire = "1953.3.1"
@@ -114,4 +173,3 @@ create_country_leader = {
 	}
 }
 
-#couldnt find anything else, the commies simply forced everyone else into exile
