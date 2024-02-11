@@ -6,6 +6,10 @@ ideologies = {
 			fascism_ideology = {}
 			falangism = {}
 			rexism = {}
+			natsynd = {}
+			esoteric_fascism = {}
+			ultranationalism = {}
+			metaxism = {}
 		}
 
 		dynamic_faction_names = {

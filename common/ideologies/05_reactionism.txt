@@ -11,6 +11,8 @@ ideologies = {
 			}
 			natcon = {
 			}
+			ethnocracy = {
+		    }
 		}
 
 		dynamic_faction_names = {

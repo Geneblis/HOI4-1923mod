@@ -6,9 +6,10 @@ ideologies = {
 			leninism = {}
 			stalinism = {}
 			anti_revisionism = {}
-			spartacism = {}
+			spartacism = {can_be_randomly_selected = no}
 			
 			#The crazy ones.
+			nazbol = {can_be_randomly_selected = no}
 			anarchism = {can_be_randomly_selected = no}
 			anarchist_communism = {can_be_randomly_selected = no}
 		}

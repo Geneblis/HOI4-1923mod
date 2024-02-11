@@ -4,7 +4,12 @@ ideologies = {
 			moderatism = {}
 			centrism = {}
 			autocracy = {} #Pragmatic Autocrat
-			enlightened_absolutism = {} #Literally made just for one guy in afghanistan...
+			enlightened_absolutism = {} #Literally made just for one guy in afghanistan... GBYELO BE SILENT SPARTACISM IS THE SAME SHIT 
+			constitutional_monarchism = {}
+			anocracy = {}
+			christian_democracy = {}
+			populism = {}
+			developmentalism = {}
 		}
 
 		dynamic_faction_names = {
