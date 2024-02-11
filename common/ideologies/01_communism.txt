@@ -4,8 +4,8 @@ ideologies = {
 		types = {
 			marxism = {}
 			leninism = {}
-			stalinism = {}
 			anti_revisionism = {}
+			stalinism = {can_be_randomly_selected = no}
 			spartacism = {can_be_randomly_selected = no}
 			
 			#The crazy ones.

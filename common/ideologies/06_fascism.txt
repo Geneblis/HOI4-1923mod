@@ -1,15 +1,15 @@
 ideologies = {
 	fascism = {
 		types = {
-			nazism = {}
+			nazism = {can_be_randomly_selected = no}
 			gen_nazism = {}
 			fascism_ideology = {}
-			falangism = {}
-			rexism = {}
-			natsynd = {}
-			esoteric_fascism = {}
+			falangism = {can_be_randomly_selected = no}
+			rexism = {can_be_randomly_selected = no}
+			natsynd = {can_be_randomly_selected = no}
+			esoteric_fascism = {can_be_randomly_selected = no}
 			ultranationalism = {}
-			metaxism = {}
+			metaxism = {can_be_randomly_selected = no}
 		}
 
 		dynamic_faction_names = {

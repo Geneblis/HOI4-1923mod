@@ -9,6 +9,22 @@ set_cosmetic_tag = RIF_democratic
 			type = annex_everything
 		}
 	}
+	division_template = {
+		name = "Infantry Division"
+		is_locked = no
+		priority = 1
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 0 y = 3 }
+		}
+	}
+	290 = {
+		create_unit = {
+			division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.4 start_manpower_factor = 1.0 start_equipment_factor = 0.95" owner = PREV count = 3 allow_spawning_on_enemy_provs = no
+		}
+	}
     #SPR = {#Dont add, its causing issues.
     #    set_province_controller = 12100
     #    set_province_controller = 9945
@@ -46,7 +62,7 @@ generate_character = {
 		}
 	}
 	country_leader = {
-		ideology = despotism
+		ideology = autocracy
 		expire = 1927.1.20
 		traits = {  
 			veteran_guerrilla_fighter
@@ -57,13 +73,13 @@ generate_character = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = pragmatic
 	last_election = "1921.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	pragmatic = 30
+	pragmatic = 60
 	socialism = 10
-	neutrality = 60
+	neutrality = 30
 }

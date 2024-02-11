@@ -38,16 +38,16 @@ set_war_support = 0.52
 set_stability = 0.42
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = pragmatic
 	last_election = "1921.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 25
-	pragmatic = 20
+	neutrality = 20
 	communism = 5
-	neutrality = 50
+	pragmatic = 50
 }
 
 generate_character = {
@@ -60,7 +60,7 @@ generate_character = {
 		}
 	}
 	country_leader = {
-		ideology = despotism
+		ideology = autocracy
 		expire = 1942.1.20
 		traits = {  
 			tribal_warrior

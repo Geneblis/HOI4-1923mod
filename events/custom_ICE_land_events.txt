@@ -1,12 +1,12 @@
 
-add_namespace = true_iceland_events
+add_namespace = ICE_iceland_events
 
 #Bruh, who cares about Iceland?
 
 country_event = { #1923 election
-    id = true_iceland_events.1
-    title = true_iceland_events.1.t
-    desc = true_iceland_events.1.d
+    id = ICE_iceland_events.1
+    title = ICE_iceland_events.1.t
+    desc = ICE_iceland_events.1.d
     is_triggered_only = no
     fire_only_once = yes
 	picture = GFX_report_event_generic_factory
@@ -16,7 +16,7 @@ country_event = { #1923 election
     }
 
     option = {
-        name = true_iceland_events.1.a
+        name = ICE_iceland_events.1.a
         add_popularity = {
             ideology = democratic
             popularity = 0.05
@@ -44,9 +44,9 @@ country_event = { #1923 election
 }
 
 country_event = { #1927 elections
-    id = true_iceland_events.2
-    title = true_iceland_events.2.t
-    desc = true_iceland_events.2.d
+    id = ICE_iceland_events.2
+    title = ICE_iceland_events.2.t
+    desc = ICE_iceland_events.2.d
     is_triggered_only = no
     fire_only_once = yes
 	picture = GFX_report_event_generic_factory
@@ -57,7 +57,7 @@ country_event = { #1927 elections
     }
 
     option = {
-        name = true_iceland_events.2.a
+        name = ICE_iceland_events.2.a
         add_popularity = {
             ideology = pragmatic
             popularity = 0.1

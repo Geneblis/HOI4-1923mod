@@ -4,6 +4,13 @@
 set_technology = {
 	infantry_weapons = 1
 }
+
+set_party_name = {
+	ideology = pragmatic
+	long_name = EGY_neutrality_party
+	name = EGY_neutrality_party
+}
+
 if = {
 	limit = {
 		NOT = {
@@ -19,14 +26,14 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = pragmatic
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	pragmatic = 20
-	communism = 5
-	neutrality = 50
+	neutrality = 25
+	democratic = 20
+	socialism = 5
+	pragmatic = 50
 }
 
 create_country_leader = {
@@ -53,7 +60,7 @@ create_country_leader = {
 	name = "Faud I"
 	desc = ""
 	picture = "GFX_portrait_egy_faud_i"
-	ideology = absolute_monarchy
+	ideology = constitutional_monarchism
 	traits = {
 		#
 	}

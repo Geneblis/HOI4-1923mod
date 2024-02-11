@@ -1,0 +1,83 @@
+﻿capital = 455
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = { gwtank = 1 }
+}
+
+set_convoys = 5
+
+1922.1.1 = {
+	ENG = {
+		puppet = JOR
+	}
+	JOR = {
+		set_party_name = {
+			ideology = neutrality
+			long_name = IRQ_neutrality_party
+			name = IRQ_neutrality_party
+		}
+		set_party_name = {
+			ideology = pragmatic
+			long_name = IRQ_neutrality_party
+			name = IRQ_neutrality_party
+		}
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_popularities = {
+			neutrality = 100
+		}
+	}
+}
+
+create_country_leader = {
+	name = "Hashim Kheir"
+	desc = ""
+	picture = GFX_portrait_Hashim_Kheir
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Saeed Ahmadi"
+	desc = ""
+	picture = GFX_portrait_Saeed_Ahmadi
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Abdullah bin al-Hussein"
+	desc = ""
+	picture = GFX_portrait_Abdullah_bin_al_Hussein
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fu'ad Nassar"
+	desc = ""
+	picture = GFX_portrait_Fuad_Nassar
+	ideology = leninism
+	traits = {
+		#
+	}
+}

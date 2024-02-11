@@ -1,10 +1,10 @@
 
-add_namespace = afeghanistani_events
+add_namespace = AFG_country_event
 
 country_event = { #Afeghan civil-war
-    id = afeghanistani_events.1
-    title = afeghanistani_events.1.t
-    desc = afeghanistani_events.1.d
+    id = AFG_country_event.1
+    title = AFG_country_event.1.t
+    desc = AFG_country_event.1.d
     is_triggered_only = no
     fire_only_once = yes
 	picture = GFX_report_event_generic_factory
@@ -14,7 +14,7 @@ country_event = { #Afeghan civil-war
     }
 
     option = { #Depose the King
-        name = afeghanistani_events.1.a
+        name = AFG_country_event.1.a
         set_cosmetic_tag = AFG_neutrality
         start_civil_war = {
             ruling_party = neutrality
@@ -57,7 +57,7 @@ country_event = { #Afeghan civil-war
 		}
     }
     option = { #Keep the current King
-        name = afeghanistani_events.1.b
+        name = AFG_country_event.1.b
         set_cosmetic_tag = AFG_neutrality
         start_civil_war = {
             ideology = neutrality

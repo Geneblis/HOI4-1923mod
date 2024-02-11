@@ -12,7 +12,6 @@ set_convoys = 20
 		name = "Garrison Division"
 		is_locked = yes
 		priority = 0
-		template_counter = 0
 		regiments = {
 			infantry = { x = 0 y = 0 }
 			infantry = { x = 0 y = 1 }

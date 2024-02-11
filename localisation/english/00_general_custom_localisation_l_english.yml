@@ -64,11 +64,9 @@ MOR_subject_DEF:0 "$OVERLORDADJ$ Morroco"
 ZAC:0 "Zayane Confederation"
 ZAC_DEF:0 "The Zayane confederation"
 ZAC_ADJ:0 "Zayane"
-
 SHR:0 "Hellenic Republic"
 SHR_DEF:0 "The Second Hellenic Republic"
 SHR_ADJ:0 "Hellene"
-
 UKR_MKH:0 "Revolutionary Insurgent Army of Ukraine"
 UKR_MKH_DEF:0 "The Revolutionary Insurgent Army of Ukraine"
 UKR_MKH_ADJ:0 "Anarchists"
@@ -81,6 +79,12 @@ AFG_emirate_ADJ:0 "Afghan"
 AFG_saqqawist_emirate:0 "Emirate of Afghanista"
 AFG_saqqawist_emirate_DEF:0 "the Saqqawist Emirate of Afghanistan"
 AFG_saqqawist_emirate_ADJ:0 "Saqqawist"
+SYR_mandate:0 "$OVERLORDADJ$ Syrian Federation"
+SYR_mandate_DEF:0 "Federation of the Autonomous States of Syria"
+SYR_mandate_ADJ:0 "Syrian"
+SAU_hejaz_united:0 "Kingdom of Hejaz and Nejd"
+SAU_hejaz_united_DEF:0 "Kingdom of Hejaz and Nejd"
+SAU_hejaz_united_ADJ:0 "Hejaz and Nejd"
 
 
 #Ideologies and Parties
@@ -211,6 +215,13 @@ SHR_democratic_party_long:0 "Komma Fileleetheron"
 SHR_socialism_party:0 "AKE"
 SHR_socialism_party_long:0 "Ayrotiko Komma Ellathos"
 
+#Middle Eastern Parties
+SYR_revolt_party:0 "Great Syrian League"
+SYR_peoples_party:0 "People's Party"
+SYR_national_party:0 "National Party"
+LEB_pragmatic_party:0 "National Bloc"
+
+
 #Characters
 UKR_MKH_VRS:0 "Military Revolutionary Council"
 SOV_LENIN:0 "Vladimir Lenin"
@@ -222,9 +233,6 @@ VICTORY_POINTS_3529_RUS: "Tsaritsyn"
 VICTORY_POINTS_3151_RUS: "Petrograd"
 VICTORY_POINTS_8027_RUS: "Dushanbe"
 
-#Ideas
-AUS_Hainisch:0 "Michael Hainisch"
-AUS_Miklas:0 "Wilhelm Miklas"
 
 
 #Generic countries ideological names

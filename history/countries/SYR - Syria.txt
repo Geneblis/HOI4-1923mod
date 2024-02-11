@@ -1,0 +1,220 @@
+﻿capital = 554
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+1922.1.1 = {
+	FRA = {
+		puppet = SYR
+	}
+	SYR = {
+		set_cosmetic_tag = SYR_mandate
+		set_politics = {
+			ruling_party = pragmatic
+			last_election = "1922.1.1"
+			election_frequency = 84
+			elections_allowed = no #Direct rule from france until 1936
+		}
+		set_popularities = {
+			pragmatic = 50
+			democratic = 10
+			socialism = 10
+			neutrality = 30
+		}
+	}
+}
+
+set_party_name = {
+	ideology = pragmatic
+	long_name = SYR_democratic_party
+	name = SYR_democratic_party
+}
+set_party_name = {
+	ideology = socialism
+	long_name = SYR_democratic_party
+	name = SYR_democratic_party
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = IRQ_neutrality_party
+	name = IRQ_neutrality_party
+}
+
+add_ideas = { #Flavors
+	syrian_great_revolt
+	syrian_mandate_is_over
+	syrian_anocracies_are_over
+	syrian_stability_is_over
+}
+
+set_convoys = 5
+
+generate_character = {
+	token_base = SYR_barakat
+	name = "Subhi Bey Barakat"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/SYR/SYR_barakat.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = anocracy
+		expire = 1927.1.24
+		traits = {  
+			divided_interests
+			figurehead_president
+			our_right_to_survive
+		}
+		desc = ""
+	}
+}
+
+generate_character = {
+	token_base = first_SYR_alhasani
+	name = "Taj al-Din al-Hasani"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/SYR/SYR_alhasani.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = anocracy
+		expire = 1932.10.2
+		traits = {  
+			figurehead_president
+			appeaser
+		}
+		desc = ""
+	}
+}
+
+#Ideology shall flip to democratic after 1932
+
+generate_character = {
+	token_base = first_SYR_hashim
+	name = "Hashim al-Atassi"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/SYR/SYR_hashim.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = natlib
+		expire = 1939.1.1
+		traits = {  
+			tenacious_negotiator
+			our_right_to_survive
+			likes_allies
+		}
+		desc = ""
+	}
+}
+
+generate_character = {
+	token_base = second_SYR_alhasani
+	name = "Taj al-Din al-Hasani"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/SYR/SYR_alhasani.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = { #He dies fr this time.
+		ideology = conservatism
+		expire = 1940.1.14
+		traits = {
+			figurehead_president
+			eager_collaborator
+			appeaser
+		}
+		desc = ""
+	}
+}
+
+#When he dies, ideology changes to neutrality, but he can be kept into democratic.
+
+generate_character = {
+	token_base = SYR_Quwatli
+	name = "Shukri al-Quwatli"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/SYR/SYR_Quwatli.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = natcon
+		expire = 1949.1.1
+		traits = {
+			conservative_nationalist
+			subservient_ultranationalist #If fascist support goes above 30, SSNP Revolt!
+			anti_democrat
+		}
+		desc = ""
+	}
+	country_leader = {
+		ideology = conservatism
+		expire = 1949.1.1
+		traits = {
+			conservative_nationalist
+			subservient_ultranationalist #If fascist support goes above 30, SSNP Revolt!
+			anti_democrat
+		}
+		desc = ""
+	}
+}
+
+#When the revolt comes, ideology changes to democratic + civil-war.
+
+generate_character = {
+	token_base = second_SYR_hashim
+	name = "Hashim al-Atassi"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/SYR/SYR_hashim.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = natlib
+		expire = 1955.1.1
+		traits = {  
+			tenacious_negotiator
+			nationalist_symbol
+		}
+		desc = ""
+	}
+}
+
+
+create_country_leader = {
+	name = "Husni al-Za'im"
+	desc = ""
+	picture = GFX_portrait_Antun_Saadeh
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Khalid Bakdash"
+	desc = ""
+	picture = GFX_portrait_Khalid_Bakdash
+	ideology = leninism
+	traits = {
+		#
+	}
+}

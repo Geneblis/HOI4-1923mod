@@ -1,0 +1,118 @@
+ideas = {
+	country = {
+		#
+	}
+    hidden_ideas = {	#Flavor
+		syrian_great_revolt = {
+			cancel = {
+				OR = {
+					date > 1925.7.21
+					has_country_flag = SYR_1
+				}
+			}
+			on_remove = {
+				start_civil_war = {
+					ideology = pragmatic
+					size = 0.2
+					keep_political_leader = yes
+					keep_political_party_members = yes
+					set_cosmetic_tag = SYR_neutrality
+					create_country_leader = {
+						name = "Sultan al-Atrash"
+						desc = ""
+						picture = GFX_portrait_Antun_Saadeh
+						ideology = populism
+						traits = {
+							freedom_fighter
+							experienced_insurgent
+						}
+					}
+					set_party_name = {
+						ideology = pragmatic
+						long_name = SYR_revolt_party
+						name = SYR_revolt_party
+					}
+				}
+			}
+		}
+        syrian_mandate_is_over = {
+			cancel = {
+				OR = {
+					date > 1926.6.1
+					has_country_flag = SYR_2
+				}
+			}
+            on_remove = {
+				set_cosmetic_tag = SYR_democratic
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.08
+				}
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.28
+				}
+            }
+        }
+        syrian_anocracies_are_over = {
+			cancel = {
+				OR = {
+					date > 1932.10.2
+					has_country_flag = SYR_3
+				}
+			}
+            on_remove = {
+				set_party_name = {
+					ideology = democratic
+					long_name = SYR_peoples_party
+					name = SYR_peoples_party
+				}
+				set_party_name = {
+					ideology = pragmatic
+					long_name = SYR_national_party
+					name = SYR_national_party
+				}
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+					election_frequency = 84
+				}
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.04
+				}	
+            }
+        }
+        syrian_stability_is_over = {
+			cancel = {
+				OR = {
+					ROOT = {
+						fascism > 0.6
+					}
+					has_country_flag = SYR_4
+				}
+			}
+            on_remove = {
+				start_civil_war = {
+					ideology = fascism
+					size = 0.39
+					keep_political_leader = yes
+					keep_political_party_members = yes
+					create_country_leader = {
+						name = "Husni al-Za'im"
+						desc = ""
+						picture = GFX_portrait_Antun_Saadeh
+						ideology = fascism_ideology
+						traits = {
+							statism_adept
+							nazi_sympathizer
+						}
+					}
+				}
+				SYR = {
+					add_ideas = fascism_banned
+				}
+            }
+        }
+	}
+}

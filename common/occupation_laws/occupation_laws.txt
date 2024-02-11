@@ -88,6 +88,13 @@ no_garrison = {
 			has_active_resistance = no
 			add = 200
 		}
+		modifier = {
+			FROM = {
+				has_government = socialism
+			}
+			has_active_resistance = no
+			add = 200
+		}
 		# if losing, get manpower & equipment back
 		modifier = {
 			FROM = {

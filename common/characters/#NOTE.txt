@@ -1,0 +1,3 @@
+#Hi, I left this note here to that I don't endorse creating characters using this system as I wish for this mod to be as compatible with the vanilla game as possible
+#and therefor I highly encourage using the generation of character script inside the nation's history file instead.
+# -Geneblis.

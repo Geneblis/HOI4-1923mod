@@ -1,4 +1,5 @@
 ﻿l_english:
+
  pragmatic:0 "Pragmatism"
  pragmatic_noun:0 "Pragmatic"
  pragmatic_desc:0 "Moderate Regime"
@@ -9,8 +10,6 @@
  centrism_desc:1 "§YCentrism§!\n\nCentrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
  autocracy:0 "Pragmatic Autocracy"
  autocracy_desc:0 "§YPragmatic Autocracy§!\n\nA Pragmatic Autocracy is a government that is dictatorial in form, but that is disfavorable towards taking strong ideological positions over any policy, rather trying to do what is most pratical to mantain its power intact."
- natcon:0 "National Conservatism"
- natcon_desc:0 "§YNational Conservatism§!\n\nNational Conservative is, as the name suggests, a variant of conservatism that sees the nation and its traditions as the soul of society. Prioritizing national interests first, they sometimes can take a isolationist or irredentist foreign policy depending on the conditions it's in."
  enlightened_absolutism:0 "Enlightened Absolutism"
  enlightened_absolutism_desc:0 "§YEnlightened Absolutism§!\n\nEnlightened Absolutism is an ideology that came as a reaction to the enlightenment, as some monarchs decided to give in to the some of the demands of the rising bourgoise class but that fundamentally did not give up their own power. Though mostly irrelevant today as the Absolute Monarchies of europe have fallen to revolutions, the term is still used in some places to refer to royals that adopt liberalizing reforms as a way to strengthen their country and hold on to power through modernization."
  anocracy:0 "Anocracy"
@@ -42,6 +41,11 @@
  spartacism_desc:0 "§YSpartacism§!\n\nBased on the the october 1918 program of the Spartakus League, Spartacism is the belief that for a socialist republic to be estabilished through a democratic party in opposition to the Leninist vanguard party model, which according to them creates a intra-party dictatorship and stiffles the ability of the worker to participate in the revolution."
  nazbol:0 "National Bolshevism"
  nazbol_desc:0 "§YNational Bolshevism§!\n\nNational Bolshevism is a deviation of normal marxist philosophy, schewing the idea of internationalism and the liberation of the global proletariat, replacing that with a emphasis of the needs of the national proletariat. Being denounced by other nationalists as clear revisionism, National Bolsheviks sometimes use an ecletic mix of nationalist chauvinism and proletarian revolutionary rethoric to achieve their goals."
+ anarchism:0 "Anarchism"
+ anarchism_desc:0 "§YAnarchism§!\n\nAnarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
+ anarchist_communism:0 "Anarchist Communism"
+ anarchist_communism_desc:0 "§YAnarco-Communism§!\n\nAn ideology embracing the idea of communism as a stateless society, Anarchist Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid."
+ 
  
  democratic:0 "Liberalism"
  democratic_noun:0 "Liberal"
@@ -55,6 +59,8 @@
  natlib_desc:0 "§YNational Liberalism§!\n\nNational Liberalism is a mixture of nationalist beliefs - be them a defense of the sovereignty of the nation or of national economic interests - and the classic liberal beliefs of equality before the law and free trade. Although the have attritions with classical liberals when it comes to free trade with foreign entities, National Liberals are often found in independence movements or within developed nations struggling to compete with its neighbours."
  corporatocracy:0 "Corporatocracy"
  corporatocracy_desc:0 "§YCorporatocracy§!\n\n Corporatocracy is not so much an ideology as it is more an state of things, coporatocratic nations occur when either a cartel or - in the more extreme scenario - a single company manages to rise so much in influence that it become the governing body of society. In this condition, a extremely capitalistic, individualist and meritocratic ideology is spread by those in power, while democratic and influences are rooted out as those could pose a threat to the capitalists in the top of this society."
+ social_liberalism:0 "Social Liberalism"
+ social_liberalism_desc:0 "§YSocial Liberalism§!\n\nSocial Liberalism is the most right-wing variant of Social Democracy, defending a mostly free-market economy in agreement with Classical Liberalism but also wanting to reduce social ills by government programs such as welfare and moderate regulations."
  
  fascism:0 "Fascism"
  fascism_noun:0 "Fascist"
@@ -85,32 +91,27 @@
 
  social_democracy:0 "Social Democracy"
  social_democracy_desc:0 "§YSocial Democracy§!\n\nHeavily deviating from it's revolutionary origins, Social Democracy is the political belief that it is possible to reform the capitalist market into a just and equitable society. Those that call themselves Social Democrats defend the estabilishment and preservation of liberal democracy and seek to estabilish their reforms through parlament."
- social_liberalism:0 "Social Liberalism"
- social_liberalism_desc:0 "§YSocial Liberalism§!\n\nSocial Liberalism is the most right-wing variant of Social Democracy, defending a mostly free-market economy in agreement with Classical Liberalism but also wanting to reduce social ills by government programs such as welfare and moderate regulations."
  revolutionary_socialism:0 "Revolutionary Socialism"
  revolutionary_socialism_desc:0 "§YRevolutionary Socialism§!\n\nRevolutionary Socialism is the belief that a revolution is necessary to estabilish a egalitarian and free society. While not being Marxist, it tends to flirt or agree with the ideas of class struggle and materialist analysis of history."
  agrarian_socialism:0 "Agrarian Socialism"
  agrarian_socialism_desc:0 "§YAgrarian Socialism§!\n\nAgrarian Socialism is a umbrella term to ideologies that want to promote communal and collectivist life in the countryside. Being popular with the peasantry, they mostly focus on the matter pertaining to the day-to-day struggles of those who work on the land."
  syndicalism:0 "Syndicalism"
  syndicalism_desc:0 "§YSyndicalism§!\n\nA form of government based on workers unions and sindicates, Syndicalism advocate for the idea of workers self-management of the means of production, and at the same time a form of government constructed around those unions."
- 
- anarchism:0 "Anarchism"
- anarchism_desc:0 "§YAnarchism§!\n\nAnarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
- anarchist_communism:0 "Anarchist Communism"
- anarchist_communism_desc:0 "§YAnarco-Communism§!\n\nAn ideology embracing the idea of communism as a stateless society, Anarchist Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid."
 
  neutrality:0 "Reactionism"
  neutrality_noun:0 "Reactionist"
  neutrality_desc:0 "Reactionary Regime"
 
  despotism:0 "Despotic"
- despotism_desc:0 "§YDespotism§!\n\nDespotism is a form of government in which a single person rules with absolute power."
+ despotism_desc:0 "§YDespotism§!\n\nDespotism is a form of government in which a single person rules with absolute power while advocating for radical reforms that favortes his side."
  oligarchism:0 "Oligarchic"
  oligarchism_desc:0 "§YOligarchy§!\n\nOligarchy is a form of government in which a group of people rule with absolute power."
  theocracy:0 "Theocracy"
  theocracy_desc:0 "§YTheocracy§!\n\nTheocracy is a form of government that bases it's authority on some religious belief. While varying in their power structures and practices, all of them have religion as the first and foremost bastion of legitimacy."
  absolute_monarchy:0 "Absolute Monarchy"
  absolute_monarchy_desc:0 "§YAbsolute Monarchy§!\n\nHaving once ruled most of Europe before its bourgoise revolutions, Absolute Monarchism is the form of government where the noble that has the throne - be him a duke, king or emperor - has total control and authority over his government, without any kind of elected parlament or restrictions a constitutional monarchy would have."
+ natcon:0 "National Conservatism"
+ natcon_desc:0 "§YNational Conservatism§!\n\nNational Conservative is, as the name suggests, a variant of conservatism that sees the nation and its traditions as the soul of society. Prioritizing national interests first, they sometimes can take a isolationist or irredentist foreign policy depending on the conditions it's in."
 
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
@@ -621,7 +622,7 @@
  ICE_neutrality_party:1 "Heimastjórnarflokkurinn"
  SYR_fascism_party:0 "SSNP"
  SYR_fascism_party_long:0 "Syrian Social Nationalist Party"
- SYR_communism_party:0 "Syrian Communist Party"
+ SYR_communism_party:0 "Syrian–Lebanese Communist Party"
  SYR_democratic_party:0 "National Bloc"
  SYR_neutrality_party:0 "Royalists"
  LEB_fascism_party:0 "Kataeb"

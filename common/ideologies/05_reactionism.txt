@@ -1,18 +1,12 @@
 ideologies = {
 	neutrality = {
 		types = {
-			oligarchism = {
-			}
-			theocracy = {
-			}
-			despotism = {
-			}
-			absolute_monarchy = {
-			}
-			natcon = {
-			}
-			ethnocracy = {
-		    }
+			oligarchism = {}
+			theocracy = {}
+			despotism = {} #Authoritarianism
+			absolute_monarchy = {}
+			natcon = {}
+			ethnocracy = { }
 		}
 
 		dynamic_faction_names = {

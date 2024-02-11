@@ -1,0 +1,126 @@
+continent = {
+	name = europe
+	
+	political = {
+		socialism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_2" 
+			}
+		}
+		pragmatic = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = north_america
+
+	political = {
+		socialism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_2" 
+			}
+		}
+		pragmatic = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+	}
+}
+
+continent = {
+	name = south_america
+	
+	political = {
+		socialism = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_2" 
+			}
+		}
+		pragmatic = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_3" 
+			}
+		}
+	}
+}
+
+continent = {
+	name = australia
+
+	political = {
+		socialism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_2" 
+			}
+		}
+		pragmatic = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = africa
+	
+	political = {
+		socialism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		pragmatic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+
+continent = {
+	name = asia
+
+	political = {
+		socialism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		pragmatic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+
+continent = {
+	name = middle_east
+
+	political = {
+		socialism = {
+			male = { 
+				"GFX_Portrait_Arabia_Generic_2"
+			}
+		}
+		pragmatic = {
+			male = { 
+				"GFX_Portrait_Arabia_Generic_3" 
+			}
+		}
+	}
+
+}

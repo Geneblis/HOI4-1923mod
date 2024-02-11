@@ -43,6 +43,26 @@ spriteTypes = {
 		name = "GFX_ideology_absolute_monarchy"
 		texturefile = "gfx/interface/ideologies/absolute_monarchy.dds"
 	}
+	spriteType = {
+		name = "GFX_ideology_populism"
+		texturefile = "gfx/interface/ideologies/populism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_constitutional_monarchism"
+		texturefile = "gfx/interface/ideologies/constitutional_monarchism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_autocracy"
+		texturefile = "gfx/interface/ideologies/autocracy.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_anocracy"
+		texturefile = "gfx/interface/ideologies/anocracy.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_syndicalism"
+		texturefile = "gfx/interface/ideologies/syndicalism.dds"
+	}
 
 	#Country-exclusives/Parties
 	spriteType = {

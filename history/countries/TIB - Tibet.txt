@@ -1,0 +1,59 @@
+﻿capital = 757
+
+oob = "TIB_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_party_name = {
+	ideology = pragmatic
+	long_name = TIB_neutrality_party
+	name = TIB_neutrality_party
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1922.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+generate_character = {
+	token_base = Truest_TIB_jamphel_yeshe_gyaltsen
+	name="Jamphel Yeshe Gyaltsen"
+	portraits={
+		civilian={
+			large="GFX_portrait_buthan_jigme_wangchuk"
+		}
+	}
+	country_leader={
+		ideology=absolute_monarchy
+		expire="1965.1.1.1"
+		id=-1
+	}
+}
+recruit_character = TIB_namgang_rinpoche
+recruit_character = TIB_penor_tashi
+recruit_character = TIB_tsepon_shatra
+recruit_character = TIB_gyato_wangdu
+recruit_character = TIB_lobsang_tenzin
+recruit_character = TIB_sampo_tsewang_rigzin
+recruit_character = TIB_chama_samphe
+recruit_character = TIB_lhalu_tsewang_dorje
+recruit_character = TIB_chodak_karma
+recruit_character = TIB_tenpa_jamyang
+recruit_character = TIB_sogyal_rinpoche
+recruit_character = TIB_bapa_yeshe
+recruit_character = TIB_jampal_rabgye_rinpoche
+recruit_character = TIB_chaghoe_namgyal_dorje
+recruit_character = TIB_jamyang_rabten
+recruit_character = TIB_khemey_sonam_wangdi
+recruit_character = TIB_jigme_taring
+recruit_character = TIB_reting_rimpoche
+recruit_character = TIB_taktra_rinpoche
