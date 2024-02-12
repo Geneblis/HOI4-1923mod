@@ -85,7 +85,9 @@ SYR_mandate_ADJ:0 "Syrian"
 SAU_hejaz_united:0 "Kingdom of Hejaz and Nejd"
 SAU_hejaz_united_DEF:0 "Kingdom of Hejaz and Nejd"
 SAU_hejaz_united_ADJ:0 "Hejaz and Nejd"
-
+MAN_1923:0 "Qing Imperial Government"
+MAN_1923_DEF:0 "Qing Empire"
+MAN_1923_ADJ:0 "Qing"
 
 #Ideologies and Parties
 socialism_drift:0 "Daily Socialism Support"
@@ -221,6 +223,13 @@ SYR_peoples_party:0 "People's Party"
 SYR_national_party:0 "National Party"
 LEB_pragmatic_party:0 "National Bloc"
 
+#Chinese Parties
+MAN_neutrality_party:0 "ECQP-BA"
+MAN_neutrality_party_long:0 "Extraordinary Comission of the Qing Parliament - Beiyang Army Officers"
+MAN_fascism_party_1923:0 "ECQP-N"
+MAN_fascism_party_1923_long:0 "Extraordinary Comission of the Qing Parliament - Nationalists"
+MAN_pragmatic_party:0 "ECQP-R"
+MAN_pragmatic_party_long:0 "Extraordinary Comission of the Qing Parliament - Reformists"
 
 #Characters
 UKR_MKH_VRS:0 "Military Revolutionary Council"

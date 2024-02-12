@@ -9,7 +9,7 @@ ideologies = {
 			populism = {}
 			developmentalism = {}
 			constitutional_monarchism = {can_be_randomly_selected = no}
-			enlightened_absolutism = {can_be_randomly_selected = no} #1-Literally made just for one guy in afghanistan... #2-GBYELO BE SILENT SPARTACISM IS THE SAME SHIT #3-"SPARTACISM" OR WHATEVER IT MEANS IS MEANT TO BE ORTHODOX MARXISM
+			enlightened_absolutism = {can_be_randomly_selected = no} #1-Literally made just for one guy in afghanistan... #2-GBYELO BE SILENT SPARTACISM IS THE SAME SHIT #3-"SPARTACISM" OR WHATEVER IT MEANS IS MEANT TO BE ORTHODOX MARXISM #4- Gbyelo you stupid af suck my nuts
 		}
 
 		dynamic_faction_names = {

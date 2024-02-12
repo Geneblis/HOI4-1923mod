@@ -6,7 +6,7 @@ ideologies = {
 			despotism = {} #Authoritarianism
 			absolute_monarchy = {}
 			natcon = {}
-			ethnocracy = { }
+			ethnocracy = {}
 		}
 
 		dynamic_faction_names = {
