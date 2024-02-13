@@ -25,17 +25,17 @@ BRA_tenentism_rise_desc:0 "§RIf not eliminated soon, the tenentists will only b
 BRA_cafecomleite:0 "Café-Com-Leite Politics"
 BRA_cafecomleite_desc:0 "§HOur government will have§! §Rserious§! §Hproblems if São Paulo and Minas Gerais have a conflict in interests...§!\n\nBrazilian Politics has, ever since the end of the ''Republic of the Sword'', been resumed to a pact between Minas Gerais and São Paulo elites, the so-called ''Café-Com-Leite'' politics. There has not been a single election since the proclamation of the Republic that has been fully legitimate and had popular participation, as not only the voting booths are administered by the local ruling parties, but the open system of voting (where its public knowledge who voted for who) is a effective way to intimidate voters into voting for the current political estabilishment."
 
-#Middle Eastern shit
-syrian_great_revolt:0 "Great Syrian Revolt"
-syrian_mandate_is_over:0 "French Mandate is Due"
-syrian_anocracies_are_over:0 "First Democratic Elections"
-syrian_stability_is_over:0 "SSNP Coup Attempt"
-
 #Balkans
 BUL_bkp_strong_comintern_ties:0 "Looming Communist Uprising
 BUL_tsankov_goverment_is_over:0 "Tsankov's Government"
 
-#Central As(hithole)ia
+#Middle Eastern and Central Asia
+syrian_great_revolt:0 "Great Syrian Revolt"
+syrian_mandate_is_over:0 "French Mandate is Due"
+syrian_anocracies_are_over:0 "First Democratic Elections"
+syrian_stability_is_over:0 "SSNP Coup Attempt"
+Ahmad_Shah_Qajar:0 "Ahmad Shah Qajar"
+
 AFG_modernist_constitution:0 "Modernist Constitution"
 AFG_modernist_constitution_desc:0 "The current constitution of the Kingdom of Afghanistan is quite unique in its history. Inspired by western documents, this constitution was made with the intent of modernizing our nation, which is considered a backwater internationally. While no doubt being a impressive achievment, it is not without criticism, as the traditionally conservative population of our nation and the elites oppose it strongly."
 AFG_tribal_rebellions:0 "Tribal Rebellions"

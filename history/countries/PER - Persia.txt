@@ -1,0 +1,140 @@
+﻿capital = 266
+
+oob = "PER_1936"
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "PER_1936_air_bba"
+	else = {
+		set_air_oob = "PER_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			CAS1 = 1
+
+		}
+	}
+}
+
+set_party_name = {
+	ideology = socialism
+	name = PER_socialism_party
+	long_name = PER_socialism_party
+}
+set_party_name = {
+	ideology = democratic
+	name = PER_democratic_party
+	long_name = PER_democratic_party
+}
+set_party_name = {
+	ideology = communism
+	name = PER_communism_party
+	long_name = PER_communism_party
+}
+set_party_name = {
+	ideology = fascism
+	name = PER_fascism_party
+	long_name = PER_fascism_party
+}
+set_party_name = { #To be changed once Pahlavi takes leadership.
+	ideology = pragmatic
+	name = PER_qatar_dinasty_party
+	long_name = PER_qatar_dinasty_party
+}
+set_party_name = {
+	ideology = neutrality
+	name = PER_military_party
+	long_name = PER_military_party
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1922.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	pragmatic = 2
+	socialism = 18
+	fascism = 5
+	democratic = 25
+	neutrality = 50
+}
+
+set_cosmetic_tag = PER_pragmatic
+
+add_ideas = {
+	Ahmad_Shah_Qajar
+}
+
+generate_character = {
+	token_base = PER_reza_pahlavi_military
+	name = "Reza Shah Pahlavi"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/PER/Portrait_Iran_Reza_Shah_Pahlavi.dds"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = despotism
+		expire = 1983.10.6
+		traits = {  
+			military_modernizer
+			silver_tongue
+		}
+		desc = ""
+	}
+	country_leader = {
+		ideology = constitutional_monarchism
+		expire = 1983.10.6
+		traits = {  
+			military_modernizer
+			the_soldier_king
+		}
+		desc = ""
+	}
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_trucks = 1
+	gw_artillery = 1
+}
+
+recruit_character = PER_reza_shah_pahlavi
+recruit_character = PER_soleyman_mirza_eskandari
+recruit_character = PER_hasan_arfa
+recruit_character = PER_dalir_pesyan
+recruit_character = PER_sohrab_tahmasebi
+recruit_character = PER_mir_afkhami
+recruit_character = PER_ahmad_khan_nakhjavan
+recruit_character = PER_reza_mizani
+recruit_character = PER_ali_razmara
+recruit_character = PER_hassan_majid_firooz
+recruit_character = PER_ahmad_mira_khosravani
+recruit_character = PER_ahmad_khan_nakhjaavan
+recruit_character = PER_mohammed_nakhjavani
+recruit_character = PER_abdolreza_afkhami
+recruit_character = PER_fazlollah_zahedi
+recruit_character = PER_mohammed_reza_pahlavi
+recruit_character = PER_ali_akbar_deiva
+recruit_character = PER_hossein_afkhami
+recruit_character = PER_ali_zohayli
+recruit_character = PER_mahmud_jam
+recruit_character = PER_ali_khan_mansour
+
+
+set_convoys = 10
+
+# His son, who came to power 41
+#create_country_leader = {
+#	name = "Mohammad Reza Pahlavi"
+#	desc = "POLITICS_MOHAMMAD_REZA_PAHLAVI_DESC"
+#	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
+#	expire = "1965.1.1"
+#	ideology = despotism
+#	traits = {
+#		#
+#	}
+#}

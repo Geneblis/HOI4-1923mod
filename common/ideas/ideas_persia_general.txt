@@ -1,0 +1,39 @@
+ideas = {
+    country = {
+        Ahmad_Shah_Qajar = {
+            traits = { unpopular_monarch }
+			cancel = {
+                OR = {
+				    date > 1925.12.15
+                    has_country_flag = test_PER_imperial
+                }
+			}
+            on_remove = {
+				set_cosmetic_tag = PER_imperial
+                set_politics = {
+                    ruling_party = pragmatic
+                    elections_allowed = no
+                    long_name = PER_neutrality_party
+                    name = PER_neutrality_party
+                }                
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.1
+				}
+				add_popularity = {
+					ideology = socialism
+					popularity = 0.2
+				}
+				add_popularity = {
+					ideology = pragmatic
+					popularity = 0.56
+				}
+                set_party_name = {
+                    ideology = neutrality
+                    name = PER_fascism_party
+                    long_name = PER_fascism_party
+                }
+            }
+        }
+    }
+}

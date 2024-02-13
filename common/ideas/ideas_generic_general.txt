@@ -1,0 +1,41 @@
+ideas = {
+	country = {
+		socialism_influence = {
+			name = USA_democratic_socialism
+			picture = generic_democratic_drift_bonus
+			modifier = {
+				socialism_drift = 0.1
+				socialism_acceptance = 85
+			}
+		}
+		pragmatic_influence = {
+			name = nationalism
+			picture = generic_morale_bonus
+			modifier = {
+				pragmatic_drift = 0.1
+				pragmatic_acceptance = 85
+			}
+		}
+
+		#communist_influence = {
+		#	name = USA_democratic_socialism
+		#	#picture = generic_disjointed_gov
+		#	modifier = {
+		#		stability_factor = 0.1
+		#		trade_opinion_factor = 0.15
+		#		political_power_gain = 0.05
+		#		research_speed_factor = 0.1
+		#		democratic_acceptance = 25
+		#		production_speed_infrastructure_factor = 0.1
+		#	}
+		#	#equipment_bonus = {
+		#	#	infantry_equipment = {
+		#	#		build_cost_ic = -0.05 instant = yes
+		#	#	}
+		#	#	artillery_equipment = {
+		#	#		build_cost_ic = -0.05 instant = yes
+		#	#	}
+		#	#}
+		#}
+	}
+}
