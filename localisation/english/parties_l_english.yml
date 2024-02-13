@@ -9,7 +9,7 @@
  centrism:1 "Centrism"
  centrism_desc:1 "§YCentrism§!\n\nCentrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
  autocracy:0 "Pragmatic Autocracy"
- autocracy_desc:0 "§YPragmatic Autocracy§!\n\nA Pragmatic Autocracy is a government that is dictatorial in form, but that is disfavorable towards taking strong ideological positions over any policy, rather trying to do what is most pratical to mantain its power intact."
+ autocracy_desc:0 "§YPragmatic Autocracy§!\n\nA Pragmatic Autocracy is a government that is dictatorial in form, but that is disfavorable towards taking strong ideological positions over any policy, rather trying to do what is most pratical to mantain its power or achieve their goals."
  enlightened_absolutism:0 "Enlightened Absolutism"
  enlightened_absolutism_desc:0 "§YEnlightened Absolutism§!\n\nEnlightened Absolutism is an ideology that came as a reaction to the enlightenment, as some monarchs decided to give in to the some of the demands of the rising bourgoise class but that fundamentally did not give up their own power. Though mostly irrelevant today as the Absolute Monarchies of europe have fallen to revolutions, the term is still used in some places to refer to royals that adopt liberalizing reforms as a way to strengthen their country and hold on to power through modernization."
  anocracy:0 "Anocracy"
@@ -64,7 +64,7 @@
  
  fascism:0 "Fascism"
  fascism_noun:0 "Fascist"
- fascism_desc:0 "Chauvinist Regime"
+ fascism_desc:0 "Totalitarian Regime"
 
  nazism:0 "Nazism"
  nazism_desc:0 "§YNational Socialism§!\n\nRooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
@@ -102,8 +102,8 @@
  neutrality_noun:0 "Reactionist"
  neutrality_desc:0 "Reactionary Regime"
 
- despotism:0 "Despotic"
- despotism_desc:0 "§YDespotism§!\n\nDespotism is a form of government in which a single person rules with absolute power while advocating for radical reforms that favortes his side."
+ despotism:0 "Personalistic Despotism"
+ despotism_desc:0 "§YPersonalistic Despotism§!\n\nPersonalistic Despotism is a form of government in which a single person rules with absolute power while advocating for radical reforms and maintain a loyal interest group around his persona."
  oligarchism:0 "Oligarchic"
  oligarchism_desc:0 "§YOligarchy§!\n\nOligarchy is a form of government in which a group of people rule with absolute power."
  theocracy:0 "Theocracy"
@@ -253,7 +253,7 @@
  EST_communism_party:0 "EKP"
  EST_communism_party_long:0 "Eestimaa Kommunistlik Partei"
  IRQ_neutrality_party:1 "Hashemite Dynasty"
- IRQ_fascism_party:0 "Golden Square"
+ IRQ_fascism_party:0 "National Brotherhood Party"
  IRQ_communism_party:0 "Al-Hizb al-Shiu'iy"
  SWE_fascism_party:0 "NSAP"
  SWE_fascism_party_long:0 "Nationalsocialistiska arbetarepartiet"

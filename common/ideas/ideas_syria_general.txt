@@ -20,9 +20,10 @@ ideas = {
 					create_country_leader = {
 						name = "Sultan al-Atrash"
 						desc = ""
-						picture = GFX_portrait_Antun_Saadeh
+						picture = "gfx/leaders/SYR/SYR_sultan.png"
 						ideology = populism
 						traits = {
+							resistance_leader
 							freedom_fighter
 							experienced_insurgent
 						}
@@ -43,6 +44,7 @@ ideas = {
 				}
 			}
             on_remove = {
+				FRA = {end_puppet = SYR}
 				set_cosmetic_tag = SYR_democratic
 				add_popularity = {
 					ideology = fascism

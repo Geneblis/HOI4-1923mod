@@ -20,6 +20,7 @@ set_convoys = 5
 		puppet = JOR
 	}
 	JOR = {
+		set_cosmetic_tag = JOR_mandate
 		set_party_name = {
 			ideology = neutrality
 			long_name = IRQ_neutrality_party
@@ -31,14 +32,33 @@ set_convoys = 5
 			name = IRQ_neutrality_party
 		}
 		set_politics = {
-			ruling_party = neutrality
+			ruling_party = pragmatic
 			last_election = "1936.1.1"
 			election_frequency = 48
 			elections_allowed = no
 		}
 		set_popularities = {
-			neutrality = 100
+			pragmatic = 100
 		}
+	}
+}
+
+generate_character = {
+	token_base = JOR_abdullah_i_of_jordan
+	name = "Abdullah I"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/IRQ/Abdullah_I_of_Jordan.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = constitutional_monarchism
+		expire = 1951.7.20
+		traits = {  
+			constitutional_monarch_minor
+		}
+		desc = ""
 	}
 }
 
@@ -57,16 +77,6 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Saeed_Ahmadi
 	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Abdullah bin al-Hussein"
-	desc = ""
-	picture = GFX_portrait_Abdullah_bin_al_Hussein
-	ideology = despotism
 	traits = {
 		#
 	}

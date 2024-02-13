@@ -1,0 +1,121 @@
+ideas = {
+	country = {
+        BUL_bkp_strong_comintern_ties = {
+			picture = generic_communism_drift_bonus
+			cancel = {
+				OR = {
+					date > 1923.6.4
+					has_country_flag = BUL_test_cw
+				}
+			}
+            on_remove = {
+				BUL = {
+					retire_character = BUL_Aleksandar_Stamboliyski
+					promote_character = {
+						character = BUL_Aleksandar_Tsankov
+						ideology = anocracy
+					}
+					set_politics = {
+						ruling_party = pragmatic
+						elections_allowed = no
+					}
+					add_popularity = {
+						ideology = pragmatic
+						popularity = 0.6
+					}
+					add_popularity = {
+						ideology = neutrality
+						popularity = 0.1
+					}
+					add_popularity = {
+						ideology = fascism
+						popularity = 0.15
+					}
+					add_timed_idea = {
+						idea = political_turmoil
+						days = 180
+					}
+					add_timed_idea = {
+						idea = reign_of_terror
+						days = 939
+					}
+					add_ideas = communism_banned
+					add_timed_idea = {
+						idea = BUL_tsankov_goverment_is_over
+						days = 939
+					}
+				}
+				MAC = {
+					set_state_owner = 212
+					every_state = {
+						limit = {
+							is_core_of = BUL
+						}
+						add_core_of = MAC
+					}
+					add_timed_idea = {
+						idea = communist_influence
+						days = 90
+					}
+					add_timed_idea = {
+						idea = TO_chose_neutrality
+						days = 60
+					}
+					add_timed_idea = {
+						idea = civil_war_surprise_attack_plan
+						days = 100
+					}
+					declare_war_on = {
+						target = BUL
+						type = annex_everything
+					}
+					division_template = {
+						name = "Infantry Division"
+						is_locked = no
+						priority = 1
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+							infantry = { x = 0 y = 3 }
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+							infantry = { x = 1 y = 3 }
+						}
+					}
+					212 = {
+						create_unit = {
+							division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3 start_manpower_factor = 1.0 start_equipment_factor = 0.95" owner = PREV count = 14 allow_spawning_on_enemy_provs = yes
+						}
+					}
+				}
+            }
+        }
+	}
+    hidden_ideas = {
+        BUL_tsankov_goverment_is_over = {
+			picture = generic_fascism_drift_2
+            on_remove = {
+				BUL = {
+					remove_country_leader_role = {
+						character = BUL_Aleksandar_Tsankov
+						ideology = anocracy
+					}
+					set_politics = {
+						ruling_party = neutrality
+						elections_allowed = no
+					}
+					add_popularity = {
+						ideology = neutrality
+						popularity = 0.56
+					}
+					promote_character = {
+						character = BUL_Andrey_Lyapchev
+						ideology = moderatism
+					}
+				}
+            }
+        }
+	}
+}

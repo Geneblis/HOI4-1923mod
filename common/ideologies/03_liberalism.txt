@@ -5,7 +5,7 @@ ideologies = {
 			liberalism = {}
 			social_liberalism = {}
 			natlib = {}
-			corporatocracy = {}  #not to be confused with corporatism
+			corporatocracy = {can_be_randomly_selected = no}  #not to be confused with corporatism
 		}
 
 		dynamic_faction_names = {

@@ -3,13 +3,12 @@ ideologies = {
 		types = {
 			moderatism = {}
 			centrism = {}
-			autocracy = {} #Pragmatic Autocrat
-			anocracy = {}
+			autocracy = {} #Pragmatic Autocrat, temporary autocrat/emergencial military.
 			christian_democracy = {}
 			populism = {}
-			developmentalism = {}
+			anocracy = {can_be_randomly_selected = no}
 			constitutional_monarchism = {can_be_randomly_selected = no}
-			enlightened_absolutism = {can_be_randomly_selected = no} #1-Literally made just for one guy in afghanistan... #2-GBYELO BE SILENT SPARTACISM IS THE SAME SHIT #3-"SPARTACISM" OR WHATEVER IT MEANS IS MEANT TO BE ORTHODOX MARXISM #4- Gbyelo you stupid af suck my nuts
+			enlightened_absolutism = {can_be_randomly_selected = no} #1-Literally made just for one guy in afghanistan... #2-GBYELO BE SILENT SPARTACISM IS THE SAME SHIT #3-"SPARTACISM" OR WHATEVER IT MEANS IS MEANT TO BE ORTHODOX MARXISM #4- Gbyelo you stupid af suck my nuts #5- I aint sucking shit outta of you. (end of conversation)
 		}
 
 		dynamic_faction_names = {

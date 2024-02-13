@@ -10,12 +10,18 @@ country_event = { #Afeghan civil-war
 	picture = GFX_report_event_generic_factory
     trigger = {
         tag = AFG
-        date > 1924.1.10
+        date > 1923.3.10
+        pragmatic < 0.5
     }
 
     option = { #Depose the King
         name = AFG_country_event.1.a
         set_cosmetic_tag = AFG_neutrality
+        remove_ideas = {
+            AFG_tribal_rebellions
+            AFG_saqqawists
+            AFG_modernist_constitution
+        }
         start_civil_war = {
             ruling_party = neutrality
             ideology = neutrality
@@ -46,12 +52,24 @@ country_event = { #Afeghan civil-war
                 name = AFG_saqqawist_emirate_ADJ
                 long_name = AFG_saqqawist_emirate_ADJ
             }
-            add_ideas = CSA_spirit_of_rebellion
+            add_timed_idea = {
+                idea = CSA_spirit_of_rebellion
+                days = 100
+            }
+            add_timed_idea = {
+                idea = reign_of_terror
+                days = 200
+            }
         }
         add_timed_idea = {
             idea = military_parade
             days = 180
         }
+        add_timed_idea = {
+            idea = political_turmoil
+            days = 60
+        }
+        add_ideas = {AFG_constitutional_reforms}
 		ai_chance = {
 			factor = 0.6
 		}
@@ -59,6 +77,11 @@ country_event = { #Afeghan civil-war
     option = { #Keep the current King
         name = AFG_country_event.1.b
         set_cosmetic_tag = AFG_neutrality
+        remove_ideas = {
+            AFG_tribal_rebellions
+            AFG_saqqawists
+            
+        }
         start_civil_war = {
             ideology = neutrality
             size = 0.3
@@ -88,23 +111,30 @@ country_event = { #Afeghan civil-war
                 name = AFG_saqqawist_emirate_ADJ
                 long_name = AFG_saqqawist_emirate_ADJ
             }
-            add_ideas = CSA_spirit_of_rebellion
+            add_timed_idea = {
+                idea = CSA_spirit_of_rebellion
+                days = 100
+            }
+            add_timed_idea = {
+                idea = reign_of_terror
+                days = 200
+            }
         }
         add_popularity = {
             ideology = pragmatic
-            popularity = 0.7
+            popularity = 0.95
         }
         add_timed_idea = {
-            idea = american_influence_defence_democratic
-            days = 180
+            idea = democratic_opposition_voicing_protests
+            days = 70
         }
         add_timed_idea = {
-            idea = CZE_fortification_focus4
+            idea = USA_homeland_defense
             days = 200
         }
         add_timed_idea = {
             idea = air_support_focus
-            days = 60
+            days = 120
         }
 		ai_chance = {
 			factor = 0.4

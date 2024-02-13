@@ -1,4 +1,4 @@
-﻿capital = 48
+capital = 48
 
 #TROOPS
 oob = "BUL_1936" #VANILLA & DLC
@@ -9,34 +9,61 @@ if = {
 		set_air_oob = "BUL_1936_air_legacy"
 	}
 }
-set_convoys = 5 #VANILLA & DLC
+set_convoys = 90 #VANILLA & DLC
 
-#You don't want Bulgarian party names? Just remove these lines
-set_party_name = { # DLC
+#POLITICS
+set_popularities = {
+	democratic = 5
+	fascism = 2
+	neutrality = 2
+	socialism = 54
+	communism = 22
+	pragmatic = 15
+}
+set_politics = {
+	ruling_party = socialism
+	last_election = "1922.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_party_name = {
+	ideology = socialism
+	name = BUL_democratic_party
+	long_name = BUL_democratic_party_long
+}
+set_party_name = {
+	ideology = democratic
+	name = BUL_democratic_alliance_party
+	long_name = BUL_democratic_alliance_party_long
+}
+set_party_name = {
 	ideology = communism
 	name = BUL_communism_party_bulgarian
 	long_name = BUL_communism_party_bulgarian_long
 }
-set_party_name = { # DLC
+set_party_name = {
 	ideology = fascism
-	name = BUL_fascism_party_bulgarian
-	long_name = BUL_fascism_party_bulgarian_long
+	name = BUL_national_social_movement_party
+	long_name = BUL_national_social_movement_party_long
+}
+set_party_name = {
+	ideology = pragmatic
+	name = BUL_democratic_alliance_party
+	long_name = BUL_democratic_alliance_party_long
+}
+set_party_name = {
+	ideology = neutrality
+	name = BUL_zveno_bulgaria_neutrality_party
+	long_name = BUL_zveno_bulgaria_neutrality_party_long
 }
 
-###################
-#### 3D MODELS ####
-###################
-
-#Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-#BUL_communism
-#BUL_democratic
-#BUL_fascism
-#BUL_neutrality
-set_cosmetic_tag = BUL_neutrality
+set_cosmetic_tag = BUL_tsardom
 
 #SET UP IDEAS
-add_ideas = { #VANILLA
+add_ideas = {
 	limited_conscription
+	BUL_bkp_strong_comintern_ties
 }
 
 set_technology = {
@@ -61,17 +88,70 @@ if = {
 	}
 }
 
-#POLITICS
-set_popularities = { #VANILLA
-	democratic = 5
-	fascism = 35
-	neutrality = 60
+generate_character = {
+	token_base = BUL_Aleksandar_Stamboliyski
+	name = "Aleksandar Stamboliyski"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/BUL/Aleksandar_Stamboliyski.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = agrarian_socialism
+		expire = 1923.10.6
+		traits = {  
+			political_reformer_2_no_lar
+			leader_of_the_agrarian_union
+		}
+		desc = ""
+	}
 }
-set_politics = { #VANILLA
-	ruling_party = neutrality
-	last_election = "1931.6.21"
-	election_frequency = 48
-	elections_allowed = no
+generate_character = {
+	token_base = BUL_Aleksandar_Tsankov
+	name = "Aleksandar Tsankov"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/BUL/Aleksandar_Tsankov.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = anocracy
+		expire = 1944.10.6
+		traits = {  
+			anti_communist
+			fascist_sympathies
+		}
+		desc = ""
+	}
+	country_leader = {
+		ideology = gen_nazism
+		expire = 1944.10.6
+		traits = {  
+			nazi_sympathizer
+			anti_communist
+		}
+		desc = ""
+	}
+}
+generate_character = {
+	token_base = BUL_Andrey_Lyapchev
+	name = "Andrey Lyapchevv"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/BUL/Andrey_Lyapchev.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = moderatism
+		expire = 1944.10.6
+		traits = {  
+			moderate_reformist
+		}
+		desc = ""
+	}
 }
 
 recruit_character = BUL_boris_iii
@@ -96,53 +176,10 @@ recruit_character = BUL_dobri_bozhilov
 recruit_character = BUL_konstantin_muraviev
 
 
-if = { #Fuck I do with this?
+if = { #Reminder to ignore and remove when possible.
 	limit = {
 		has_dlc = "Battle for the Bosporus"
 	}
-
-	#You don't want Bulgarian party names? Just remove these lines
-	set_party_name = { # DLC
-		ideology = democratic
-		name = BUL_democratic_party_bftb
-		long_name = BUL_democratic_party_bftb_bulgarian_long
-	}	
-
-	###################
-	#### 3D MODELS ####
-	###################
-
-	#Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-	#BUL_communism
-	#BUL_democratic
-	#BUL_fascism
-	#BUL_neutrality
-	set_cosmetic_tag = BUL_neutrality
-
-	#IDEAS SETUP
-	if = {
-		limit = {
-			has_dlc = "Arms Against Tyranny"
-		}
-		add_ideas = BUL_army_restrictions_aat
-	}
-	if = {
-		limit = {
-			NOT = {	has_dlc = "Arms Against Tyranny" }
-		}
-		add_ideas = BUL_army_restrictions
-	}
-	add_ideas = { #DLC
-		BUL_second_national_catastrophe
-		BUL_imro_01
-		volunteer_only
-	}
-
-	#Army limitations due to Treaty of Neuilly sur Seine
-	set_rule = { #DLC
-		can_not_declare_war = yes
-	}
-	country_lock_all_division_template = yes
 
 	#SET FLAGS AND VARIABLES
 	#Internal Affairs
@@ -257,14 +294,6 @@ if = { #Fuck I do with this?
 	add_opinion_modifier = { 
 		target = YUG
 		modifier = BFTB_incongruous_neighbors
-	}
-
-	#DLC POLIICS
-	set_popularities = { #DLC
-		democratic = 10
-		fascism = 30
-		neutrality = 55
-		communism = 5
 	}
 
 	recruit_character = BUL_boris_iii

@@ -195,6 +195,7 @@ generate_character = {
 		traits = {  
 			revolutionary_general
 			proletariat_internationalist
+			anti_soviet_socialist
 		}
 		desc = ""
 	}

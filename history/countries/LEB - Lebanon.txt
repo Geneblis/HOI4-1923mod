@@ -14,27 +14,20 @@ if = {
 	}
 }
 
-1922.1.1 = {
-	FRA = {
-		puppet = LEB
-	}
-	LEB = {
-		set_party_name = {
-			ideology = pragmatic
-			long_name = SYR_democratic_party
-			name = SYR_democratic_party
-		}
-		set_politics = {
-			ruling_party = pragmatic
-			last_election = "1922.1.1"
-			election_frequency = 48
-			elections_allowed = no
-		}
-		set_popularities = {
-			pragmatic = 60
-			democratic = 40
-		}
-	}
+set_party_name = {
+	ideology = pragmatic
+	long_name = SYR_democratic_party
+	name = SYR_democratic_party
+}
+set_politics = {
+	ruling_party = pragmatic
+	last_election = "1922.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	pragmatic = 60
+	democratic = 40
 }
 
 set_convoys = 5

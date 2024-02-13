@@ -49,6 +49,13 @@ units = {
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.3
 	}
+	division = {
+		name = "Republican Militia"
+		location = 7394
+		division_template = "Militia Division"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.3
+	}
 }
 
 ## STARTING PRODUCTION ##

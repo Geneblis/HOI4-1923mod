@@ -1,14 +1,17 @@
 ideas = {
     country = {
         AFG_modernist_constitution = {
+            picture = generic_constitutional_guarantees
             modifier = {
                 stability_factor = -0.1
                 political_power_gain = -0.05
                 research_speed_factor = 0.1
+                pragmatic_drift = 0.01
             }
         }
         
         AFG_tribal_rebellions = {
+            picture = chi_war_of_resistance3
             modifier = {
                 neutrality_drift = 0.02
                 war_support_factor -0.05
@@ -16,8 +19,24 @@ ideas = {
                 army_core_defence_factor = -0.1
             }
         }
-        
+
         AFG_saqqawists = {
+            picture = raj_marginalized_muslim_community_angry
+            modifier = {
+                #
+            }
+        }
+
+        AFG_constitutional_reforms = {
+            picture = generic_democratic_opposition
+            modifier = {
+                consumer_goods_factor = -0.1
+                neutrality_drift = 0.01
+                stability_factor = 0.1
+                political_power_gain = 0.05
+                research_speed_factor = -0.15
+                experience_gain_army_factor = 0.2
+            }
         }
         
     }

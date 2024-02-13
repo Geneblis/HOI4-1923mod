@@ -1,0 +1,83 @@
+﻿capital = 294
+
+oob = "OMA_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_trucks = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1922.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+generate_character = {
+	token_base = OMA_Taimur_Feisal
+	name = "Taimur bin Feisal"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/OMA/Taimur_bin_Feisal.png"
+		}
+	}
+	country_leader = {
+		ideology = absolute_monarchy
+		expire = 1933.1.1
+		traits = {  
+		}
+		desc = ""
+	}
+}
+generate_character = {
+	token_base = OMA_said_taimur
+	name = "Said bin Taimur"
+	portraits = {
+		civilian = {
+			large="GFX_portrait_oman_said_bin_taimur" 
+		}
+	}
+	country_leader = {
+		ideology = absolute_monarchy
+		expire = 1955.1.24
+		traits = {
+		}
+		desc = ""
+	}
+}
+
+recruit_character = OMA_ahmad_ibn_jafar
+recruit_character = OMA_halil_ibn_halil
+recruit_character = OMA_iskandar_ibn_ali
+recruit_character = OMA_abdul_rahal
+recruit_character = OMA_fawzi_ibn_timur
+recruit_character = OMA_geoffrey_claydon
+recruit_character = OMA_hafs_mohammed
+recruit_character = OMA_abdallah_ibn_timur
+recruit_character = OMA_nasser_bazzi
+recruit_character = OMA_musa_al_saif
+recruit_character = OMA_jassim_bin_hani
+recruit_character = OMA_zahir_ibn_timur
+recruit_character = OMA_fayur_kassis
+recruit_character = OMA_ghassan_aly
+recruit_character = OMA_said_ibn_timur
+recruit_character = OMA_suleiman_al_ryami
+recruit_character = OMA_khalfan_bin_master
+recruit_character = OMA_marhoon_muhaid
+recruit_character = OMA_rashid_al_kharusi
+
+set_convoys = 10
+set_war_support = 0.1
+set_stability = 0.8

@@ -62,7 +62,7 @@ generate_character = {
         expire = 1933.11.8
         traits = {  
             propaganda_expert
-			war_industrialist
+			war_profiteer
 			staunch_monarchist
         }
         desc = ""

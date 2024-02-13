@@ -96,9 +96,27 @@ set_popularities = {
 	pragmatic = 10
 }
 
+generate_character = {
+	token_base = BUK_Sayyid_Mir_Muhammad_Alim_Khan
+	name = "Mir Muhammad Alim Khan"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/SOV/BUK_Sayyid_Mir_Muhammad_Alim_Khan.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = absolute_monarchy
+		expire = 1983.10.6
+		traits = {  
+			veteran_guerrilla_fighter
+			anti_communist_crusader
+		}
+		desc = ""
+	}
+}
+
 recruit_character = BUK_mohammed_alim_khan
 recruit_character = BUK_polat_usmon
-
-
 
 

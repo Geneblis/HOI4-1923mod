@@ -48,20 +48,40 @@ set_party_name = {
 set_cosmetic_tag = nir_irish_republic
 
 generate_character = {
-	token_base = NIR_lynch
+	token_base = NIR_Liam_Lynch
 	name = "Liam Lynch"
 	portraits = {
 		civilian = {
-			large="gfx/leaders/IRE/portrait_ire_lynch.png"
+			large="gfx/leaders/IRE/portrait_ire_liam.png"
 			small="GFX_idea_generic_political_advisor_europe_5" 
 		}
 	}
 	country_leader = {
 		ideology = despotism
-		expire = 1923.10.6
+		expire = 1923.4.10
 		traits = {  
-			revolutionary_general
-			our_right_to_survive
+			resistance_leader
+			guerilla_warfare_expert
+		}
+		desc = ""
+	}
+}
+generate_character = {
+	token_base = NIR_Frank_Aiken
+	name = "Frank Aiken"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/IRE/portrait_ire_Frank_Aiken.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = natcon
+		expire = 1983.10.6
+		traits = {  
+			nationalist_symbol
+			champion_of_peace_5
+			defeatist
 		}
 		desc = ""
 	}

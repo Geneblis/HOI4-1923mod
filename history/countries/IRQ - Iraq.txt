@@ -1,0 +1,161 @@
+﻿capital = 291
+
+oob = "IRQ_1936"
+
+1922.1.1 = {
+	ENG = {
+		puppet = IRQ
+	}
+	IRQ = {
+		set_politics = {
+			ruling_party = pragmatic
+			last_election = "1922.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_popularities = {
+			fascism = 5
+			neutrality = 9
+			pragmatic = 86
+		}
+	}
+}
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "IRQ_1936_air_bba"
+	else = {
+		set_air_oob = "IRQ_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			CAS1 = 1
+		}
+	}
+}
+
+set_party_name = {
+	ideology = pragmatic
+	long_name = IRQ_neutrality_party
+	name = IRQ_neutrality_party
+}
+set_party_name = {
+	ideology = socialism
+	long_name = IRQ_neutrality_party
+	name = IRQ_neutrality_party
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	gw_artillery = 1
+	fuel_silos = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
+
+set_convoys = 200
+
+generate_character = {
+    token_base = IRQ_Faisal_I
+    name = "Faisal I"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/IRQ/Faisal_I_of_Iraq.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = constitutional_monarchism
+        expire = 1933.9.8
+        traits = {
+			constitutional_monarch_minor
+			smooth_talking_charmer
+        }
+        desc = ""
+    }
+}
+generate_character = {
+    token_base = IRQ_ghazi_i_of_iraq
+    name = "Ghazi I"
+    portraits = {
+        civilian = {
+            large="GFX_portrait_iraq_ghazi"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = constitutional_monarchism
+        expire = 1939.4.4
+        traits = {
+			constitutional_monarch_minor
+        }
+        desc = ""
+    }
+}
+generate_character = {
+    token_base = IRQ_Faisal_II_of_iraq
+    name = "Faisal II"
+    portraits = {
+        civilian = {
+            large="gfx/leaders/IRQ/Faisal_II_of_Iraq.png"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = constitutional_monarchism
+        expire = 1958.7.14
+        traits = {
+			champion_of_peace_3
+			constitutional_monarch_minor
+			man_of_the_nation
+        }
+        desc = ""
+    }
+}
+generate_character = {
+    token_base = IRQ_rashid_ali_gaylani
+    name = "Rashid Ali al-Gaylani"
+    portraits = {
+        civilian = {
+            large="GFX_portrait_iraq_rashid_al_gaylani"
+            small="GFX_idea_generic_political_advisor_europe_5" 
+        }
+    }
+    country_leader = {
+        ideology = ultranationalism
+        expire = 1970.9.8
+        traits = {
+			fascist_sympathies
+			nationalist_symbol
+        }
+        desc = ""
+    }
+}
+
+recruit_character = IRQ_yusuf_salman_yusuf
+recruit_character = IRQ_abd_almalik_ibn_hisham
+recruit_character = IRQ_taha_al_ahmani
+recruit_character = IRQ_fahmi_said
+recruit_character = IRQ_ali_mahmud_al_shaykh
+recruit_character = IRQ_iskandar_al-shami
+recruit_character = IRQ_abdullah_al-tell
+recruit_character = IRQ_mustafa_al_quidsi
+recruit_character = IRQ_hamdi_al_pachachi
+recruit_character = IRQ_fawsi_al_kaukji
+recruit_character = IRQ_khaled_al_dalabeeh
+recruit_character = IRQ_jamil_al_midfai
+recruit_character = IRQ_ali_ben_jawad
+recruit_character = IRQ_bakr_sidqi
+recruit_character = IRQ_abdullah
+recruit_character = IRQ_amir_al_illah
+recruit_character = IRQ_ali_abn_hussein
+recruit_character = IRQ_nuri_as_said
+
