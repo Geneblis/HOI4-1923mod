@@ -1,8 +1,8 @@
 ﻿capital = 500
 
 add_ideas = {
-	BRA_tenentism_rise
 	BRA_cafecomleite
+	BRA_tenentism_rise
 }
 
 oob = "BRA_1936"

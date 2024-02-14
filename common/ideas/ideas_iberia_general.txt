@@ -1,0 +1,70 @@
+ideas = {
+    country = {
+        POR_neglected_armed_forces = {
+            picture = generic_neglected_military
+            modifier = {
+                war_support_factor = -0.15
+                experience_gain_army_factor = -0.35
+                army_attack_factor = -0.1
+                army_defence_factor = -0.1
+                #neutrality_drift = 0.01
+                drift_defence_factor = 0.15
+            }
+			cancel = {
+                OR = {
+                    has_government = pragmatic
+                    has_government = fascism
+                    has_government = neutrality
+                }
+			}
+        }
+        POR_unstable_first_republic = {
+            name = POR_unstable_republic
+            picture = por_unstable_republic
+            modifier = {
+                stability_factor = -0.1
+                political_power_factor = -0.2
+            }
+			cancel = {
+                OR = {
+				    date > 1926.2.28 #3 Months earlier
+                    has_country_flag = test_POR_coup
+                }
+			}
+            on_remove = {
+                set_politics = {
+                    ruling_party = pragmatic
+                    elections_allowed = no
+                    long_name = POR_military_government_party
+                    name = POR_military_government_party
+                }
+				add_popularity = {
+					ideology = pragmatic
+					popularity = 0.9
+				}
+                add_timed_idea = {
+                    idea = political_turmoil
+                    days = 1460
+                }
+                add_ideas = POR_political_reorganization
+            }
+        }
+        POR_political_reorganization = {
+            picture = por_the_fifth_empire
+            modifier = {
+                neutrality_drift = 0.1
+            }
+            cancel = {
+                neutrality > 0.85
+            }
+            on_remove = {
+                set_politics = {
+                    ruling_party = neutrality
+                    elections_allowed = no
+                    name = POR_neutrality_party
+                    long_name = POR_neutrality_party_long
+                }
+            }
+        }
+    }
+}

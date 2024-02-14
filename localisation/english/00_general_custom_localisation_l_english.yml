@@ -109,7 +109,7 @@ pragmatic_acceptance:0 "Acceptance of Pragmatic Diplomacy"
 
 non_partisan_party:0 "Non-Partisan"
 
-#German Luxemburguist, Austrian and Czechslovakian Parties
+#Dutch, German, Luxemburguist, Austrian and Czechslovakian Parties
 DDR_communism_party_kapd:0 "KAPD"
 DDR_communism_party_kapd_long:0 "Kommunistische Arbeiterpartei Deutschlands"
 DDR_communism_party:0 "KPD"
@@ -150,6 +150,15 @@ CZE_neutrality_party:0 "KDU–ČSL"
 CZE_neutrality_party_long:0 "Křesťanská a demokratická unie – Československá strana lidová"
 CZE_liberal_party:0 "ČsND"
 CZE_liberal_party_long:0 "Československá národní demokracie"
+BEL_socialism_party:0 "BWP"
+BEL_socialism_party_long:0 "Belgische Werkliedenparti"
+HOL_socialism_party:0 "SDAP"
+HOL_socialism_party_long:0 "Sociaal-Democratische Arbeiderspartij"
+HOL_pragmatic_party:0 "RKSP"
+HOL_pragmatic_party_long:0 "Roomsch-Katholieke Staatspartij"
+HOL_natcon_party:0 "VNH"
+HOL_natcon_party_long:0 "Verbond voor Nationaal Herstel"
+
 
 #Russian and Neighboring States
 UKR_socialism_party:0 "URP"
@@ -210,15 +219,22 @@ IRE_national_party_long:0 "National League"
 NIR_neutrality_party:0 "IRA"
 NIR_neutrality_party_long:0 "Irish Republican Army Council"
 
+#Iberian Parties
+POR_socialism_party:0 "PRP"
+POR_socialism_party_long:0 "Partido Republicano Português"
+POR_nationalist_party:0 "Partido Republicano Nacionalista"
+POR_nationalist_party_long:0 "Partido Republicano Nacionalista"
+POR_military_government_party:0 "National Dictatorship"
+
 #Polish Parties
 POL_pragmatic_party:0 "TRLRP"
 POL_pragmatic_party_long:0 "Tymczasowy Rząd Ludowy Republiki Polskiej"
 POL_reactionary:0 "TRLRP"
 POL_reactionary_long:0 "Tymczasowy Rząd Ludowy Republiki Polskiej"
-POL_democratic_party:0 "PSL"
-POL_democratic_party_long:0 "Polskie Stronnictwo Ludowe"
-POL_fascism_party:0 "ND"
-POL_fascism_party_long:0 "Narodowa Demokracja"
+POL_true_democratic_party:0 "PSL"
+POL_true_democratic_party_long:0 "Polskie Stronnictwo Ludowe"
+POL_true_fascism_party:0 "ND"
+POL_true_fascism_party_long:0 "Narodowa Demokracja"
 POL_socialism_party:0 "PPS"
 POL_socialism_party_long:0 "Polska Partia Socjalistyczna"
 

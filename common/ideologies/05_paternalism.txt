@@ -2,10 +2,10 @@ ideologies = {
 	neutrality = {
 		types = {
 			oligarchism = {}
-			theocracy = {can_be_randomly_selected = no}
 			despotism = {} #Personalistic Despot
-			absolute_monarchy = {can_be_randomly_selected = no}
 			natcon = {}
+			absolute_monarchy = {can_be_randomly_selected = no}
+			theocracy = {can_be_randomly_selected = no}
 			ethnocracy = {can_be_randomly_selected = no}
 		}
 

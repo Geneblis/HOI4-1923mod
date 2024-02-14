@@ -46,7 +46,7 @@ ideas = {
 					}
 				}
 				MAC = {
-					set_state_owner = 212
+					set_state_owner = 801
 					every_state = {
 						limit = {
 							is_core_of = BUL

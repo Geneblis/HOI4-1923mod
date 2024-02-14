@@ -17,13 +17,13 @@
  constitutional_monarchism:0 "Contitutional Monarchism"
  constitutional_monarchism_desc:0 "§YConstitutional Monarchism§!\n\nConstitutional Monarchism refers to those countries which royal family adopted a constitution and a legality-based system of governance while mantaining the rights of the upper nobility, that being the monarchs. This is the most common form of monarchy that can be observed in Europe, at least in those places where liberal ideas spread."
  ethnocracy:0 "Ethnocracy"
- ethnocracy:0 "§YEthnocracy§!\n\nEthnocracy is a government openly led by a single ethnicity. Most common in colonized nations, Ethnocracy tends to be a highly xenophobic type of government that more often then not force people into becoming a part of the dominant culture."
+ ethnocracy_desc:0 "§YEthnocracy§!\n\nEthnocracy is a government openly led by a single ethnicity. Most common in colonized nations, Ethnocracy tends to be a highly xenophobic type of government that more often then not force people into becoming a part of the dominant culture."
  christian_democracy:0 "Christian Democracy"
  christian_democracy_desc:0 "§YChristian Democracy§!\n\nCombining the liberal ideas of democracy and legality with religion, Christian Democracy is a normally conservative type of Liberalism that advocates for christian moral and values codified into a democratic system."
  populism:0 "Populism"
  populism_desc:0 "§YPopulism§!\n\nPopulism is a broad ideology that is generally used to describe governments that use the popular needs and wants to create a rethoric that will manage to both get them and mantain them in power, mattering little what these needs and wants are. Not Although it influences some left and right wing ideologies, those who are only labeled as populists more often then not refrain from schewing to either side, truly only following the direction that the populace point towards."
  developmentalism:0 "Developmentalism"
- developmentalism:0 "§YDevelopmentalism§!\n\nDevelopmentalism is an ideology that arises from the economic theory of John Maynard Keynes, where a capitalist economy needs a highly interventionist and active state to develop itself. When a government with this ideology arises, the state gradually becomes the main engine that plans ahead and moves the economy foward, as it directs where capital and public spending shall be spent in both direct and indirect ways."
+ developmentalism_desc:0 "§YDevelopmentalism§!\n\nDevelopmentalism is an ideology that arises from the economic theory of John Maynard Keynes, where a capitalist economy needs a highly interventionist and active state to develop itself. When a government with this ideology arises, the state gradually becomes the main engine that plans ahead and moves the economy foward, as it directs where capital and public spending shall be spent in both direct and indirect ways."
  
  communism:0 "Communism"
  communism_noun:0 "Communist"
@@ -98,9 +98,9 @@
  syndicalism:0 "Syndicalism"
  syndicalism_desc:0 "§YSyndicalism§!\n\nA form of government based on workers unions and sindicates, Syndicalism advocate for the idea of workers self-management of the means of production, and at the same time a form of government constructed around those unions."
 
- neutrality:0 "Reactionism"
- neutrality_noun:0 "Reactionist"
- neutrality_desc:0 "Reactionary Regime"
+ neutrality:0 "Paternalism"
+ neutrality_noun:0 "Paternalistic"
+ neutrality_desc:0 "Authoritarian Regime"
 
  despotism:0 "Personalistic Despotism"
  despotism_desc:0 "§YPersonalistic Despotism§!\n\nPersonalistic Despotism is a form of government in which a single person rules with absolute power while advocating for radical reforms and maintain a loyal interest group around his persona."
@@ -112,6 +112,8 @@
  absolute_monarchy_desc:0 "§YAbsolute Monarchy§!\n\nHaving once ruled most of Europe before its bourgoise revolutions, Absolute Monarchism is the form of government where the noble that has the throne - be him a duke, king or emperor - has total control and authority over his government, without any kind of elected parlament or restrictions a constitutional monarchy would have."
  natcon:0 "National Conservatism"
  natcon_desc:0 "§YNational Conservatism§!\n\nNational Conservative is, as the name suggests, a variant of conservatism that sees the nation and its traditions as the soul of society. Prioritizing national interests first, they sometimes can take a isolationist or irredentist foreign policy depending on the conditions it's in."
+
+
 
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"

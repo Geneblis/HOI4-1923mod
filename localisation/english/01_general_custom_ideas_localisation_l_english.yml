@@ -26,8 +26,12 @@ BRA_cafecomleite:0 "Café-Com-Leite Politics"
 BRA_cafecomleite_desc:0 "§HOur government will have§! §Rserious§! §Hproblems if São Paulo and Minas Gerais have a conflict in interests...§!\n\nBrazilian Politics has, ever since the end of the ''Republic of the Sword'', been resumed to a pact between Minas Gerais and São Paulo elites, the so-called ''Café-Com-Leite'' politics. There has not been a single election since the proclamation of the Republic that has been fully legitimate and had popular participation, as not only the voting booths are administered by the local ruling parties, but the open system of voting (where its public knowledge who voted for who) is a effective way to intimidate voters into voting for the current political estabilishment."
 
 #Balkans
-BUL_bkp_strong_comintern_ties:0 "Looming Communist Uprising
+BUL_bkp_strong_comintern_ties:0 "Looming Communist Uprising"
 BUL_tsankov_goverment_is_over:0 "Tsankov's Government"
+
+#Iberia
+POR_political_reorganization:0 "Organizing the Estado Novo"
+POR_neglected_armed_forces:0 "Neglected Armed Forces"
 
 #Middle Eastern and Central Asia
 syrian_great_revolt:0 "Great Syrian Revolt"

@@ -1,6 +1,6 @@
 bookmarks = {
 	bookmark = {
-		name = "East"
+		name = "West"
 		desc = "BLITZKRIEG_DESC"
 		date = 1923.1.1.12
 		picture = "GFX_select_date_1939"

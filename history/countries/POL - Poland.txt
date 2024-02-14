@@ -146,12 +146,37 @@ SOV = {
 	add_dynamic_modifier = { modifier = international_city }
 }
 
+set_party_name = {
+	ideology = socialism
+	name = POL_socialism_party
+	long_name = POL_socialism_party_long
+}
+set_party_name = {
+	ideology = democratic
+	name = POL_true_democratic_party
+	long_name = POL_true_democratic_party_long
+}
+set_party_name = {
+	ideology = fascism
+	name = POL_true_fascism_party
+	long_name = POL_true_fascism_party_long
+}
+set_party_name = {
+	ideology = pragmatic
+	name = POL_pragmatic_party
+	long_name = POL_pragmatic_party_long
+}
+set_party_name = {
+	ideology = neutrality
+	name = POL_reactionary
+	long_name = POL_reactionary_long
+}
 
 set_convoys = 10
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1935.9.8"
+	last_election = "1922.9.8"
 	election_frequency = 36
 	elections_allowed = no
 }
