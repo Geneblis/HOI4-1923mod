@@ -90,7 +90,7 @@ generate_character = {
 	country_leader = {
 		ideology = absolute_monarchy
 		traits = {
-			staunch_constitutionalist
+			the_soldier_king
 			constitutional_monarch_minor
 		}
 		desc = ""

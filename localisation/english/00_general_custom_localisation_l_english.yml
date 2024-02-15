@@ -248,6 +248,10 @@ BUL_natlib_party:0 "NLP"
 BUL_natlib_party_long:0 "Natsionalliberalna Partija"
 BUL_democratic_alliance_party:0 "DA"
 BUL_democratic_alliance_party_long:0 "Democratic Alliance"
+YUG_pragmatic_party:0 "JNS"
+YUG_pragmatic_party_long:0 "Jugoslavenska nacionalna stranka"
+YUG_socialism_party:0 "SPJ"
+YUG_socialism_party_long:0 "Socijalistička partija Jugoslavije"
 
 #Middle Eastern and Asian Parties
 SYR_revolt_party:0 "Great Syrian League"
