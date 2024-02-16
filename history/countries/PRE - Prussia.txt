@@ -2,6 +2,9 @@
 
 add_ideas = {
 	GER_general_GCW
+	sour_loser 
+	general_staff
+	GER_mefo_bills_1 
 }
 
 set_cosmetic_tag = PRE_kupp

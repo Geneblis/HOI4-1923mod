@@ -1,9 +1,9 @@
 ﻿capital = 2
 ETH_set_up_lon_arms_resolution_effect = yes 
 
-1923.1.1 = { #placeholder
+1922.12.1 = {
 	declare_war_on = {
-		target = ETH
+		target = LBA
 		type = annex_everything
 	}
 }

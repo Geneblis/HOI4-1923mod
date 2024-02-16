@@ -1,0 +1,61 @@
+ideas = {
+    country = {
+        ALB_under_the_italian_boot = {
+            picture = generic_oppression
+            modifier = {
+                war_support_factor = -0.05
+                drift_defence_factor = -0.15
+                consumer_goods_factor = -0.2
+                fascism_acceptance = 25
+            }
+            targeted_modifier = {
+                tag = ITA
+                extra_trade_to_target_factor = 0.15
+                trade_cost_for_target_factor = -0.2
+                defense_bonus_against = -0.5
+            }
+        }
+        ALB_juggling_unity = {
+            picture = anti_soviet_pact
+            modifier = {
+                stability_factor = -0.15
+                political_power_factor = -0.2
+            }
+			cancel = {
+                OR = {
+				    date > 1928.8.12
+                    has_country_flag = test_ALB_zog_coup
+                }
+			}
+            on_remove = {
+                drop_cosmetic_tag = yes
+                set_politics = {
+                    ruling_party = neutrality
+                    elections_allowed = no
+                }
+                add_timed_idea = {
+                    idea = political_turmoil
+                    days = 365
+                }
+            }
+        }
+        ALB_zogist_secret_police = {
+            picture = generic_secret_police
+            modifier = {
+                neutrality_drift = 0.01
+                non_core_manpower = -0.1
+                special_forces_training_time_factor = -0.12
+                max_command_power_mult = 0.25
+                party_popularity_stability_factor = 0.15
+            }
+            cancel = {
+                NOT = {
+                    OR = {
+                        has_government = pragmatic
+                        has_government = neutrality
+                    }
+                }
+            }
+        }
+    }
+}

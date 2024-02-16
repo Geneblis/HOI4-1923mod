@@ -19,21 +19,59 @@ add_civil_war_target = SHR
 #GRE_neutrality
 set_cosmetic_tag = GRE_neutrality
 
+set_party_name = {
+	ideology = pragmatic
+	name = GRE_monarchist_party
+	long_name = GRE_monarchist_party_long
+}
+set_party_name = {
+	ideology = socialism
+	name = GRE_democratic_party
+	long_name = GRE_democratic_party
+}
+
+add_ideas = {
+	GRE_george_ii_restrained
+	export_focus
+	limited_conscription
+	civilian_economy
+}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1922.6.9"
-	election_frequency = 7
+	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 43
+	democratic = 23
+	socialism = 20
 	fascism = 2
-	communism = 17
-	neutrality = 38
+	communism = 15
+	neutrality = 40
 }
 
-set_stability = 0.72
-set_war_support = 0.23
+generate_character = {
+	token_base = GRE_Panagiotis_Gargalidis
+	name = "Panagiotis Gargalidis"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/GRE/GRE_Panagiotis_Gargalidis.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = oligarchism
+		expire = 1983.10.6
+		traits = {  
+			SWE_close_ties_to_the_military
+		}
+		desc = ""
+	}
+}
+
+set_stability = 0.6
+set_war_support = 0.5
 set_convoys = 80
 
 if = {
@@ -124,9 +162,6 @@ if = {
 		}
 		set_country_flag = GRE_factions_unlocked
 		add_ideas = {
-			export_focus
-			limited_conscription
-			civilian_economy
 			GRE_george_ii
 			GRE_debt_to_the_ifc
 			GRE_foreign_monopolies

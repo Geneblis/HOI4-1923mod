@@ -100,6 +100,9 @@ BUL_tsardom_DEF:0 "The Tsardom of Bulgaria"
 PER_imperial:0 "Imperial State of Persia"
 PER_imperial_DEF:0 "Pahlavi Iran"
 PER_imperial_ADJ:0 "Persian"
+LBA_senussi_order:0 "Emir of Cyrenaica"
+LBA_senussi_order_DEF:0 "the Emir of Cyrenaica"
+LBA_senussi_order_ADJ:0 "Lybian"
 
 #Ideologies and Parties
 socialism_drift:0 "Daily Socialism Support"
@@ -252,6 +255,8 @@ YUG_pragmatic_party:0 "JNS"
 YUG_pragmatic_party_long:0 "Jugoslavenska nacionalna stranka"
 YUG_socialism_party:0 "SPJ"
 YUG_socialism_party_long:0 "Socijalistička partija Jugoslavije"
+ALB_socialism_party:0 "Progressive Party"
+ALB_pragmatic_party:0 "Constituent Assembly"
 
 #Middle Eastern and Asian Parties
 SYR_revolt_party:0 "Great Syrian League"

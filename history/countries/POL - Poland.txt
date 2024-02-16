@@ -142,9 +142,9 @@ SOV = {
 	}
 }
 
-85 = {
-	add_dynamic_modifier = { modifier = international_city }
-}
+#85 = {
+#	add_dynamic_modifier = { modifier = international_city }
+#}
 
 set_party_name = {
 	ideology = socialism

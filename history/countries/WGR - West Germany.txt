@@ -2,6 +2,7 @@
 
 add_ideas = {
 	GER_general_GCW
+	general_staff
 }
 
 set_cosmetic_tag = WGR_democrats

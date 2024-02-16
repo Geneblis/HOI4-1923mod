@@ -1,0 +1,107 @@
+﻿capital = 663
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+add_ideas = {
+	extensive_conscription
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1922.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+1923.1.1 = {
+	division_template = {
+		name = "Infantry Division"
+		is_locked = no
+	 	priority = 1
+	 	regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 0 y = 3 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+	 	}
+  	}
+  	663 = {
+		create_unit = {
+		  division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3 start_manpower_factor = 1.0 start_equipment_factor = 0.95" owner = PREV count = 4 allow_spawning_on_enemy_provs = yes
+		}
+  	}
+}
+
+set_cosmetic_tag = LBA_senussi_order
+
+set_popularities = {
+	democratic = 5
+	socialism = 5
+	pragmatic = 10
+	neutrality = 80
+}
+
+generate_character = {
+	token_base = ALG_Idris_of_Libya
+	name = "Idris Senussi"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/ALG/Idris_of_Libya.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = absolute_monarchy
+		traits = {
+			staunch_anti_fascist
+		}
+		desc = ""
+	}
+}
+
+set_convoys = 20
+
+create_country_leader = {
+	name = "Bashir es Sadawi"
+	desc = ""
+	picture = GFX_portrait_Bashir_es_Sadawi
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ettore Bastico"
+	desc = ""
+	picture = GFX_portrait_Ettore_Bastico
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hassan as-Senussi"
+	desc = ""
+	picture = GFX_portrait_Hassan_as_Senussi
+	ideology = leninism
+	traits = {
+		#
+	}
+}
