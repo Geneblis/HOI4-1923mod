@@ -31,10 +31,10 @@
 
  marxism:0 "Orthodox Marxism"
  marxism_desc:0 "§YOrthodox Marxism§!\n\nEncompassing a broad spectrum of economic and historical views, Marxist politics seek to apply the theories of Karl Marx to political practice. Class struggle and the need for transition to a society based on common ownership of the means of production characterize these ideologies."
- leninism:0 "Marxist-Leninism"
- leninism_desc:0 "§YMarxist-Leninism§!\n\nA political ideology based in Marxist thought, Leninism seeks to establish a socialist state by a vanguard party leading a revolution overthrowing capitalist society. Once in power, the party rules through a system whereby policies are open for internal debate until a decision has been made."
+ leninism:0 "Leninism"
+ leninism_desc:0 "§YLeninism§!\n\nA political ideology based in Marxist thought, Leninism seeks to establish a socialist state by a vanguard party leading a revolution overthrowing capitalist society. Once in power, the party rules through a system whereby policies are open for internal debate until a decision has been made."
  stalinism:0 "Marxism-Leninism"
- stalinism_desc:1 "§YMarxist-Leninism (Stalinism)§!\n\nIdentifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authoritative socialist state to purge any counter-revolutionary elements."
+ stalinism_desc:1 "§YMarxist-Leninism§!\n\nIdentifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authoritative socialist state to purge any counter-revolutionary elements."
  anti_revisionism:0 "Dogmatic Marxism"
  anti_revisionism_desc:0 "§YDogmatic Marxism§!\n\nA reaction to the many ideologies claiming to be successors to Marxism, Anti-Revisionism advocates retaining key elements of original revolutionary theory. Mainly opposing incorporation of capitalist economic elements into socialist states, the ideology is defined as much by what it isn't as what it is."
  spartacism:0 "Spartacism"
@@ -97,6 +97,8 @@
  agrarian_socialism_desc:0 "§YAgrarian Socialism§!\n\nAgrarian Socialism is a umbrella term to ideologies that want to promote communal and collectivist life in the countryside. Being popular with the peasantry, they mostly focus on the matter pertaining to the day-to-day struggles of those who work on the land."
  syndicalism:0 "Syndicalism"
  syndicalism_desc:0 "§YSyndicalism§!\n\nA form of government based on workers unions and sindicates, Syndicalism advocate for the idea of workers self-management of the means of production, and at the same time a form of government constructed around those unions."
+ revisionist_marxist:0 "Revisionist Marxism"
+ revisionist_marxist_desc:0 "§YRevisionist Marxism§!\n\nAlthough being self-proclaimed marxists, those parties or individuals called ''revisionists marxists'' are labeled as such due to perceived deviations to the core marxists principles - being it a nationalist outlook, class colaborationism or idealism - they generally do not get along well with more orthodox marxists."
 
  neutrality:0 "Paternalism"
  neutrality_noun:0 "Paternalistic"

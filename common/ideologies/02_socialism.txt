@@ -7,6 +7,7 @@ ideologies = {
 			agrarian_socialism = {}
 			syndicalism = {}
 			developmentalism = {}
+			revisionist_marxist = {}
 		}
 
 		dynamic_faction_names = {

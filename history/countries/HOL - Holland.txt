@@ -95,7 +95,7 @@ generate_character = {
 		}
 	}
 	country_leader = {
-		ideology = revolutionary_socialism
+		ideology = revisionist_marxist
 		traits = {
 			pragmatic_socialist
 			champion_of_national_cooperation
