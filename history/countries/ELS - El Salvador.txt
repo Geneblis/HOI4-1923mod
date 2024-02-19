@@ -52,6 +52,25 @@ generate_character = {
 	}
 }
 
+generate_character = {
+	token_base = ELS_Arturo_Araujo
+	name = "Arturo Araujo"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/ELS/ELS_Arturo_Araujo.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = social_democracy
+		traits = {
+		    veteran_trade_unionist
+			pragmatic_socialist
+		}
+		desc = ""
+	}
+}
+
 recruit_character = ELS_maximiliano_hernández_martínez
 recruit_character = ELS_victoriano_ubico
 recruit_character = ELS_benito_ubico
