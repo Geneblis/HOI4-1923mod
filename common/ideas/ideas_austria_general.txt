@@ -32,13 +32,9 @@ ideas = {
 
 		AUS_paramilitary_violence = {
 			picture = generic_secret_police
-			cancel = {
-				date > 1928.1.1
-			}
 			modifier = {
 				stability_factor = -0.1
-				neutrality_drift = 0.01
-				fascism_drift = 0.01
+				fascism_drift = 0.02
 			}
 		}
 	}

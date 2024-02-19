@@ -7,8 +7,8 @@ set_party_name = {
 }
 set_party_name = {
 	ideology = neutrality
-	name = ETH_provisonal_government
-	long_name = ETH_provisonal_government_long
+	name = EGY_neutrality_party
+	long_name = EGY_neutrality_party
 }
 set_party_name = {
 	ideology = fascism

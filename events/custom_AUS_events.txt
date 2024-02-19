@@ -1,7 +1,7 @@
 
 add_namespace = austrian_events
 
-country_event = { #July Revolts
+country_event = {
     id = austrian_events.1
     title = austrian_events.1.t
     desc = austrian_events.1.d
@@ -10,194 +10,17 @@ country_event = { #July Revolts
 	picture = GFX_report_event_generic_factory
     trigger = {
         tag = AUS
-        date > 1927.1.1
+        date > 1923.2.5
     }
 
     option = {
         name = austrian_events.1.a
-        add_popularity = {
-            ideology = democratic
-            popularity = 0.02
-        }
-        add_popularity = {
-            ideology = socialism
-            popularity = 0.06
-        }
-        add_popularity = {
-            ideology = communism
-            popularity = 0.05
-        }
-        add_popularity = {
-            ideology = neutrality
-            popularity = -0.08
-        }
-        add_manpower = -100
-        add_stability = -0.1
-        add_political_power = -50
-        add_timed_idea = {
-            idea = AUS_paramilitary_violence
-            days = 96
-        }
-                        
-		ai_chance = {
-			factor = 1
-		}
-    }
-}
-
-country_event = { #1923 elections
-    id = austrian_events.2
-    title = austrian_events.2.t
-    desc = austrian_events.2.d
-    is_triggered_only = no
-    fire_only_once = yes
-	picture = GFX_report_event_generic_factory
-    trigger = {
-        tag = AUS
-        date > 1923.10.1
-        date < 1924.10.1
-    }
-
-    option = {
-        name = austrian_events.2.a
-        add_popularity = {
-            ideology = neutrality
-            popularity = 0.1
-        }
-        add_popularity = {
-            ideology = democratic
-            popularity = 0.02
-        }
-        add_popularity = {
-            ideology = pragmatic
-            popularity = 0.04
-        }
-        add_political_power = -25
-		ai_chance = {
-			factor = 1
-		}
-    }
-    option = {
-        name = austrian_events.2.b
-        add_popularity = {
-            ideology = socialism
-            popularity = 0.05
-        }
-        add_popularity = {
-            ideology = communism
-            popularity = 0.05
-        }
-        set_politics = {
-            ruling_party = socialism
-            elections_allowed = yes
-            last_election = "1923.4.24"
-            election_frequency = 36
-        }
-        add_political_power = -15   
-
-		ai_chance = {
-			factor = 1
-		}
-    }
-}
-
-country_event = { #1927 elections
-    id = austrian_events.3
-    title = austrian_events.3.t
-    desc = austrian_events.3.d
-    is_triggered_only = no
-    fire_only_once = yes
-	picture = GFX_report_event_generic_factory
-    trigger = {
-        tag = AUS
-        date > 1927.4.1
-        date < 1928.4.1
-    }
-
-    option = {
-        name = austrian_events.3.a
-        add_popularity = {
-            ideology = socialism
-            popularity = -0.06
-        }
-        add_popularity = {
-            ideology = democratic
-            popularity = 0.07
-        }
-        if = {
-            limit = {
-                AUS = {
-                    NOT = { has_government = neutrality }
-                }
-            }
-            set_politics = {
-                ruling_party = neutrality
-                elections_allowed = yes
-                last_election = "1927.4.24"
-                election_frequency = 36
-            }
-        }
-        else = {}  
-        add_stability = -0.2
-
-
-		ai_chance = {
-			factor = 1
-		}
-    }
-    option = {
-        name = austrian_events.3.b
-        add_popularity = {
-            ideology = socialism
-            popularity = 0.10
-        }
-        add_popularity = {
-            ideology = communism
-            popularity = 0.05
-        }
-        if = {
-            limit = {
-                AUS = {
-                    NOT = { has_government = socialism }
-                }
-            }
-            set_politics = {
-                ruling_party = socialism
-                elections_allowed = yes
-                last_election = "1927.4.24"
-                election_frequency = 36
-            }
-        }
-        else = {}
-        add_stability = -0.15
-
-		ai_chance = {
-			factor = 1
-		}
-    }
-}
-
-country_event = { #Austrian civil-war
-    id = austrian_events.4
-    title = austrian_events.4.t
-    desc = austrian_events.4.d
-    is_triggered_only = no
-    fire_only_once = yes
-	picture = GFX_report_event_generic_factory
-    trigger = {
-        tag = AUS
-        date > 1927.12.1
-        date < 1928.12.1
-    }
-
-    option = {
-        name = austrian_events.4.a
         AUS = {
             add_ideas =  { extensive_conscription war_economy }
             set_politics = {
                 ruling_party = fascism
                 elections_allowed = no
-                last_election = "1929.4.24"
+                last_election = "1923.2.1"
                 election_frequency = 36
                 long_name = AUS_neutrality_party
                 name = AUS_neutrality_party
@@ -208,7 +31,8 @@ country_event = { #Austrian civil-war
                 long_name = AUS_neutrality_party_long
             }
             set_cosmetic_tag = AUS_federal_state
-
+            add_stability = 0.15
+            add_war_support = 0.15
             create_country_leader = {
                 name = AUS_kurt_schuschnigg
                 desc = ""
@@ -232,46 +56,9 @@ country_event = { #Austrian civil-war
                     fascist_corporatist
                 }
             }
-
-            add_popularity = {
-                ideology = fascism
-                popularity = 0.6
-            }
-            add_popularity = {
-                ideology = neutrality
-                popularity = 0.3
-            }
-            start_civil_war = {
-                ruling_party = fascism
-                ideology = socialism
-                size = 0.5
-                army_ratio = 0.6
-                states = {
-                    152 153 848
-                }
-                add_popularity = {
-                    ideology = communism
-                    popularity = 0.3
-                }
-                add_popularity = {
-                    ideology = democratic
-                    popularity = 0.17
-                }
-                create_country_leader = {
-                    name = "Karl Seitz"
-                    picture = "gfx//leaders//AUS//portrait_aus_karl_seitz.png"
-                    expire = "1985.1.1"
-                    ideology = social_democracy
-                    traits = {
-                        pragmatic_socialist
-                    }
-                }
-                set_cosmetic_tag = AUS_democratic
-            }
-        }
+        }         
 		ai_chance = {
 			factor = 1
 		}
     }
 }
-
