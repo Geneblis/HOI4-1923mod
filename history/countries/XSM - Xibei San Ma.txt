@@ -10,14 +10,17 @@ set_technology = {
 
 set_cosmetic_tag = XSM_1923
 
+add_ideas = {
+	XSM_porous_border
+	XSM_unstable_region
+}
 
 if = {
 	limit = {
 		has_dlc = "Waking the Tiger"
 	}
 	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
+		
 	}
 }
 

@@ -95,7 +95,10 @@ if = {
 }
 
 add_ideas = {
-	german_advisors
+	CHI_revolutionary_spirit
+	CHI_army_reforms_legacy
+	CHI_supposed_unity
+	CHI_weak_economy
 }
 
 600 = { #Jiangxi
@@ -144,31 +147,6 @@ add_ideas = {
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "Waking the Tiger"
-		}
-	}
-	add_ideas = {
-		CHI_communist_uprisings
-	}
-}
-
-
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}		
-	add_ideas = {
-		CHI_nine_power_treaty
-		CHI_army_corruption_1
-		CHI_ineffective_bureaucracy
-		CHI_incompetent_officers
-		free_trade
-		CHI_hyper_inflation_1
-	}
-}
 save_global_event_target_as = WTT_current_china_leader
 
 set_convoys = 40
@@ -227,22 +205,6 @@ set_convoys = 40
 		jiangnan_shipyard_group
 		camco
 
-	}
-	if = {
-		limit = {
-			has_dlc = "Waking the Tiger"
-		}
-		remove_ideas = CHI_army_corruption_1
-		add_ideas = {
-			#national spirits
-			CHI_hyper_inflation_1
-			CHI_nine_power_treaty
-			CHI_army_corruption_2
-			CHI_ineffective_bureaucracy
-			CHI_incompetent_officers
-			free_trade
-			CHI_military_affairs_commission
-		}
 	}
 	
 	set_global_flag = fall_of_nanjing
