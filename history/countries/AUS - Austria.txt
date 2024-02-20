@@ -26,6 +26,11 @@ set_party_name = {
 	long_name = AUS_agriculture_party
 }
 
+add_timed_idea = {
+    idea = AUS_paramilitary_violence
+    days = 180
+}
+
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "AUS_1936_air_bba"
