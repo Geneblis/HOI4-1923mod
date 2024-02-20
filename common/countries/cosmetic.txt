@@ -1,5 +1,20 @@
 # NEW STUFF
 
+XSM_1923 = {
+	color = rgb { 201 198 54 }
+    color_ui = rgb { 201 198 54 }
+}
+
+GXC_1923 = {
+	color = rgb { 201 198 54 }
+    color_ui = rgb { 201 198 54 }
+}
+
+CHI_1923 = {
+	color = rgb { 224 218 22 }
+    color_ui = rgb { 224 218 22 }
+}
+
 BAV_COMMIE = {
     color = rgb { 240 40 40 }
     color_ui = rgb { 210 0 0 }

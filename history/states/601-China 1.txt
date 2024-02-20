@@ -9,10 +9,13 @@ state={
 		owner = XSM
 		add_core_of = CHI
 		add_core_of = XSM
+		add_core_of = TIB
 		buildings = {
 			infrastructure = 1
-
 		}
+		
+		set_demilitarized_zone = yes
+		
 		victory_points = {
 			10856 1
 		}

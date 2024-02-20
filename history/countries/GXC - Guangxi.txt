@@ -12,14 +12,18 @@ set_technology = {
 
 set_cosmetic_tag = GXC_1923
 
+add_ideas = {
+	GXC_frozen_front
+	GXC_war_wounds
+	CHINABORDER_active_battlefront
+}
 
 if = {
 	limit = {
 		has_dlc = "Waking the Tiger"
 	}
 	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
+		
 	}
 }
 
