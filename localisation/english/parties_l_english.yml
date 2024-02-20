@@ -24,6 +24,8 @@
  populism_desc:0 "§YPopulism§!\n\nPopulism is a broad ideology that is generally used to describe governments that use the popular needs and wants to create a rethoric that will manage to both get them and mantain them in power, mattering little what these needs and wants are. Not Although it influences some left and right wing ideologies, those who are only labeled as populists more often then not refrain from schewing to either side, truly only following the direction that the populace point towards."
  developmentalism:0 "Developmentalism"
  developmentalism_desc:0 "§YDevelopmentalism§!\n\nDevelopmentalism is an ideology that arises from the economic theory of John Maynard Keynes, where a capitalist economy needs a highly interventionist and active state to develop itself. When a government with this ideology arises, the state gradually becomes the main engine that plans ahead and moves the economy foward, as it directs where capital and public spending shall be spent in both direct and indirect ways."
+ mil_government:0 "Military Government"
+ mil_government_desc:0 "§YMilitary Government§!\n\nA Military Government is not an actual ideology, but rather a way to define a region governed by military personnel that rule for in the interests of the army. This form of government can be observed in countries that the army has a clear superiority over any civil rule, instead led by a national military junta or a foreign army occupation."
  
  communism:0 "Communism"
  communism_noun:0 "Communist"
@@ -114,7 +116,8 @@
  absolute_monarchy_desc:0 "§YAbsolute Monarchy§!\n\nHaving once ruled most of Europe before its bourgoise revolutions, Absolute Monarchism is the form of government where the noble that has the throne - be him a duke, king or emperor - has total control and authority over his government, without any kind of elected parlament or restrictions a constitutional monarchy would have."
  natcon:0 "National Conservatism"
  natcon_desc:0 "§YNational Conservatism§!\n\nNational Conservative is, as the name suggests, a variant of conservatism that sees the nation and its traditions as the soul of society. Prioritizing national interests first, they sometimes can take a isolationist or irredentist foreign policy depending on the conditions it's in."
-
+ mil_government_paternalism:0 "Military Government"
+ mil_government_paternalism_desc:0 "§YMilitary Government§!\n\nA Military Government is not an actual ideology, but rather a way to define a region governed by military personnel that rule for in the interests of the army. This form of government can be observed in countries that the army has a clear superiority over any civil rule, instead led by a national military junta or a foreign army occupation."
 
 
  GER_fascism_party:0 "NSDAP"

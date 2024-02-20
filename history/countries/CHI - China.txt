@@ -2,6 +2,9 @@
 
 oob = "CHI_1936"
 
+CHI = {puppet = GXC}
+CHI = {puppet = XSM}
+
 set_cosmetic_tag = CHI_1923
 
 if = {
@@ -37,7 +40,6 @@ generate_character = {
         expire = 1965.1.24
         traits = {  
             revolutionary_general
-            proletariat_internationalist
         }
         desc = ""
     }

@@ -1,14 +1,14 @@
 ﻿l_english:
 #Cosmetic Flags
-BAV_COMMIE:0 "Austro-Bavarian Soviet Republic"
+BAV_COMMIE:0 "Soviet Republic of Bavaria"
 DDR_cosmetic_tag:0 "Free Socialist Republic of Germany"
 WGR_democrats:0 "German Republic"
 PRE_monarchists:0 "Imperial Reclamation Authority"
-BAV_COMMIE_DEF:0 "The Austro-Bavarian Soviet Republic"
+BAV_COMMIE_DEF:0 "The Soviet Republic of Bavaria"
 DDR_cosmetic_tag_DEF:0 "The Free Socialist Republic of Germany"
 WGR_democrats_DEF:0 "The German Republic"
 PRE_monarchists_DEF:0 "The Imperial Reclamation Authority"
-BAV_COMMIE_ADJ:0 "Austro-Bavarian"
+BAV_COMMIE_ADJ:0 "Bavarian"
 DDR_cosmetic_tag_ADJ:0 "Socialist German"
 WGR_democrats_ADJ:0 "German"
 PRE_monarchists_ADJ:0 "German"
@@ -294,17 +294,9 @@ CHI_pragmatic_party_1923_long:0 "Kuomintang (Mainstream)"
 CHI_socialism_party_1923:0 "KMT(L)"
 CHI_socialism_party_1923_long:0 "Kuomintang (Left)"
 
-#Central American Parties
-COS_Cons_Party:0 "Constitutional Party"
-COS_pragmatic_party:0 "National Union Party"
-COS_socialism_party:0 "National Union Party"
-PAN_socialism_party:0 "Porrista Workers' Party"
-PAN_pragmatic_party:0 "Porrista National Coalition"
-PAN_porrista_party:0 "Porrista Liberal Party"
-PAN_porrista_party_long:0 "Partido Liberal Nacional Porrista"
-ELS_socialism_party:0 "Partido Laborista"
-ELS_pragmatic_party:0 "PND"
-ELS_pragmatic_party_long:0 "Partido Nacional Democrática"
+#Central America Parties
+PAN_porrista_party:0 "PLP"
+PAN_porrista_party_long:0 "Partido Liberal Porrista"
 
 #Characters
 UKR_MKH_VRS:0 "Military Revolutionary Council"

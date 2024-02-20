@@ -37,7 +37,7 @@ generate_character = {
         }
     }
     country_leader = {
-        ideology = oligarchism
+        ideology = mil_government_paternalism
         expire = 1965.1.24
         traits = {  
         }
