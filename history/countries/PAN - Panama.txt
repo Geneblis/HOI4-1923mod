@@ -35,7 +35,7 @@ generate_character = {
 		}
 	}
 	country_leader = {
-		ideology = liberalism
+		ideology = porrismo
 		traits = {
 		    compassionate_gentleman
 			SWE_rearnament_proponent_upgraded
