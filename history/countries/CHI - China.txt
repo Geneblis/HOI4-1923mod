@@ -4,6 +4,12 @@ oob = "CHI_1936"
 
 CHI = {puppet = GXC}
 CHI = {puppet = XSM}
+CHI = {puppet = YUN}
+
+create_faction = CHI_republicans
+add_to_faction = GXC
+add_to_faction = XSM
+add_to_faction = YUN
 
 set_cosmetic_tag = CHI_1923
 
