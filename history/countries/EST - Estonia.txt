@@ -1,0 +1,144 @@
+﻿capital = 812
+
+oob = "EST_1936"
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "EST_1936_air_bba"
+	else = {
+		set_air_oob = "EST_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+
+		}
+	}
+}
+
+if = {
+	limit = { has_dlc = "Arms Against Tyranny" }
+	store_core_states_on_game_start = yes
+}
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+}
+
+set_party_name = {
+	ideology = pragmatic
+	name = EST_farmers_party
+	long_name = EST_farmers_party_long
+}
+set_party_name = {
+	ideology = socialism
+	name = EST_socialism_party
+	long_name = EST_socialism_party_long
+}
+set_party_name = {
+	ideology = democratic
+	name = EST_natlib_party
+	long_name = EST_natlib_party_long
+}
+
+set_politics = {
+	ruling_party = pragmatic
+	last_election = "1923.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 15
+	socialism = 30
+	communism = 10
+	pragmatic = 45
+}
+
+generate_character = {
+	token_base = EST_pragmatic_konstantin_pats
+	name = "Konstantin Päts"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/EST/portrait_est_konstantin_pats.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = moderatism
+		traits = {
+		}
+		desc = ""
+	}
+}
+
+recruit_character = EST_konstantin_pats
+recruit_character = EST_artur_sirk
+recruit_character = EST_johannes_kabin
+recruit_character = EST_jaan_tonisson
+recruit_character = EST_andres_larka
+recruit_character = EST_oskar_eiriksson
+recruit_character = EST_leo_sepp
+recruit_character = EST_richard_veermaa
+recruit_character = EST_alex_nirk
+recruit_character = EST_richard_tomberg
+recruit_character = EST_alfred_vendt
+recruit_character = EST_juhan_tuuling
+recruit_character = EST_nikolay_g_karotamm
+recruit_character = EST_voldemar_mere
+recruit_character = EST_alfons_rebane
+recruit_character = EST_juri_uluots
+recruit_character = EST_boris_kumm
+recruit_character = EST_august_rei
+recruit_character = EST_jaan_anvelt
+recruit_character = EST_johan_laidoner
+
+IF = { 
+	limit = { has_dlc = "No Step Back"}
+	recruit_character = EST_august_jakobson
+	recruit_character = EST_viktor_puskar
+	recruit_character = EST_voldemar_voolman
+	recruit_character = EST_henrik_allik
+	recruit_character = EST_johan_pitka
+	recruit_character = EST_hjalmar_mae
+	recruit_character = EST_aleksander_jaakson
+	recruit_character = EST_herbert_brede
+	recruit_character = EST_otto_heinze
+}
+
+set_variable = {
+	var = vaps_days_var
+	value = 80
+}
+
+set_variable = {
+	var = vaps_crackdown_var
+	value = 360
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	tech_support = 1
+	basic_train = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
+}
+
+set_convoys = 5
+
