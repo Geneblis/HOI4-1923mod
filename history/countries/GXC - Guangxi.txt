@@ -83,7 +83,7 @@ generate_character = {
     name = "Northern Armies Leader"
     portraits = {
         civilian = {
-            large="gfx/leaders/GER/portrait_ger_levine.png"
+            large="gfx/leaders/ZZ_DEBUG/placeholder_leader.png"
             small="GFX_idea_generic_political_advisor_europe_5" 
         }
     }

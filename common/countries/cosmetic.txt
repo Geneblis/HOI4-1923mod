@@ -1,5 +1,10 @@
 # NEW STUFF
 
+YUN_1923 = {
+	color = rgb { 201 198 54 }
+    color_ui = rgb { 201 198 54 }
+}
+
 XSM_1923 = {
 	color = rgb { 201 198 54 }
     color_ui = rgb { 201 198 54 }

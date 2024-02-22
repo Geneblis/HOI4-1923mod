@@ -112,6 +112,9 @@ XSM_1923_ADJ:0 "Chinese"
 GXC_1923:0 "Northern Army"
 GXC_1923_DEF:0 "The Republic of China Northern Army"
 GXC_1923_ADJ:0 "Chinese"
+YUN_1923:0 "Yunnan Province"
+YUN_1923_DEF:0 "the Yunnan Province"
+YUN_1923_ADJ:0 "Chinese"
 
 #Ideologies and Parties
 socialism_drift:0 "Daily Socialism Support"
