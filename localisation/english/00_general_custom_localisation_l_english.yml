@@ -59,13 +59,17 @@ POL_cosmetic:0 "Polish Republic"
 POL_cosmetic_DEF:0 "The Polish Republic"
 POL_cosmetic_ADJ:0 "Polish"
 
+FRA_republic:0 "French Republic"
+FRA_republic_DEF:0 "the Third French Republic"
+FRA_republic_ADJ:0 "French"
+
+ZAC:0 "Emirate of Muhammara"
+ZAC_DEF:0 "The Emirate of Muhammara"
+ZAC_ADJ:0 "Muhammarian"
 MOR_subject:0 "Sultanate of Morocco"
 MOR_subject_DEF:0 "The $OVERLORDADJ$ Sultanate of Morocco"
 TUN_subject:0 "Regency of Tunis"
 TUN_subject_DEF:0 "The $OVERLORDADJ$ controlled Regency of Tunis"
-ZAC:0 "Zaian Confederation"
-ZAC_DEF:0 "The Zaian Confederation"
-ZAC_ADJ:0 "Zayane"
 SHR:0 "Hellenic Republic"
 SHR_DEF:0 "The Second Hellenic Republic"
 SHR_ADJ:0 "Hellene"
@@ -244,6 +248,10 @@ IRE_national_party_long:0 "National League"
 NIR_neutrality_party:0 "IRA"
 NIR_neutrality_party_long:0 "Irish Republican Army Council"
 
+#France parties (stay clear)
+FRA_bloc_national_party:0 "Bloc National"
+FRA_cartel_party:0 "Cartel des Gauches"
+
 #Iberian Parties
 POR_socialism_party:0 "PRP"
 POR_socialism_party_long:0 "Partido Republicano Português"
@@ -310,6 +318,7 @@ CHI_socialism_party_1923_long:0 "Kuomintang (Left)"
 #Central America Parties
 PAN_porrista_party:0 "PLP"
 PAN_porrista_party_long:0 "Partido Liberal Porrista"
+COS_constitutional_party:0 "Constitutional Party"
 
 #Characters
 UKR_MKH_VRS:0 "Military Revolutionary Council"

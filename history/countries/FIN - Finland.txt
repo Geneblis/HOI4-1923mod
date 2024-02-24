@@ -4,6 +4,12 @@ set_oob = "FIN_1936"
 
 set_cosmetic_tag = FIN_democratic #TODO: New CT with the real flag.
 
+diplomatic_relation = {
+    country = EST
+    relation = guarantee
+    active = yes
+}
+
 set_party_name = {
 	ideology = pragmatic
 	name = FIN_neutrality_party

@@ -1,27 +1,29 @@
-state={
-	id=784
-	name="STATE_784"
-	manpower = 517081
+state=
+{
+	id=188
+	name="STATE_188"
+	manpower = 150000
+	
 	
 	state_category = rural
 	
-	history={
-		owner = SOV
-		add_core_of = SOV
+	history = {
 		victory_points = {
-			3320 3
+			3288 3
 		}
+		owner = PRE
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
-			air_base = 5
+			3288 = {
+				naval_base = 1
+			}
 		}
-		add_core_of = POL
 		add_core_of = LIT
-	}
 
+	}
 	provinces={
-		3320 9274 9295 11342
+		3288 	
 	}
 
 	local_supplies=0.0 

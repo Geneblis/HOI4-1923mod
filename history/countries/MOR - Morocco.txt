@@ -21,7 +21,7 @@ set_convoys = 20
 	}
 	461 = {
 		create_unit = {
-			division = "name = \"Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2 start_manpower_factor = 1.0 start_equipment_factor = 0.7" owner = PREV count = 5 allow_spawning_on_enemy_provs = yes
+			division = "name = \"Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2 start_manpower_factor = 1.0 start_equipment_factor = 0.4" owner = PREV count = 5 allow_spawning_on_enemy_provs = yes
 		}
 	}
 }

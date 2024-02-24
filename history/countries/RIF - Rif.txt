@@ -62,7 +62,7 @@ generate_character = {
 		}
 	}
 	country_leader = {
-		ideology = autocracy
+		ideology = populism
 		expire = 1927.1.20
 		traits = {  
 			veteran_guerrilla_fighter

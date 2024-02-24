@@ -15,19 +15,64 @@
 			socialism = 5
 			neutrality = 60
 		}
-		declare_war_on = {
-			target = ZAC
-			type = annex_everything
-		}
-		set_province_controller = 4933
-		set_province_controller = 7958
-		set_province_controller = 4154
-		set_province_controller = 1152
-		set_province_controller = 1207
-		set_province_controller = 10107
-		set_province_controller = 1102
 	}
 }
+
+set_party_name = {
+	ideology = pragmatic
+	name = FRA_bloc_national_party
+	long_name = FRA_bloc_national_party
+}
+set_party_name = {
+	ideology = democratic
+	name = FRA_bloc_national_party
+	long_name = FRA_bloc_national_party
+}
+set_party_name = {
+	ideology = socialism
+	name = FRA_cartel_party
+	long_name = FRA_cartel_party
+}
+set_party_name = {
+	ideology = communism
+	name = FRA_cartel_party
+	long_name = FRA_cartel_party
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	socialism = 30
+	democratic = 34
+	fascism = 1
+	pragmatic = 15
+	communism = 20
+}
+
+set_cosmetic_tag = FRA_republic
+
+generate_character = {
+	token_base = FRA_Raymond_Poincare
+	name = "Raymond Poincaré"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/FRA/FRA_Raymond_Poincare.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = social_liberalism
+		expire = 1942.1.20
+		traits = {
+		}
+		desc = ""
+	}
+}
+
 if = {
 	limit = {
 		NOT = {
@@ -195,19 +240,6 @@ if = {
 
 set_convoys = 300
 
-
-set_politics = {
-	ruling_party = democratic
-	last_election = "1932.5.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 64
-	fascism = 1
-	neutrality = 15
-	communism = 20
-}
 
 add_ideas = {
 	FRA_victors_of_wwi

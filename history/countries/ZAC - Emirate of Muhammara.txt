@@ -1,4 +1,4 @@
-﻿capital = 462
+﻿capital = 413
 
 # Starting tech
 set_technology = {
@@ -11,12 +11,44 @@ add_ideas = {
 	closed_economy
 }
 
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1921.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 90
+	pragmatic = 10
+}
+
+generate_character = {
+	token_base = PER_Khazal_Ibn_Jabir
+	name = "Khazal Bin Jabir"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/PER/PER_Khazal_Ibn_Jabir.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = despotism
+		expire = 1942.1.20
+		traits = {  
+			tribal_warrior
+		}
+		desc = ""
+	}
+}
+
 1923.1.1 = {
+	declare_war_on = {
+		target = PER
+		type = annex_everything
+	}
 	division_template = {
 		name = "Infantry Guerrilla"
-		is_locked = yes
 		priority = 0
-		template_counter = 0
 		regiments = {
 			infantry = { x = 0 y = 0 }
 			infantry = { x = 0 y = 1 }
@@ -25,7 +57,7 @@ add_ideas = {
 			infantry = { x = 1 y = 0 }
 		}
 	}
-	462 = {
+	413 = {
 		create_unit = {
 			division = "name = \"Infantry Guerrilla\" division_template = \"Infantry Guerrilla\" start_experience_factor = 0.2 start_manpower_factor = 1.0 start_equipment_factor = 0.3" owner = PREV count = 2 allow_spawning_on_enemy_provs = yes
 		}
@@ -37,34 +69,5 @@ set_convoys = 20
 set_war_support = 0.52
 set_stability = 0.42
 
-set_politics = {
-	ruling_party = pragmatic
-	last_election = "1921.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	democratic = 25
-	neutrality = 20
-	communism = 5
-	pragmatic = 50
-}
 
-generate_character = {
-	token_base = ZAC_mouha
-	name = "Mouha Ou Hammou Zayani"
-	portraits = {
-		civilian = {
-			large="gfx/leaders/FRA/portrait_fra_mouha_zayani.png"
-			small="GFX_idea_generic_political_advisor_europe_5" 
-		}
-	}
-	country_leader = {
-		ideology = autocracy
-		expire = 1942.1.20
-		traits = {  
-			tribal_warrior
-		}
-		desc = ""
-	}
-}
+
