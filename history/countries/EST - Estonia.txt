@@ -24,6 +24,8 @@ add_ideas = {
 	limited_conscription
 }
 
+set_cosmetic_tag = EST_democratic
+
 set_party_name = {
 	ideology = pragmatic
 	name = EST_farmers_party

@@ -38,6 +38,8 @@ if = {
 	}
 }
 
+set_cosmetic_tag = ROM_neutrality
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1922.1.19"
