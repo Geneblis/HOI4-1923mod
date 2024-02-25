@@ -13,37 +13,31 @@ if = {
 	}
 }
 
-1922.1.1 = {
-	FRA = {
-		puppet = SYR
-	}
-	SYR = {
-		set_cosmetic_tag = SYR_mandate
-		set_politics = {
-			ruling_party = pragmatic
-			last_election = "1922.1.1"
-			election_frequency = 84
-			elections_allowed = no #Direct rule from france until 1936
-		}
-		set_popularities = {
-			pragmatic = 50
-			democratic = 10
-			socialism = 10
-			neutrality = 30
-		}
-	}
+set_popularities = {
+	pragmatic = 50
+	democratic = 10
+	socialism = 10
+	neutrality = 30
+}
+
+set_politics = {
+	ruling_party = pragmatic
+	last_election = "1922.10.27"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 set_party_name = {
 	ideology = pragmatic
-	long_name = SYR_democratic_party
-	name = SYR_democratic_party
+	long_name = SYR_revolt_party
+	name = SYR_revolt_party
 }
 set_party_name = {
 	ideology = socialism
 	long_name = SYR_democratic_party
 	name = SYR_democratic_party
 }
+
 set_party_name = {
 	ideology = neutrality
 	long_name = IRQ_neutrality_party
@@ -51,7 +45,6 @@ set_party_name = {
 }
 
 add_ideas = { #Flavors
-	syrian_great_revolt
 	syrian_mandate_is_over
 	syrian_anocracies_are_over
 	syrian_stability_is_over
@@ -59,47 +52,42 @@ add_ideas = { #Flavors
 
 set_convoys = 5
 
-generate_character = {
-	token_base = SYR_barakat
-	name = "Subhi Bey Barakat"
-	portraits = {
-		civilian = {
-			large="gfx/leaders/SYR/SYR_barakat.png"
-			small="GFX_idea_generic_political_advisor_europe_5" 
-		}
-	}
-	country_leader = {
-		ideology = anocracy
-		expire = 1927.1.24
-		traits = {  
-			incompetent_leader
-			divided_interests
-			figurehead_president
-			our_right_to_survive
-		}
-		desc = ""
+set_cosmetic_tag = SYR_neutrality
+
+create_country_leader = {
+	name = "Sultan al-Atrash"
+	desc = ""
+	picture = "gfx/leaders/SYR/SYR_sultan.png"
+	ideology = populism
+	traits = {
+		resistance_leader
+		freedom_fighter
+		experienced_insurgent
 	}
 }
 
-generate_character = {
-	token_base = first_SYR_alhasani
-	name = "Taj al-Din al-Hasani"
-	portraits = {
-		civilian = {
-			large="gfx/leaders/SYR/SYR_alhasani.png"
-			small="GFX_idea_generic_political_advisor_europe_5" 
-		}
-	}
-	country_leader = {
-		ideology = anocracy
-		expire = 1932.10.2
-		traits = {  
-			figurehead_president
-			appeaser
-		}
-		desc = ""
-	}
-}
+#generate_character = {
+#	token_base = SYR_barakat
+#	name = "Subhi Bey Barakat"
+#	portraits = {
+#		civilian = {
+#			large="gfx/leaders/SYR/SYR_barakat.png"
+#			small="GFX_idea_generic_political_advisor_europe_5" 
+#		}
+#	}
+#	country_leader = {
+#		ideology = anocracy
+#		expire = 1927.1.24
+#		traits = {  
+#			incompetent_leader
+#			divided_interests
+#			figurehead_president
+#			our_right_to_survive
+#		}
+#		desc = ""
+#	}
+#}
+
 
 #Ideology shall flip to democratic after 1932
 
@@ -123,29 +111,6 @@ generate_character = {
 		desc = ""
 	}
 }
-
-generate_character = {
-	token_base = second_SYR_alhasani
-	name = "Taj al-Din al-Hasani"
-	portraits = {
-		civilian = {
-			large="gfx/leaders/SYR/SYR_alhasani.png"
-			small="GFX_idea_generic_political_advisor_europe_5" 
-		}
-	}
-	country_leader = { #He dies fr this time.
-		ideology = conservatism
-		expire = 1940.1.14
-		traits = {
-			figurehead_president
-			eager_collaborator
-			appeaser
-		}
-		desc = ""
-	}
-}
-
-#When he dies, ideology changes to neutrality, but he can be kept into democratic.
 
 generate_character = {
 	token_base = SYR_Quwatli

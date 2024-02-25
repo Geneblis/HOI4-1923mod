@@ -16,6 +16,8 @@ if = {
 	}
 }
 
+set_cosmetic_tag = SPR_spanish_kingdom
+
 set_party_name = {
 	ideology = socialism
 	name = SPR_democratic_party
@@ -24,7 +26,7 @@ set_party_name = {
 set_party_name = {
 	ideology = democratic
 	name = SPR_liberal_party
-	long_name = SPR_liberal_party
+	long_name = SPR_liberal_party_long
 }
 set_party_name = {
 	ideology = neutrality
@@ -51,7 +53,51 @@ set_popularities = {
 	communism = 2
 }
 
+generate_character = {
+	token_base = SPR_Miguel_Primo_de_Rivera
+	name = "Miguel Primo de Rivera"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/SPR/SPR_primo_de_riveira.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = despotism
+		expire = 1930.1.20
+		traits = {
+			dictator
+		}
+		desc = ""
+	}
+}
 
+generate_character = {
+	token_base = SPR_emergencial_rule
+	name = "Emergencial Government"
+	portraits = {
+		civilian = {
+			large="gfx/leaders/SPR/SPR_emergencial_government.png"
+			small="GFX_idea_generic_political_advisor_europe_5" 
+		}
+	}
+	country_leader = {
+		ideology = natlib
+		expire = 1930.1.20
+		traits = {
+			cabinet_crisis
+		}
+		desc = ""
+	}
+	country_leader = {
+		ideology = moderatism
+		expire = 1930.1.20
+		traits = {
+			cabinet_crisis
+		}
+		desc = ""
+	}
+}
 
 if = {
 	limit = {

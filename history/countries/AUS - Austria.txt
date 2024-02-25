@@ -3,7 +3,7 @@
 oob = "AUS_1936"
 
 add_ideas = AUS_Hainisch
-set_cosmetic_tag = AUS_democratic
+set_cosmetic_tag = AUS_german_state
 
 set_party_name = {
 	ideology = socialism

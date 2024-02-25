@@ -6,7 +6,7 @@ ideologies = {
 			social_liberalism = {}
 			natlib = {}
 			corporatocracy = {can_be_randomly_selected = no}  #not to be confused with corporatism
-			porrismo = {can_be_randomly_selected = no}
+			porrismo = {can_be_randomly_selected = no} #cut this shit out....
 		}
 
 		dynamic_faction_names = {
